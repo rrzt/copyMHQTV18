@@ -182,7 +182,7 @@
      "filterable":1,
      "ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/SC/影视工厂.json"    //https://agit.ai/138001380000/MHQTV/raw/branch/master/SC/%e5%bd%b1%e8%a7%86%e5%b7%a5%e5%8e%82.json
     // "jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/SC/XYQBiu.jar"
-     },
+     },{"key":"csp_77","name":"酷云77(爬虫🍭)","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
 
 {"key":"csp_Alist1","name":"🅿Alist合集(爬虫🍭)","type":3,"api":"csp_Alist","searchable":0,"quickSearch":0,"filterable":0,"ext":"妙妙屋$https://anime.mqmmw.ga#晴园$https://alist.52qy.repl.co#小光盘$https://alist.xiaoguanxiaocheng.life#资源小站$https://960303.xyz/#菊花盘$https://pan.142856.xyz#帅盘$https://hi.shuaipeng.wang#轻弹浅唱$https://g.xiang.lol#嗨翻$https://pan.hikerfans.com","jar":"https://神器每日推送.tk/jar/alist.jar;md5;285d80f6e19e2613ea305083f84bd95a"},
 {"key":"csp_Alist2","name":"Alist合集2(爬虫🍭)","type":3,"api":"csp_Alist","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://gitea.com/Mike906/jar/raw/branch/main/Alist.json","jar":"http://www.rtwl.ltd/down.php/2f19c527b9a335fb1415c5f9686515c8.jar"},
