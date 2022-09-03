@@ -75,7 +75,8 @@
             "api":"csp_XPathFilter",
             "searchable":1,
             "quickSearch":1,
-            "filterable":1
+            "filterable":1,
+            "ext":"https://agit.ai/138001380000/MHQTV/raw/commit/c573236f4e4a9c87faf907c75a81979dd6833d0d/XB/Libv.json"
         },
         
         {
@@ -546,6 +547,10 @@
       "type": 2,
       "url": "Sequence"
     },
+    {
+		"name": "GGTV自用",
+		"type": 1,
+		"url": "https://play.fuqizhishi.com/jx/API.php?appkey=zhitigonggeixiaobai456789&url="}, 
     {
       "name": "293",
       "type": 1,
