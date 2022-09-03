@@ -1,9 +1,9 @@
-﻿// 分类 ++
+// 分类 ++
 // 修复所有分类的第一个 detail内容为空
 {
   "name": "LIBVIO",
   //"url": "https://www.libvio.com",
-  "url": "https://www.libvio.me",
+  "url": "https://www.libvio.fun",
   "tihuan": "dd520.cc",
   "User": "空",
   "shouye": "1",
@@ -16,18 +16,13 @@
   "jiequqian": "空",
   "jiequhou": "空",
   "jiequshuzuqian": "lazyload\"",
-  "jiequshuzuhou": "class=\"pic-tag",
+  "jiequshuzuhou": "<span",
   "tupianqian": "data-original=\"",
   "tupianhou": "\"",
   "biaotiqian": "title=\"",
   "biaotihou": "\"",
   "lianjieqian": "href=\"",
   "lianjiehou": "\"",
-
-  //新版Biubiu参数：副标题 (不需要的话，就不填写或者删除副标题2个字段也可以。)
-  "fubiaotiqian": "text-right\">",
-  "fubiaotihou": "</span",
-
 
   "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
   "sousuohou": "&limit=500",
@@ -54,13 +49,13 @@
   "bfjiequshuzuqian": "class=\"stui-content__playlist",
   "bfjiequshuzuhou": "</ul>",
 
-  "zhuangtaiqian": "最后更新：",
-  "zhuangtaihou": "</a>",
-  "daoyanqian": "导演：",
+  "zhuangtaiqian": "class=\"data\">总集数：",
+  "zhuangtaihou": "</p>",
+  "daoyanqian": "class=\"data\">类型：",
   "daoyanhou": "</p>",
-  "zhuyanqian": "主演：",
-  "zhuyanhou": "/",
-  "juqingqian": "style=\"display: none;\">",
+  "zhuyanqian": "class=\"data\">主演：",
+  "zhuyanhou": "</p>",
+  "juqingqian": "class=\"detail-content\"",
   "juqinghou": "</span>",
 
   "bfyshifouercijiequ": "0",
