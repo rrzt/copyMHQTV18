@@ -32,6 +32,7 @@
 
 //  0830tv  aHR0cHM6Ly9hZ2l0LmFpLzEzODAwMTM4MDAwMC9NSFFUVi9yYXcvYnJhbmNoL21hc3Rlci9UVi8wODMwLnR4dA==
 //成人源 tv aHR0cHM6Ly9hZ2l0LmFpLzEzODAwMTM4MDAwMC9NSFFUVi9yYXcvYnJhbmNoL21hc3Rlci9UVi8lZTYlODglOTAlZTQlYmElYmElZTYlYmElOTAudHh0
+// 0903综合TV aHR0cHM6Ly9hZ2l0LmFpLzEzODAwMTM4MDAwMC9NSFFUVi9yYXcvY29tbWl0LzcxYmNiMTE1N2MzNTAyODZmMTc3M2QxOWEzMTlmMmIwN2FhNDQ1MzMvVFYvMDkwM3poLnR4dA==
          
          
  {
@@ -41,7 +42,7 @@
 
 "wallpaper":"https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 
-"lives": [{"group": "redirect","channels": [{"name": "live","urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9naXRlYS5jb20vdm1pYW8vdHYvcmF3L2JyYW5jaC9tYWluL2xpdmUudHh0"]}]}],
+"lives": [{"group": "redirect","channels": [{"name": "live","urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9hZ2l0LmFpLzEzODAwMTM4MDAwMC9NSFFUVi9yYXcvY29tbWl0LzcxYmNiMTE1N2MzNTAyODZmMTc3M2QxOWEzMTlmMmIwN2FhNDQ1MzMvVFYvMDkwM3poLnR4dA=="]}]}],
 
 
 "sites":[
@@ -68,10 +69,10 @@
         },
        
         {
-            "key": "Lib",
+            "key": "csp_xp_在线之家",
             "name": "Libvio(爬虫🍭)",
             "type":3,
-            "api":"csp_Lib",
+            "api":"csp_XPathFilter",
             "searchable":1,
             "quickSearch":1,
             "filterable":1
@@ -86,6 +87,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
+        //		{"key":"csp_xp_在线之家","name":"爬虫┃在线之家","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.lanmoyingshi.cn/XP/zxzj2.json"},
         {
             "key": "神马影院",
             "name": "神马(爬虫🍭)",
