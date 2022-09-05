@@ -42,7 +42,7 @@
 
 "wallpaper":"https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 
-"lives": [{"group": "redirect","channels": [{"name": "live","urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9hZ2l0LmFpLzEzODAwMTM4MDAwMC9NSFFUVi9yYXcvYnJhbmNoL21hc3Rlci9UVi8wOTAzemgudHh0"]}]}],
+"lives": [{"group": "redirect","channels": [{"name": "live","urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9hZ2l0LmFpLzEzODAwMTM4MDAwMC9NSFFUVi9yYXcvYnJhbmNoL21hc3Rlci9UVi8wOTA0LnR4dA=="]}]}],
 
 
 "sites":[
@@ -76,7 +76,7 @@
             "searchable":1,
             "quickSearch":1,
             "filterable":1,
-            "ext":"https://agit.ai/138001380000/MHQTV/raw/commit/c573236f4e4a9c87faf907c75a81979dd6833d0d/XB/Libv.json"
+            "ext":"https://share.nite07.com/api/v3/file/source/18776/zxzj.json?sign=vnU4QH5QZY9VtfPrbqcuCtkLUHrKsxWk4YTod2ou2ek%3D%3A0"
         },
         // https://vod.kooo.eu.org/t4/libvio
         // https://agit.ai/138001380000/MHQTV/raw/commit/c573236f4e4a9c87faf907c75a81979dd6833d0d/XB/Libv.json
@@ -164,7 +164,7 @@
 
 {"key":"csp_apple","name":"小苹果(爬虫🍭)","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"csp_zxzj","name":"在线之家(爬虫🍭)","type":3,"api":"csp_Zxzj","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/%e5%90%88%e9%9b%86%e6%9b%b4%e6%96%b0%e9%95%bf%e8%80%8177.jar"},
+{"key":"csp_zxzj","name":"在线之家(爬虫🍭)","type":3,"api":"csp_Zxzj","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://agit.ai/138001380000/MHQTV/raw/commit/1b455277b01fdcb9070d5f894fb7992a2a0de68e/XB/zxzj.json","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/%e5%90%88%e9%9b%86%e6%9b%b4%e6%96%b0%e9%95%bf%e8%80%8177.jar"},
 
 {"key":"csp_DiDuan" ,"name":"低端影视(爬虫🍭)","type":3,"api":"csp_Ddrk","searchable":1,"quickSearch":1,"filterable":0},
 {
@@ -189,8 +189,7 @@
     // "jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/SC/XYQBiu.jar"
      },{"key":"csp_77","name":"酷云77(爬虫🍭)","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"csp_Alist1","name":"🅿Alist合集(爬虫🍭)","type":3,"api":"csp_Alist","searchable":0,"quickSearch":0,"filterable":0,"ext":"妙妙屋$https://anime.mqmmw.ga#晴园$https://alist.52qy.repl.co#小光盘$https://alist.xiaoguanxiaocheng.life#资源小站$https://960303.xyz/#菊花盘$https://pan.142856.xyz#帅盘$https://hi.shuaipeng.wang#轻弹浅唱$https://g.xiang.lol#嗨翻$https://pan.hikerfans.com","jar":"https://神器每日推送.tk/jar/alist.jar;md5;285d80f6e19e2613ea305083f84bd95a"},
-{"key":"csp_Alist2","name":"Alist合集2(爬虫🍭)","type":3,"api":"csp_Alist","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://gitea.com/Mike906/jar/raw/branch/main/Alist.json","jar":"http://www.rtwl.ltd/down.php/2f19c527b9a335fb1415c5f9686515c8.jar"},
+
 
 {"key":"csp_jihuang","name":"剧荒(爬虫🍭)","type":3,"api":"csp_Juhuang","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_Cokemv","name":"Cokemv(爬虫🍭)","type":3,"api":"csp_Cokemv","searchable":1,"quickSearch":1,"filterable":1},
@@ -488,7 +487,7 @@
      "filterable":1,
      "jar":"http://catvod.fun:8001/tv/index.jar"
      },
-     
+     	{"key":"北雁资源","name":"北燕资源","type":1,"api":"https://zy.beiyan.cc:4433/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1,"playUrl":"","categories": ["电影", "国产剧", "港台剧", "日韩剧", "欧美剧", "综艺", "动漫"]},
      {"key":"csp_GitCafe","name":"📜小纸条","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext": "4acb3ad2f2254ba1b566279f7cd98ba3"},
   
          {
@@ -512,7 +511,7 @@
 },
     
     {"key": "T4a","name": "🍁T4聚合","type": 4,"api": "https://t4.secan.icu/vod?sites=all&ali_token=4acb3ad2f2254ba1b566279f7cd98ba3&timeout=5","searchable": 1,"quickSearch": 1,"filterable": 1},
-
+   	{"key": "csp_Alist2","name":"️Alist合集(SP)", "type": 3,"api": "csp_Alist","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/alisr/alistzd.txt","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/alist1.jar"},
 	{"key":"VIP1","name":"VIP1","type":4,"api":"http://vod.kooo.eu.org/t4/vip110002","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"VIP2","name":"VIP2","type":4,"api":"https://vod.kooo.eu.org/t4/vip11a0c4","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"VIP3","name":"VIP4","type":4,"api":"https://vod.kooo.eu.org/t4/vip11cx08","searchable":1,"quickSearch":1,"filterable":1},
