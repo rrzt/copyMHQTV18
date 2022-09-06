@@ -22,13 +22,13 @@ class Spider(Spider):  # 元类 默认的元类 type
 	def homeContent(self,filter):
 		result = {}
 		cateManual = {
-			"搞笑": "搞笑",
-			"美食": "美食",
-			"科普": "科普",
-			"橙子": "半个橙子",
-			"纪录片": "纪录片",
-			"演唱会": "演唱会",
-			"动物世界": "动物世界",
+			"一建管理": "2022一建管理",
+			"一建机电": "2022王峰一建",
+			"一建经济": "2022一建经济刘戈",
+			"一建法规": "2022一建法规陈洁",
+			"音标": "剑桥英语音标课程",
+			"一消实务": "2022一级消防工程师王峰",
+			"一消破题": "2022荣盛破题",
 			"相声小品": "相声小品",
 			"假窗-白噪音": "窗+白噪音"
 		}
@@ -49,7 +49,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 		return result
 	cookies = ''
 	def getCookie(self):
-		cookies_str ="" #填入大会员Cookies
+		cookies_str ="innersign=0; buvid3=0BE6DC00-7EC8-F14C-5022-273B6A46C4C146692infoc; i-wanna-go-back=-1; _uuid=9876F5E7-A2610-17F3-A821-453368B2A13B46427infoc; buvid4=909DE9E8-B2F3-0737-BE05-CBCE52B8F1DF50069-022082212-KrOZh+8iydjdQTLhzp96QF38tYbYJ8K8cXQog40LGu3fOfuINFkXpw%3D%3D; LIVE_BUVID=AUTO5316611442538552; b_timer=%7B%22ffp%22%3A%7B%22333.1007.fp.risk_0BE6DC00%22%3A%22182C3E9AD8B%22%2C%22333.42.fp.risk_0BE6DC00%22%3A%22182C3E9D59E%22%7D%7D; buvid_fp_plain=undefined; SESSDATA=ddac727d%2C1676696334%2C25fac%2A81; bili_jct=cfeaf9060dc34924f82d015212a108c5; DedeUserID=389957880; DedeUserID__ckMd5=42e393d5b4adaf41; sid=8sdohh2u; fingerprint=7564ac47b00541a5b904d49f13e9989a; fingerprint3=4b65d5467158b4fcf6747d29562dd032; b_ut=5; buvid_fp=6393a802b9740ddf1b1443b39e2e9b50; b_lsid=1A5F6FE1_182F7587B22"
 		cookies_dic = dict([co.strip().split('=') for co in cookies_str.split(';')])
 		rsp = session()
 		cookies_jar = utils.cookiejar_from_dict(cookies_dic)
