@@ -21,6 +21,135 @@ HBO,http://vips-livecdn.fptplay.net/hda1/hbo_vhls.smil/chunklist_b5000000.m3u8$�
 HBO2,http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8$高清1080P
 TVB翡翠,http://23.237.10.66:16106$高清1080P
 TVB翡翠,http://1b6467f415.iok.la:113/tsfile/live/1053_1.m3u8$高清1080P
+TVB翡翠,http://113.64.147.201:808/hls/67/index.m3u8$高清1080P
+TVB翡翠华丽,http://23.237.10.66:16410$高清1080P
+TVB明珠,http://113.64.147.121:808/hls/26/index.m3u8$标清576P
+TVB明珠,http://113.64.147.116:808/hls/26/index.m3u8$标清576P
+TVB明珠,http://113.64.147.73:808/hls/26/index.m3u8$标清576P
+TVB星河,http://183.239.193.55:2223/hls/6/index.m3u8$高清10800P
+TVB星河,http://27.47.68.26:808/hls/35/index.m3u8$高清720P
+TVB功夫,https://cn-hbyc2-dx-live-01.bilivideo.com/live-bvc/545768/live_179302204_68184269.m3u8$高清720P
+TVB无线新闻,http://23.237.10.66:16110$高清1080P
+TVB无线新闻,https://bcovlive-a.akamaihd.net/38974baa695d47bbb231665ca52b8b3c/us-west-2/5324042807001/playlist.m3u8$高清720P
+TVB无线财经,http://111.229.84.232/yulin/tvb.php?id=2$高清720P
+TVB无线财经,http://120.84.96.63:808/hls/86/index.m3u8$高清720P
+TVB无线财经,http://120.84.96.47:808/hls/86/index.m3u8$高清720P
+天映经典,http://120.84.96.47:808/hls/85/index.m3u8$高清1080P
+天映经典,http://120.84.96.63:808/hls/85/index.m3u8$高清1080P
+澳亚卫视,https://live.mastvnet.com/lsdream/lY44pmm/2000/live.m3u8$标清576P
+澳视资讯,http://103.233.191.134:1935/ch5/info_ch5.live/playlist.m3u8$高清720P
+澳视资讯,http://103.233.191.133:1935/ch5/info_ch5.live/playlist.m3u8$高清720P
+澳视综艺,http://103.233.191.133:1935/ch6/hd_ch6.live/playlist.m3u8$高清720P
+澳视综艺,http://103.233.191.134:1935/ch6/hd_ch6.live/playlist.m3u8$高清720P
+澳视综艺,http://103.233.191.132:1935/ch6/hd_ch6.live/playlist.m3u8$高清720P
+澳视Macau,http://61.244.22.4/ch3/ch3.live/chunklist_w1228316132.m3u8$高清720P
+澳视Macau,http://61.244.22.4/ch3/ch3.live/playelist.m3u8$高清720P
+澳视Macau,http://103.233.191.134:1935/ch3/ch3.live/playlist.m3u8$高清720P
+澳视Macau,http://103.233.191.132:1935/ch3/ch3.live/playlist.m3u8$高清720P
+澳视Macau,http://103.233.191.133:1935/ch3/ch3.live/playlist.m3u8$高清720P
+澳视Macau,http://61.244.22.4/ch3/ch3.live/index.m3u8$高清720P
+澳视澳門,http://103.233.191.134:1935/ch1/ch1.live/playlist.m3u8$高清720P
+澳视澳門,http://103.233.191.133:1935/ch1/ch1.live/playlist.m3u8$高清720P
+澳门莲花,http://nettvpro.live/hls/lotustv.php$高清1080P
+澳门莲花,http://anren.live/HK/BiIOU11uLA.m3u8$高清1080P
+澳门莲花,https://p.ggiptv.com/v/macaulotustv.php$高清720P
+澳视体育,http://103.233.191.132:1935/ch4/sport_ch4.live/playlist.m3u8$高清720P
+澳视体育,http://103.233.191.133:1935/ch4/sport_ch4.live/playlist.m3u8$高清720P
+澳视体育,http://103.233.191.134:1935/ch4/sport_ch4.live/playlist.m3u8$高清720P
+AXM,http://iptv.everydaytv.top/taiwanlive.php?id=54$高清1080P
+AXM,http://218.32.47.179:18558/.m3u8$高清1080P
+CINEMAX,http://iptv.everydaytv.top/taiwanlive.php?id=55$高清1080P
+TVBS新闻,https://epg.pm/stream/b25d1fa77951f24d82b6f83f0a6eb8e9a9d4f22fc734ff47c86e3ac7a9d3e65a.m3u8$高清1080P
+TVBS新闻,https://epg.pm/stream/215ede58359c29ec190657d813abcc47baf7316e7ed87c97638c7bb733df304a.m3u8$高清1080P
+TVBS新闻,https://epg.pm/stream/472a4d7fa23f959fa1dcb24e36ec10d6ae18d6cb906e6d655991d3932f7e34d0.m3u8$高清1080P
+TVBS新闻,rtmp://59.124.75.150/sat/tv551$高清720P
+TVBS新闻,rtmp://59.124.75.138/sat/tv551$高清720P
+TVBS欢乐,rtmp://59.124.75.150/sat/tv421$高清720P
+TVBS欢乐,rtmp://59.124.75.138/sat/tv421$高清720P
+私人影院,http://113.64.147.13:808/hls/57/index.m3u8$高清720P
+东森综合,http://218.32.47.179:18524/.m3u8$高清1080P
+东森新闻,http://iptv.everydaytv.top/taiwanlive.php?id=38$高清720P
+东森财经,rtmp://59.124.75.150/sat/tv571$高清720P
+东森财经,rtmp://59.124.75.138/sat/tv571$高清720P
+东森财经,http://iptv.everydaytv.top/taiwanlive.php?id=44$高清720P
+东森超视,rtmp://59.124.75.138:1935/sat/tv331$高清720P
+东森超视,rtmp://59.124.75.150/sat/tv331$高清720P
+东森电影,http://183.239.193.55:2223/hls/8/index.m3u8$高清1080P
+东森电影,http://120.84.96.62:808/hls/32/index.m3u8$高清720P
+龙华偶像,http://iptv.everydaytv.top/taiwanlive.php?id=34$高清1080P
+中天综合,http://218.32.47.179:18526/.m3u8$高清1080P
+中天娱乐,http://218.32.47.179:18527/.m3u8$高清1080P
+中天新闻,http://iptv.everydaytv.top/taiwanlive.php?id=39$高清1080P
+中天新闻,http://60.251.39.247:8504/http/192.168.77.24:8081/hls/78/80/ch63max.m3u8$高清720P
+龙祥时代,http://gxfrg007.8800.org:8282/tsfile/live/1048_1.m3u8$高清720P
+龙祥时代,http://120.84.96.62:808/hls/35/index.m3u8$高清720P
+年代MUCH,http://iptv.everydaytv.top/taiwanlive.php?id=28$高清1080P
+环宇新闻,http://iptv.everydaytv.top/taiwanlive.php?id=45$高清1080P
+卫视中文,http://iptv.everydaytv.top/taiwanlive.php?id=22$高清1080P
+卫视电影,http://218.32.47.179:18553/.m3u8$高清1080P
+卫视电影,http://23.237.10.66:16010$高清720P
+东风卫视,http://iptv.everydaytv.top/taiwanlive.php?id=27$高清1080P
+东风卫视,http://218.32.47.179:18528/.m3u8$高清1080P
+三立台湾,http://iptv.everydaytv.top/taiwanlive.php?id=20$高清1080P
+三立新闻,http://iptv.everydaytv.top/taiwanlive.php?id=41$高清1080P
+壹新闻,http://iptv.everydaytv.top/taiwanlive.php?id=46$高清1080P
+纬来育乐,http://iptv.everydaytv.top/taiwanlive.php?id=58$高清1080P
+纬来育乐,rtmp://59.124.75.150/sat/tv701$高清720P
+纬来育乐,rtmp://59.124.75.138/sat/tv701$高清720P
+纬来育乐,http://218.32.47.179:18562/.m3u8$高清1080P
+纬来体育,rtmp://59.124.75.150/sat/tv721$高清720P
+纬来体育,rtmp://59.124.75.138/sat/tv721$高清720P
+纬来体育,http://218.32.47.179:18563/.m3u8$高清1080P
+纬来戏剧,http://218.32.47.179:18533/.m3u8$高清1080P
+纬来戏剧,http://iptv.everydaytv.top/taiwanlive.php?id=32$高清720P
+纬来综合,http://218.32.47.179:18518/.m3u8$高清1080P
+纬来电影,http://iptv.everydaytv.top/taiwanlive.php?id=51$高清1080P
+亚洲旅游,http://218.32.47.179:18513/.m3u8$高清1080P
+八大戏剧,http://218.32.47.179:18531/.m3u8$高清1080P
+八大综合,http://218.32.47.179:18520/.m3u8$高清1080P
+大爱,https://pulltv1.wanfudaluye.com/live/tv1.m3u8$高清720P
+大爱,https://pulltv2.wanfudaluye.com/live/tv2.m3u8$高清720P
+好消息1,http://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch1-1.m3u8$高清720P
+好消息2,http://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch2-1.m3u8$高清720P
+中视,http://iptv.everydaytv.top/taiwanlive.php?id=2$高清720P
+中视,rtmp://59.124.75.150/sat/tv091$高清720P
+华视,http://iptv.everydaytv.top/taiwanlive.php?id=3$高清720P
+华视,rtmp://59.124.75.138:1935/sat/tv111$高清720P
+华视,rtmp://59.124.75.150/sat/tv111$高清720P
+华视新闻,http://iptv.everydaytv.top/taiwanlive.php?id=36$高清1080P
+台视,http://iptv.everydaytv.top/taiwanlive.php?id=1$高清720P
+台视,rtmp://59.124.75.150/sat/tv071$高清720P
+台视,rtmp://59.124.75.138/sat/tv071$高清720P
+台视,http://123.51.229.65:18543/http/192.168.1.9:8081/hls/72/814/ch46.m3u8$高清720P
+民视,rtmp://59.124.75.150/sat/tv051$高清720P
+民视,rtmp://59.124.75.138/sat/tv051$高清720P
+台视新闻,https://epg.pm/stream/dc6941ad1ea0592ef8189f4315353b7de9f8a1d5574caa04298de9f154c2f46d.m3u8$高清1080P
+台视新闻,http://iptv.everydaytv.top/taiwanlive.php?id=40$高清1080P
+台视新闻,http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8$高清1080P
+民视新闻台,https://epg.pm/stream/41a27760357d19c61969e35967cf5a18a3f850a75b00a1e2377ab2cc934a44d9.m3u8$高清1080P
+民视新闻,http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8$高清1080P
+公视,http://iptv.everydaytv.top/taiwanlive.php?id=5$高清1080P
+动物星球,http://iptv.everydaytv.top/taiwanlive.php?id=12$高清1080P
+凤凰卫视,http://play-live.ifeng.com/live/06OLEGEGM4G.m3u8$高清1080P
+凤凰卫视,http://tptv.mobaibox.com/PLTV/3/224/3221228527/index.m3u8$高清1080P
+凤凰卫视,https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8$高清720P
+凤凰资讯,http://play-live.ifeng.com/live/06OLEEWQKN4.m3u8$高清1080P
+凤凰资讯,http://tptv.mobaibox.com/PLTV/3/224/3221228524/index.m3u8$高清1080P
+凤凰资讯,https://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8$高清720P
+凤凰香港,http://gxfrg007.8800.org:8282/tsfile/live/1065_1.m3u8$高清1080P
+凤凰香港,http://113.64.147.181:808/hls/38/index.m3u8$高清1080P
+凤凰香港,http://113.64.147.127:808/hls/38/index.m3u8$高清1080P
+凤凰电影,http://111.59.189.40:8445/tsfile/live/1022_1.m3u8$高清720P
+香港卫视,https://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8$高清720P
+香港卫视,http://zhibo.hkstv.tv:80/livestream/mutfysrq.flv$高清720P
+阳光卫视,https://stream.chinasuntv.com/680k/mid_video_index.m3u8$标清576P
+面包台,https://video.bread-tv.com:8091/hls-live24/online/index.m3u8$高清1080P
+时装imodeTV,http://juyunlive.juyun.tv/live/24950198.m3u8$高清1080P
+TVBRICS,http://brics.bonus-tv.ru/cdn/brics/chinese/tracks-v1a1/index.m3u8$高清1080P
+HBO,http://vips-livecdn.fptplay.net/hda1/hbo_vhls.smil/chunklist_b5000000.m3u8$高清1080P
+HBO2,http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8$高清1080P
+TVB翡翠,http://23.237.10.66:16106$高清1080P
+TVB翡翠,http://1b6467f415.iok.la:113/tsfile/live/1053_1.m3u8$高清1080P
 TVB翡翠,http://qwas.eatuo.com:9901/tsfile/live/1013_1.m3u8$高清720P
 TVB翡翠,http://120.84.96.63:808/hls/25/index.m3u8$高清720P
 TVB翡翠华丽,http://23.237.10.66:16410$高清1080P
