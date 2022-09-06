@@ -1,10 +1,14 @@
+//http://663ck.cc   http://749ck.cc   http://hscangku.com
+
 {"name": "黄仓库",
-"url": "http://197ck.cc",
-  "tihuan": "cnzz.com",
+"url": "http://339ck.cc", 
+"tihuan": "cnzz.com", 
 "User": "空",
-  "shouye": "1",
+ "shouye": "1",
+
 "fenlei": "日韩AV$/vodtype/1-#国产系列$/vodtype/2-#欧美$/vodtype/3-#成人动漫$/vodtype/4-#无码中文$/vodtype/8-#有码中文$/vodtype/9-#日本无码$/vodtype/10-#日本有码$/vodtype/7-#国产视频$/vodtype/15-#欧美高清$/vodtype/21-#动漫剧情$/vodtype/22-",
 "houzhui": ".html",
+
 "shifouercijiequ": "0",
 "jiequqian": "空",
 "jiequhou": "空",
@@ -16,6 +20,7 @@
 "biaotihou": "\"",
 "lianjieqian": "href=\"",
 "lianjiehou": "\"",
+
 "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
 "sousuohou": "&limit=500",
 "sousuohouzhui": "/detail/",
@@ -34,11 +39,13 @@
 "ssbiaotihou": "空",
 "sslianjieqian": "空",
 "sslianjiehou": "空",
+
 "bfshifouercijiequ": "0",
 "bfjiequqian": "空",
 "bfjiequhou": "空",
-"bfjiequshuzuqian": "class=\"stui-vodlist clearfix",
-"bfjiequshuzuhou": "</ul>",
+"bfjiequshuzuqian": "class=\"stui-vodlist__thumb",
+//"bfjiequshuzuqian": "class=\"stui-vodlist clearfix",
+"bfjiequshuzuhou": "</div>",
 "zhuangtaiqian": "时间：",
 "zhuangtaihou": "<div",
 "daoyanqian": "更新时间:<span>",
