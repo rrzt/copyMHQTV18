@@ -50,6 +50,96 @@
       "filterable": 1,
       "jar": "https://agit.ai/138001380000/MHQTV/raw/commit/bc4c6bd98da11a73d05649d85057c70c81626448/jar/tencent.jar"
     },
+    {
+      "key": "饭团(XYQ)",
+      "name": "饭团(XYQ)",
+      "type": 3,
+      "api": "csp_XYQBiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/饭团(XYQ).json"
+      
+    },  
+         {
+      "key": "大米星球(XYQ)",
+      "name": "大米星球(XYQ)",
+      "type": 3,
+      "api": "csp_XYQBiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/大米星球(XYQ).json"
+    
+    },   
+         {
+      "key": "小猫咪(XYQ)",
+      "name": "小猫咪(XYQ)",
+      "type": 3,
+      "api": "csp_XYQBiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/小猫咪(XYQ).json"
+
+    }, 
+   // {"key": "段友影视(XYQ)","name": "段友影视(XYQ)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/段友影视(XYQ).json"},
+ // {"key": "蓝莓影视(XYQ)","name": "蓝莓影视(XYQ)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/蓝莓影视(XYQ).json"},
+    
+    //  {"key": "神马影院(XYQ)","name": "神马影院(XYQ)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/神马影院.json"},
+    //https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/%E5%87%8C%E4%BA%91%E5%BD%B1%E8%A7%86.json
+           {
+      "key": "凌云影视(XYQ)",
+      "name": "凌云影视(XYQ)",
+      "type": 3,
+      "api": "csp_XYQBiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/凌云影视.json" },
+        {
+      "key": "剧荒影院(XYQ)",
+      "name": "剧荒影院(XYQ)",
+      "type": 3,
+      "api": "csp_XYQBiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/剧荒电影.json"     
+    },
+        {
+      "key": "万能影院(XYQ)",
+      "name": "万能影院(XYQ)",
+      "type": 3,
+      "api": "csp_XYQBiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/万能影院(XYQ).json"
+      
+    },
+   {
+      "key": "歪片星球",
+      "name": "歪片星球(XYQ)",
+      "type": 3,
+      "api": "csp_XYQBiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/歪片星球.json"
+      
+    },
+    
+    {
+     "key":"csp_xbb_555电影",
+     "name":"555电影",
+     "type":3,
+     "api":"csp_XBiubiu",
+     "searchable":1,
+     "quickSearch":1,
+     "filterable":0,
+     "ext":"https://agit.ai/138001380000/MHQTV/raw/commit/c2e813c84808aa7cf1ba0c48c30b445d59a20466/XB/555电影.json"
+    },
 
    {"key":"技能","name":"👨技能学习","type": 3,"api":"csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://gitea.com/dianshi/xuetang/raw/branch/master/%E6%8A%80%E8%83%BD%E5%AD%A6%E4%B9%A0.txt","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"},
 
