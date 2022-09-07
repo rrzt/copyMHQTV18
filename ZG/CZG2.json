@@ -23,21 +23,12 @@
        "sites": [
        {
       "key": "csp_dd5555",
-      "name": "点击设置在首页数据选择站点后，按返回生效，资源来自于互联网，请勿用于非法用途",
+      "name": "点击设置切换线路首页数据源,切换后按返回生效，资源来自于互联网，请勿用于非法用途",
       "type": 3,
       "api": "csp_Dy555",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,"ext":"http://dlj.bz/1UMTpn","jar":"http://dlj.bz/Bb8JxA"
-    },  
-    {
-      "key": "",
-      "name": "请勿非法传播，资源失效联系QQ❤842250464❤",
-      "type": 3,
-      "api": "",
-      "searchable": 1,
-      "quickSearch": 1
-
     },  
 		   {
       "key": "csp_QQ",
@@ -59,25 +50,7 @@
       "filterable": 1,
       "jar": "https://agit.ai/138001380000/MHQTV/raw/commit/bc4c6bd98da11a73d05649d85057c70c81626448/jar/tencent.jar"
     },
-  {
-            "key": "厂长",
-            "name": "厂长(爬虫🍭)",
-            "type":3,
-            "api":"csp_Czsapp",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":1
-        },
-        {
-            "key": "看视界",
-            "name": "看视界(爬虫🍭)",
-            "type": 3,
-            "api": "csp_KanSJ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/SC/ts.jar"
-        },
+
    {"key":"技能","name":"👨技能学习","type": 3,"api":"csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://gitea.com/dianshi/xuetang/raw/branch/master/%E6%8A%80%E8%83%BD%E5%AD%A6%E4%B9%A0.txt","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"},
 
 
@@ -120,9 +93,12 @@
 
 
 
- 
-   {"key":"csp_xpath_qiumi","name":"🏀JRKAN直播","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://dlj.bz/8zj1AA"},
-   //{"key":"csp_xpath_88kanqiu","name":"88看球⚽","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://dlj.bz/IZePOs"},
+   {"key": "Bili","name": "🅱️哔哩套餐","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "http://dlj.bz/K1GCUG","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"},
+   {"key":"csp_xpath_qiumi","name":"🏀JRKAN直播","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://dlj.bz/8zj1AA"},{"key": "csp_XYQBiu_一起看","name": "一起看(XYQB)","type": 3,"api": "csp_XYQBiu","searchable": 0,"quickSearch": 0,"filterable": 0,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/17kan.json"},{"key":"csp_xyqb_网易CC直播","name":"网易CC直播(XYQB)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/wycc.json","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/XYQBiu_0907.jar"},
+{"key":"csp_xyqb_斗鱼直播","name":"斗鱼直播(XYQB)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/douyu.json","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/XYQBiu_0907.jar"},
+{"key":"csp_xyqb_310直播","name":"310直播(XYQB)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/310zb.json","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/XYQBiu_0907.jar"},
+    	
+   //{"key":"csp_xpath_88kanqiu","name":"88看球⚽","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://agit.ai/138001380000/MHQTV/raw/commit/910087e21418b1c959a88c571adaeba38c3241c6/BIBI/88kanqiu.json"},
    {
       "key": "csp_Yj1211",
       "name": "📽️网红直播(SP)",
@@ -133,7 +109,16 @@
       "filterable": 1,
       "jar":"http://dlj.bz/Ehwi8X"
     },
-
+	{
+      "key": "csp_吾爱B站",
+      "name": "🅱️站综合(SP)",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://dlj.bz/5WAaXW"
+    },
 
     {"key":"csp_biubiu_斗鱼","name":"斗鱼直播","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://dlj.bz/SMbNWm"},
      {"key":"csp_xpath_kuqimv","name":"酷奇KTV🎤","type":3,"api":"csp_XPath","searchable":0,"quickSearch":0,"filterable":0,"ext":"http://dlj.bz/dx3JkP"},
@@ -189,7 +174,6 @@
 
 
 {"key":"B站音乐","name":"🎤🅱️站音乐","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://dlj.bz/Rt87YN","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"},
-  {"key": "Bili","name": "🅱️哔哩套餐","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/bilibili.json","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"},
 	{"key":"csp_biubiu_乐猪影视","name":"🐷乐猪综艺🐛","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://dlj.bz/kzUrlE"},
 
 {"key": "555电影","name": "🍉555综艺","type": 3,"api": "csp_XBiubiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "http://dlj.bz/KIFpG3"},
@@ -209,25 +193,6 @@
       "filterable": 1,
       "ext": "http://dlj.bz/JImGNe"
     },
-    {
-            "key":"t4public",
-            "name":"T4公共",
-            "type":4,
-            "api":"https://t4.secan.icu/vod?sites=all&ali_token=28801b1dbaf4418fb7bc221a575703dd&timeout=10",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":0
-        },
-  	
-    {
-            "key":"t4public",
-            "name":"T4公共2",
-            "type":4,
-            "api":"https://t4.secan.icu/vod?sites=all&ali_token=3781469b13074e4cac1e0e7113e4fa20&timeout=10",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":0
-},
 {"key":"csp_xpath_cilisou","name":"磁力搜(XPF)","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://dlj.bz/YltF6q","jar":"http://dlj.bz/6PQmZB"},
 {"key":"Yisou","name":"😺易搜+原画(搜索)","type":3,"api":"csp_Yisou","searchable":1,"quickSearch":1,"filterable":0,"ext": "4acb3ad2f2254ba1b566279f7cd98ba3",
 	"jar":"http://dlj.bz/6PQmZB"},
