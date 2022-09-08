@@ -72,17 +72,7 @@
       "ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/大米星球(XYQ).json"
     
     },   
-         {
-      "key": "小猫咪(XYQ)",
-      "name": "小猫咪(XYQ)",
-      "type": 3,
-      "api": "csp_XYQBiu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/小猫咪(XYQ).json"
-
-    }, 
+         
    // {"key": "段友影视(XYQ)","name": "段友影视(XYQ)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/段友影视(XYQ).json"},
  // {"key": "蓝莓影视(XYQ)","name": "蓝莓影视(XYQ)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/蓝莓影视(XYQ).json"},
     
