@@ -568,6 +568,24 @@ CCTV1綜合,https://live.olelive.com:4443/live/CCTV1HD/hls.m3u8
 CCTV5體育,https://live.olelive.com:4443/live/CCTV5HD/hls.m3u8
 CCTV5+體育賽事,https://live.olelive.com:4443/live/CCTV5PHD/hls.m3u8
 TV1-综合,http://39.134.66.4/PLTV/88888888/224/3221225816/index.m3u8
+1綜合,http://39.134.67.108/PLTV/88888888/224/3221225816/1.m3u8
+2財經,http://39.134.67.108/PLTV/88888888/224/3221225599/1.m3u8
+3綜藝,http://39.134.67.108/PLTV/88888888/224/3221225799/1.m3u8
+4中文國際,http://39.134.67.108/PLTV/88888888/224/3221225797/1.m3u8
+5體育,http://39.134.67.108/PLTV/88888888/224/3221225818/1.m3u8
+5+體育賽事,http://39.134.67.108/PLTV/88888888/224/3221225507/1.m3u8
+6電影,http://39.134.67.108/PLTV/88888888/224/3221225814/1.m3u8
+7國防軍事,http://39.134.67.108/PLTV/88888888/224/3221225671/1.m3u8
+8電視劇,http://39.134.67.108/PLTV/88888888/224/3221225795/1.m3u8
+9紀錄,http://39.134.67.108/PLTV/88888888/224/3221225676/1.m3u8
+10科教,http://39.134.67.108/PLTV/88888888/224/3221225677/1.m3u8
+11戲曲,http://39.134.67.108/PLTV/88888888/224/3221225517/1.m3u8
+12社會與法,http://39.134.67.108/PLTV/88888888/224/3221225669/1.m3u8
+13新聞,http://39.134.67.108/PLTV/88888888/224/3221225812/1.m3u8
+14少兒,http://39.134.67.108/PLTV/88888888/224/3221225674/1.m3u8
+15音樂,http://39.134.67.108/PLTV/88888888/224/3221225513/1.m3u8
+16奧林匹克,http://39.134.67.108/PLTV/88888888/224/3221225893/1.m3u8
+17農業農村,http://39.134.67.108/PLTV/88888888/224/3221225708/1.m3u8
 CCTV1-综合,http://39.134.115.163:8080/PLTV/88888910/224/3221225618/index.m3u8
 CCTV1-综合,http://39.134.115.163:8080/PLTV/88888910/224/3221225642/index.m3u8
 CCTV1-综合,http://39.135.138.59:18890/PLTV/88888910/224/3221225642/index.m3u8
@@ -5210,6 +5228,19 @@ dema,http://ye23.win/iptv/korea2021.php?id=dema
 阿里郎WORLD,http://ye23.win/iptv/korea2021.php?id=arirang_2
 
 🎎🔞高清秒播①_9527,#genre#
+1,http://live.redtraffic.xyz:80/interracial.m3u8
+午夜2,http://live.redtraffic.xyz:80/bigtits.m3u8
+午夜3,http://live.redtraffic.xyz:80/threesome.m3u8
+午夜4,http://live.redtraffic.xyz/latina.m3u8?fluxuslust.m3u8
+午夜5,http://live.redtraffic.xyz/fetish.m3u8?fluxuslust.m3u8
+午夜6,http://live.redtraffic.xyz/lesbian.m3u8?fluxuslust.m3u8
+午夜6,http://cdn.adultiptv.net/lesbian.m3u8
+午夜7,http://live.redtraffic.xyz:80/teen.m3u8
+午夜8,http://live.redtraffic.xyz:80/pornstar.m3u8
+午夜8,http://live.redtraffic.xyz/pornstar.m3u8?fluxuslust.m3u8
+午夜9,http://live.redtraffic.xyz:80/milf.m3u8
+午夜9,http://live.redtraffic.xyz/milf.m3u8?fluxuslust.m3u8
+午夜10,http://live.redtraffic.xyz:80/cuckold.m3u8
 （48岁）无法抗拒她女儿的男朋友,http://1465.vod.adultiptv.net/ph55853184b25d5/play.m3u8
 （AdamBosco）乱搞，然后所有的傢伙！有史以来最好的混蛋,http://10238.vod.redtraffic.xyz/ph59d556472261f/play.m3u8
 （akaReginaCL-Erotic,http://6122.vod.redtraffic.xyz/ph59e763c175f91/play.m3u8
