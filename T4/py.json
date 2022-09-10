@@ -2265,7 +2265,38 @@
    "api": "https://www.200121.com/api.php/provide/vod/",
    "searchable": 1,
    "quickSearch": 1
-  }
+  },
+  {
+            "key":"t4public",
+            "name":"T4公共2",
+            "type":4,
+            "api":"https://t4.secan.icu/vod?sites=all&ali_token=3781469b13074e4cac1e0e7113e4fa20&timeout=10",
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":0
+},
+    {"key": "T4a","name": "🍁T4聚合","type": 4,"api": "https://t4.secan.icu/vod?sites=all&ali_token=4acb3ad2f2254ba1b566279f7cd98ba3&timeout=5","searchable": 1,"quickSearch": 1,"filterable": 1},
+   	{"key": "csp_Alist2","name":"️Alist合集(SP)", "type": 3,"api": "csp_Alist","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/alisr/alistzd.txt","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/alist1.jar"},
+	{"key": "T4","name": "T4爬虫阿里搜索用","type": 4,"api": "https://service-59u7dsoa-1308372858.gz.apigw.tencentcs.com/release/vod?sites=all&ali_token=569a2e9c46034e369260f2d053e3cda0&timeout=5","searchable": 1,"quickSearch": 1,"filterable": 1},
+	
+	{"key":"Yisou","name":"😺易搜+原画(搜索)","type":3,"api":"csp_Yisou","searchable":1,"quickSearch":1,"filterable":0,"ext": "569a2e9c46034e369260f2d053e3cda0",
+	"jar":"http://dlj.bz/6PQmZB"},
+{"key":"Zhaozy","name":"😺找资源+原画(搜索)","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0,"ext": "569a2e9c46034e369260f2d053e3cda0",
+"jar":"http://dlj.bz/EaaZAQ"},
+{"key":"csp_Alips","name":"🐱喵搜(搜索)","type":3,"api":"csp_AliPS","searchable":1,"quickSearch":1,"filterable":0,"ext": "569a2e9c46034e369260f2d053e3cda0",
+"jar":"http://dlj.bz/EaaZAQ"},
+{"key": "bdys","name": "🔍哔嘀(磁力测试)","type": 3,"api": "csp_XPbd","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://dlj.bz/uqcLKK","jar":"http://dlj.bz/EaaZAQ"},
+{
+      "key": "push_agent",
+      "name": "🎯推送（爱优腾/阿里云盘/磁力链接）",
+      "type": 3,
+      "api": "csp_PushAgent",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "3781469b13074e4cac1e0e7113e4fa20",
+   "jar":"http://dlj.bz/EaaZAQ"   
+    }
  ],
 
 
