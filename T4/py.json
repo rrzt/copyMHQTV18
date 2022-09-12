@@ -37,7 +37,15 @@
     
     	{"key":"csp_xbb_黑狐影视ns","name":"🍀黑狐影视(NS)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://gitea.com/liucn/box/raw/branch/main/sub/MeowXB/黑狐影视ns.json"},
     
-    
+    {
+    "key":"dr_菜狗",
+    "name":"菜狗影视(道长)",
+    "type":3,
+    "api":"http://cms.nokia.press/vod?rule=菜狗",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 0
+},
     
     
     
