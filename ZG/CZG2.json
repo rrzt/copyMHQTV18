@@ -22,20 +22,21 @@
 
        "sites": [
        
-       
-       
-       
-       
-       
        {
-      "key": "csp_dd5555",
+      "key": "csp_biubiu_yekong",
       "name": "点击设置切换线路首页数据源,切换后按返回生效，资源来自于互联网，请勿用于非法用途",
       "type": 3,
-      "api": "csp_Dy555",
+      "api": "csp_XBiubiu",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,"ext":"http://dlj.bz/1UMTpn","jar":"http://dlj.bz/Bb8JxA"
-    },  
+      "filterable": 0,
+      "ext": "https://share.nite07.com/api/v3/file/source/19477/yekong.json?sign=7g-htZb9-oMhqmEftEGcgAp-Xvqi9wSagIVEhqR5DbQ%3D%3A0"
+    },
+       
+       
+       
+       
+       
 		   {
       "key": "csp_QQ",
       "name": "🅰⚡腾讯视频",
