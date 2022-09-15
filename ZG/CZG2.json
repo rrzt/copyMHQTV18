@@ -34,9 +34,78 @@
     },
        
        
+         {"key":"csp_xpath_789kp","name":"🦋789看片","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitea.com/RRZT/TVBOXJIA/raw/branch/main/mao/sub/xpath/789kp.json"},
        
+       {
+            "key": "Kuaikan",
+            "name": "快看(爬虫🍭)",
+            "type": 3,
+            "api": "csp_Kuaikan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "Lezhu",
+            "name": "乐猪(爬虫🍭)",
+            "api": "csp_Lezhu",
+            "type": 3,
+            "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1
+        },
        
-       
+        {
+            "key": "csp_xp_在线之家",
+            "name": "Libvio(爬虫🍭)",
+            "type":3,
+            "api":"csp_XPathFilter",
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":1,
+            "ext":"https://share.nite07.com/api/v3/file/source/18776/zxzj.json?sign=vnU4QH5QZY9VtfPrbqcuCtkLUHrKsxWk4YTod2ou2ek%3D%3A0"
+        },
+        // https://vod.kooo.eu.org/t4/libvio
+        // https://agit.ai/138001380000/MHQTV/raw/commit/c573236f4e4a9c87faf907c75a81979dd6833d0d/XB/Libv.json
+        {
+            "key": "zxzj",
+            "name": "在线(爬虫🍭)",
+            "type": 3,
+            "api": "csp_Zxzj",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        //		{"key":"csp_xp_在线之家","name":"爬虫┃在线之家","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.lanmoyingshi.cn/XP/zxzj2.json"},
+        {
+            "key": "神马影院",
+            "name": "神马(爬虫🍭)",
+            "type": 3,
+            "api": "csp_Smdyy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "厂长",
+            "name": "厂长(爬虫🍭)",
+            "type":3,
+            "api":"csp_Czsapp",
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":1
+        },
+        {
+            "key": "看视界",
+            "name": "看视界(爬虫🍭)",
+            "type": 3,
+            "api": "csp_KanSJ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/SC/ts.jar"
+        },
+        	{"key":"简影","name":"简影(爬虫🍭)","type":4,"api":"https://vod.kooo.eu.org/t4/vip11b016","searchable":1,"quickSearch":1,"filterable":1},
 		   {
       "key": "csp_QQ",
       "name": "🅰⚡腾讯视频",
