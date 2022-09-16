@@ -23,18 +23,19 @@
        "sites": [
        
        {
-      "key": "csp_biubiu_yekong",
+      "key": "360_spider",
       "name": "点击设置切换线路首页数据源,切换后按返回生效，资源来自于互联网，请勿用于非法用途",
       "type": 3,
-      "api": "csp_XBiubiu",
+      "api": "csp_SP360",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://share.nite07.com/api/v3/file/source/19477/yekong.json?sign=7g-htZb9-oMhqmEftEGcgAp-Xvqi9wSagIVEhqR5DbQ%3D%3A0"
-    },
+      "filterable": 1
+      },
        
        
-         {"key":"csp_xpath_789kp","name":"🦋789看片","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitea.com/RRZT/TVBOXJIA/raw/branch/main/mao/sub/xpath/789kp.json"},
+    
+{"key":"mang","name":"芒guo(解析)","type":3,"api":"csp_MGTV","searchable":1,"quickSearch":1,"filterable":1},
+
        
        {
             "key": "Kuaikan",
@@ -126,16 +127,7 @@
       "filterable": 1,
       "jar": "https://agit.ai/138001380000/MHQTV/raw/commit/bc4c6bd98da11a73d05649d85057c70c81626448/jar/tencent.jar"
     },
-    {
-      "key": "csp_biubiu_yekong",
-      "name": "🌃夜空高清",
-      "type": 3,
-      "api": "csp_XBiubiu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://share.nite07.com/api/v3/file/source/19477/yekong.json?sign=7g-htZb9-oMhqmEftEGcgAp-Xvqi9wSagIVEhqR5DbQ%3D%3A0"
-    },
+    
     {
             "key": "Gitcafe",
             "name": "🔖小纸条",
