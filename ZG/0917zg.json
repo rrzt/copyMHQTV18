@@ -1,6 +1,4 @@
-//无公众号，无公众号，无公众号,不引流，我是纯小白~啥也不懂，所有东西都是扒拉大佬的，只是为小白提供一个方便，希望大哥们可以高抬贵嘴~
-//感谢各位隐姓埋名的大佬分享~
-//Q群：493192284（如果老哥们有分享精神，欢迎进群，那个，多嘴一句，群里都是小白，这个配置本质是给纯小白用的，仅限于能正常使用，更新维护都不及时，请见谅，没有分享精神的大哥就不要加群了，别进去秀了自己的好东西，又不愿意分享，让我们眼巴巴的看着，怪可怜人的。。。）
+
 {
 "spider":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/%e5%90%88%e9%9b%86%e6%9b%b4%e6%96%b0%e9%95%bf%e8%80%8177.jar",
 
@@ -90,8 +88,7 @@
 			"searchable": 1,
 			"quickSearch": 1
 		},  
-		 
-	//{"key":"csp_Wmkk","name":"完美看看（SP）","api":"csp_Wmkk","type":3,"filterable":1,"quickSearch":1,"searchable":1},
+	
 
         
 		{
@@ -202,13 +199,13 @@
 			"filterable": 1
 		},
 		{"key":"KanSJ_spider","name":"看世界","api":"csp_KanSJ","type":3,"filterable":1,"quickSearch":1,"searchable":1,"ext":""},
-//		{"key":"293视频","name":"通道-31（SP）","type":3,"api":"csp_SP293","searchable":1,"quickSearch":1,"filterable":1},
+
 		{"key":"csp_AppYsV2","name":"YsV2","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://121.205.88.194:7878/xgapp.php/v2/"},
 		
-		//来自桉佬提供的公开接口
+		
 		{
             "key":"感谢桉佬",
-            "name":"榜单荐片（桉佬T4）",
+            "name":"桉佬T4",
             "type":4,
             "api":"https://t4.secan.icu/vod?sites=voflix,bdys01,onelist,dy555,gitcafe&ali_token=569a2e9c46034e369260f2d053e3cda0&timeout=6",
             "searchable":1,
@@ -275,7 +272,7 @@
 		"url": "Sequence"
 	},
 	{"name": "GGTV搜集","type": 1,"url": "https://play.fuqizhishi.com/juhe/API.php?appkey=caijijuhe220902&url="},
-//{"name": "GGTV快速","type": 1,"url": "https://play.fuqizhishi.com/ganggang/API.php?appkey=QQ172598364&url="},
+
 {"name":"Fosi嗅探","type":0,"url":"https://play.fositv.com/?url="},
 {"name": "OKjx嗅探","type": 0,"url": "https://okjx.cc/?url="},
 {"name":"钢铁侠","type":1,"url":"https://json.freejx.in/?url="},
