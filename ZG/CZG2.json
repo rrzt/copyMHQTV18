@@ -56,27 +56,10 @@
             "searchable": 1
         },
        
-        {
-            "key": "csp_xp_在线之家",
-            "name": "Libvio(爬虫🍭)",
-            "type":3,
-            "api":"csp_XPathFilter",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":1,
-            "ext":"https://share.nite07.com/api/v3/file/source/18776/zxzj.json?sign=vnU4QH5QZY9VtfPrbqcuCtkLUHrKsxWk4YTod2ou2ek%3D%3A0"
-        },
+         {"key":"csp_77"            ,"name":"🐞酷云七七","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
         // https://vod.kooo.eu.org/t4/libvio
         // https://agit.ai/138001380000/MHQTV/raw/commit/c573236f4e4a9c87faf907c75a81979dd6833d0d/XB/Libv.json
-        {
-            "key": "zxzj",
-            "name": "在线(爬虫🍭)",
-            "type": 3,
-            "api": "csp_Zxzj",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
+        
         //		{"key":"csp_xp_在线之家","name":"爬虫┃在线之家","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.lanmoyingshi.cn/XP/zxzj2.json"},
         {
             "key": "神马影院",
@@ -106,7 +89,40 @@
             "filterable": 1,
             "jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/SC/ts.jar"
         },
-        	{"key":"简影","name":"简影(爬虫🍭)","type":4,"api":"https://vod.kooo.eu.org/t4/vip11b016","searchable":1,"quickSearch":1,"filterable":1},
+        {"key":"mjxq","name":"美剧星球(爬虫🍭)","type":3,"api":"csp_Mjxq","searchable":1,"quickSearch":1,"filterable":1},
+{
+     "key":"多多",
+     "name":"多多资源(爬虫🍭)",
+     "type":1,
+     "api":"https://www.ddzyz1.com/api.php/provide/vod/",
+     "searchable":1,
+     "quickSearch":1,
+     "filterable":1,
+     "categories":["国产剧","日韩剧","港台剧","欧美剧","综艺","动漫","动作片","科幻片","战争片","喜剧片","爱情片","恐怖片","剧情片"]},
+
+{"key":"csp_77","name":"酷云77(爬虫🍭)","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
+
+{
+	"key": "Lezhu_spider",
+	"name": "蓝蓝影视(爬虫🍭)",
+	"api": "csp_Lezhu",
+	"type": 3,
+	"filterable": 1,
+	"quickSearch": 1,
+	"searchable": 1,
+	"ext": "",
+	"jar":"https://agit.ai/138001380000/MHQTV/raw/commit/24e4614e9413a34c17b552d31bb0a138eb8d45af/jar/custom_spider.jar"
+}, {
+		"key": "Smdyy_spider",
+		"name": "晓彤影院(爬虫🍭)",
+		"api": "csp_Smdyy",
+		"type": 3,
+		"filterable": 1,
+		"quickSearch": 1,
+		"searchable": 1,
+		"ext": ""
+	},
+
 		   {
       "key": "csp_QQ",
       "name": "🅰⚡腾讯视频",
@@ -115,7 +131,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://agit.ai/138001380000/MHQTV/raw/commit/bc4c6bd98da11a73d05649d85057c70c81626448/jar/tencent.jar"
+      "jar": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/tencent.jar"
     },
     {
       "key": "爱奇艺",
@@ -125,30 +141,11 @@
       "quickSearch": 1,
       "searchable": 1,
       "filterable": 1,
-      "jar": "https://agit.ai/138001380000/MHQTV/raw/commit/bc4c6bd98da11a73d05649d85057c70c81626448/jar/tencent.jar"
+      "jar": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/tencent.jar"
     },
     
-    {
-            "key": "Gitcafe",
-            "name": "🔖小纸条",
-            "type": 3,
-            "api": "csp_Gitcafe",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "3781469b13074e4cac1e0e7113e4fa20"
-        },
-         {
-      "key": "大米星球(XYQ)",
-      "name": "大米星球(XYQ)",
-      "type": 3,
-      "api": "csp_XYQBiu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/大米星球(XYQ).json"
-    
-    },   	{"key": "csp_XYQBiu_小猫咪","name":"小猫咪(XYQ)","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitea.com/jiaojiao/jiaojiao/raw/branch/main/xyq/xiaomaomi.json","jar":"https://gitea.com/jiaojiao/jiaojiao/raw/branch/main/jar/0901.jar;md5;69c8b70638de903e40aa69407bb1a208"},
+    {"key":"csp_GitCafe","name":"📜纸条(SP)","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext": "7bb5b24ca3274ad781a6071082e9eebd"},
+      
          //https://gitea.com/jiaojiao/jiaojiao/raw/branch/main/jar/0901.jar;md5;69c8b70638de903e40aa69407bb1a208
    // {"key": "段友影视(XYQ)","name": "段友影视(XYQ)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/段友影视(XYQ).json"},
  // {"key": "蓝莓影视(XYQ)","name": "蓝莓影视(XYQ)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/蓝莓影视(XYQ).json"},
@@ -163,7 +160,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/凌云影视.json" },
+      "ext": "https://agit.ai/138001380000/MHQTV/raw/commit/cf759c9093ff58e1002db221bcefffd26e70aebf/XYQ/%e5%87%8c%e4%ba%91%e5%bd%b1%e8%a7%86.json" },
         {
       "key": "剧荒影院(XYQ)",
       "name": "剧荒影院(切换EXO播放器)",
@@ -172,7 +169,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/剧荒电影.json"     
+      "ext": "https://agit.ai/138001380000/MHQTV/raw/commit/61a04391e0cf7853f63d914ff0581b54f1d00557/XYQ/%e5%89%a7%e8%8d%92.json"     
     },
         {
       "key": "万能影院(XYQ)",
@@ -182,20 +179,10 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/万能影院(XYQ).json"
+      "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/XYQ/%e4%b8%87%e8%83%bd%e5%bd%b1%e8%a7%86.json"
       
     },
-   {
-      "key": "歪片星球",
-      "name": "歪片星球(XYQ)",
-      "type": 3,
-      "api": "csp_XYQBiu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://gitea.com/owen10086/wailian/raw/branch/main/XYQ/歪片星球.json"
-      
-    },
+   
     
     {
      "key":"csp_xbb_555电影",
