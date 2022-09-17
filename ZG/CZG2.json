@@ -322,7 +322,7 @@
       "filterable": 0
     },
     
-    	{"key":"csp_xpath_789kp","name":"🦋789看片","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitea.com/RRZT/TVBOXJIA/raw/branch/main/mao/sub/xpath/789kp.json"},
+    	
    {
             "key":"t4public",
             "name":"T4公共2",
@@ -332,22 +332,7 @@
             "quickSearch":1,
             "filterable":0
 },
-	{"key":"csp_xbb_voflix","name":"🍀Voflix HD","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://gitea.com/liucn/box/raw/branch/main/sub/MeowXB/voflix.json"},
-
-{"key":"csp_biubiu_80S磁力xb","name":"🥒80S磁力","type":3,"api":"csp_QXBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://dlj.bz/Rv139x","jar": "http://dlj.bz/zAGC1y"},
-{"key":"csp_xpath_Grab4K","name":"Grab4K(磁力)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://dlj.bz/ie5j0z"},
-
-{
-      "key": "csp_xpath_音范丝磁力",
-      "name": "🐛音范丝磁力(XP)",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://dlj.bz/JImGNe"
-    },
-{"key":"csp_xpath_cilisou","name":"磁力搜(XPF)","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://dlj.bz/YltF6q","jar":"http://dlj.bz/6PQmZB"},
+	
 {"key":"Yisou","name":"😺易搜+原画(搜索)","type":3,"api":"csp_Yisou","searchable":1,"quickSearch":1,"filterable":0,"ext": "4acb3ad2f2254ba1b566279f7cd98ba3",
 	"jar":"http://dlj.bz/6PQmZB"},
 {"key":"Zhaozy","name":"😺找资源+原画(搜索)","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0,"ext": "4acb3ad2f2254ba1b566279f7cd98ba3",
