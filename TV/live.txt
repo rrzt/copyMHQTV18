@@ -1,4 +1,4 @@
-﻿📺港、澳、台,#genre# 
+📺港、澳、台,#genre# 
 凤凰中文,http://play-live.ifeng.com/live/06OLEGEGM4G.m3u8 
 凤凰中文,http://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
 凤凰中文,http://playtv-live.ifeng.com/live/06OLEGEGM4G_tv1.m3u8
@@ -41,6 +41,32 @@ TVBS新闻,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 中视经典,http://50.7.220.74:8278/zhongshi_twn/playlist.m3u8?tid=14379667&ct=17988&tsum=de63d02f44741580b5070077d1949841 
 星卫电影,http://50.7.220.74:8278/xingwei_movie/playlist.m3u8?tid=MBAB2096754620967546&ct=18392&tsum=2c800c1f0b6cc98d2404608c294dcbc2 
 纬来戏剧,http://61.219.170.95:18557/http/192.168.1.9:8081/hls/69/811/ch33.m3u8 
+🇨🇳丨深圳,#genre#
+
+深圳少儿,http://ye23.win/iptv/sztv.php?id=7
+深圳少儿,http://121.51.249.6/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel51/index.m3u8
+深圳少儿,http://121.51.249.6/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel51/1300.m3u8
+深圳都市,http://ye23.win/iptv/sztv.php?id=2
+深圳都市,http://121.51.249.6/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel46/index.m3u8
+深圳都市,http://121.51.249.6/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel46/1300.m3u8
+深圳公共,http://ye23.win/iptv/sztv.php?id=4
+深圳公共,http://121.51.249.6/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel52/index.m3u8
+深圳公共,http://121.51.249.6/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel52/1300.m3u8
+深圳娱乐,http://ye23.win/iptv/sztv.php?id=6
+深圳娱乐,http://121.51.249.6/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel49/1300.m3u8
+深圳卫视,http://121.51.249.6/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel17/index.m3u8
+深圳卫视,http://121.51.249.6/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel17/2300.m3u8
+深圳卫视,http://39.134.115.163:8080/TVOD/88888910/224/3221225741/index.m3u8
+深圳卫视,http://39.134.115.163:8080/TVOD/88888910/224/3221225700/index.m3u8
+深圳卫视,http://111.20.33.93/TVOD/88888893/224/3221226205/index.m3u8
+深圳卫视,http://111.32.169.223/bkhlsliveali-cdn.ysp.cctv.cn/ysp/2000292203.m3u8
+深圳卫视,http://111.20.33.93/TVOD/88888888/224/3221225801/index.m3u8
+深圳体育,http://wtv.weetai.cn/iptv/2022/tyzb16.php?id=sztyjk
+深圳电视剧频道,http://ye23.win/iptv/sztv.php?id=3?zguangd
+深圳电视剧频道,http://113.64.147.183:808/hls/18/index.m3u8
+深圳电视剧频道,http://ye23.win/iptv/sztv.php?id=3
+深圳电视剧频道,http://ye23.win/iptv/sztv.php?id=3
+深圳电视剧频道,http://ye23.win/iptv/sztv.php?id=3
 
 💝央、卫标清,#genre#
 CCTV-1 综合,http://39.134.66.110/PLTV/88888888/224/3221225816/index.m3u8
