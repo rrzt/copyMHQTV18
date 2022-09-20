@@ -1,11 +1,12 @@
 #coding=utf-8
 #!/usr/bin/python
 import sys
-sys.path.append('..') 
+sys.path.append('..')
 from base.spider import Spider
 import json
 import requests
 import base64
+import re
 
 class Spider(Spider):  # 元类 默认的元类 type
 	def getName(self):
@@ -213,16 +214,25 @@ class Spider(Spider):  # 元类 默认的元类 type
 				target = script[script.index('{'):]
 				jo = json.loads(target)
 				break;
-		parseUrl = ""
-		playerConfig = self.config['player']		
 		if jo['from'] in self.config['player']:
 			playerConfig = self.config['player'][jo['from']]
-			videoUrl = jo['url']
+			if jo['from'] == 'coke12345':
+				Url = jo['url']
+				m3u = self.fetch(Url).text.split('\n')[2]
+				link = re.findall(r"http.*://.*?/", Url)[0].strip('/')
+				videoUrl = link + m3u
+				header = {
+					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
+				}
+				result["header"] = header
+			else:
+				videoUrl = jo['url']
+				result["header"] = json.dumps(self.header)
 			playerUrl = playerConfig['parse']
 			result["parse"] = playerConfig['ps']
 			result["playUrl"] = playerUrl
 			result["url"] = videoUrl
-			result["header"] = json.dumps(self.header)
+
 		return result
 	def isVideoFormat(self,url):
 		pass
