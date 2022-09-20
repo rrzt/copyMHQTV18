@@ -1,6 +1,7 @@
 # coding=utf-8
 # !/usr/bin/python
 import sys
+
 sys.path.append('..')
 from base.spider import Spider
 import json
@@ -38,6 +39,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 
     def manualVideoCheck(self):
         pass
+    erro = 0
 
     def playerContent(self, flag, id, vipFlags):
         if flag == 'AliYun':
@@ -168,7 +170,6 @@ class Spider(Spider):  # 元类 默认的元类 type
 
     authorization = ''
     timeoutTick = 0
-    erro = 0
     localTime = 0
     expiresIn = 0
     shareTokenMap = {}
