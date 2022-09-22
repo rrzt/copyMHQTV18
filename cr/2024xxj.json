@@ -6,7 +6,7 @@
 "cateId": "/@href",
 "cateIdR": "/?m=vod-type-(\\w+)",
 "cateManual": {},
-"homeVodNode": "//div[contains(@class,'box movie_list')]/ul/li/a",
+"homeVodNode": "//div[contains(@class,'box tags-cloud')]/ul/li/a",
 "homeVodName": "/h3/text()",
 "homeVodId": "/@href",
 "homeVodIdR": "",
