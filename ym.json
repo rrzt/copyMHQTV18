@@ -37,12 +37,12 @@
          
  {
 
-"spider":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/0917.jar",
+"spider":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/0924.jar",
 
 
 "wallpaper":"https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 
-"lives": [{"group": "redirect","channels": [{"name": "live","urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9saW5rLmpzY2RuLmNuLzFkcnYvYUhSMGNITTZMeTh4WkhKMkxtMXpMM1F2Y3lGQmIzZDBRbFZyUjNOUlVFeHBiWFo0U1VWQ2IwWllNVUZqYnpscC50eHQ="]}]}],
+"lives": [{"group": "redirect","channels": [{"name": "live","urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9hZ2l0LmFpLzEzODAwMTM4MDAwMC9NSFFUVi9yYXcvYnJhbmNoL21hc3Rlci9UVi8wOTIzLnR4dA=="]}]}],
 
 
 "sites":[
@@ -92,26 +92,18 @@
             "filterable":1
         },
         {
-            "key": "看视界",
-            "name": "看视界(爬虫🍭)",
-            "type": 3,
-            "api": "csp_KanSJ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/custom_spider.jar"
-        },
+        "key":"csp_xpath_zxzj","name":"在线之家(爬虫🍭)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/XB/zxzj.json","jar":"https://agit.ai/138001380000/MHQTV/raw/commit/3b984beef2d270fec7a65181bf3482e52bd3845e/jar/0924.jar"},
         	
         
         //{"key": "csp_Wmkk","name": "完美看看（SP）","api": "csp_Wmkk","type": 3,"filterable": 1,"quickSearch": 1,"searchable": 1,"ext":"https://gitea.com/Mike906/jar/raw/branch/main/完美看看修复.json"},
-{"key":"spider_IKan","name":"爱看(爬虫🍭)","type":3,"api":"csp_IKan","quickSearch":1,"searchable":1,"filterable":1,
-            "jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/custom_spider.jar"},
+{"key":"追剧喵","name":"追剧喵(爬虫🍭)","type":3,"api":"csp_ZJMiao","quickSearch":1,"searchable":1,"filterable":1,
+            "jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/0924.jar"},
 
 
 
 {"key":"csp_apple","name":"小苹果(爬虫🍭)","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"csp_biubiu_在线之家","name":"在线之家(爬虫🍭)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/XB/zxzj.json"},
+//{"key":"csp_biubiu_在线之家","name":"在线之家(爬虫🍭)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/XB/zxzj.json"},
 
 {"key":"csp_DiDuan" ,"name":"低端影视(爬虫🍭)","type":3,"api":"csp_Ddrk","searchable":1,"quickSearch":1,"filterable":0},
 
@@ -189,7 +181,7 @@
 
 
 
-{"key":"DJ-XP-JRS低调看","name":"JRS低调看（XP）","type":3,"api":"csp_XPath","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/ddk.json"},
+
 
 
 
@@ -476,7 +468,11 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "{\r\n\"ua\": \"\",\r\n\"dtUrl\": \"https://1024bt25.xyz{vid}\",\r\n\"dtNode\": \"//div[@id='content']\",\r\n\"dtName\": \"//h2/text()\",\r\n\"dtNameR\": \"\",\r\n\"dtImg\": \"/@null\",\r\n\"dtCate\": \"concat(//tbody/td[1]//text())\",\r\n\"dtCateR\": \"\",\r\n\"dtYear\": \"concat(//tbody/td[2]//text())\",\r\n\"dtYearR\": \"\",\r\n\"dtDesc\": \"concat(//ol//text(),'')\",\r\n\"dtDescR\": \"\",\r\n\"dtFromNode\": \"//div[@id='wall']\",\r\n\"dtFromName\": \"concat('磁力链接','')\",\r\n\"dtFromNameR\": \"\",\r\n\"dtUrlNode\": \"//div[@id='magnet']\",\r\n\"dtUrlSubNode\": \"//a\",\r\n\"dtUrlId\": \"/@href\",\r\n\"dtUrlIdR\": \"\",\r\n\"dtUrlName\": \"/text()\", \r\n\"playUrl\": \"{playUrl}\",\r\n\"playUa\": \"\",\r\n\"searchUrl\": \"https://1024bt25.xyz/main-search-kw-{wd}-length-1.html\",\r\n\"scVodNode\": \"//div[@class='item-title']/h3/a\",\r\n\"scVodName\": \"/@title\",\r\n\"scVodId\": \"/@href\",\r\n\"scVodIdR\": \"\",\r\n\"scVodImg\": \"/@null\",\r\n\"scVodImgR\": \"\",\r\n  \"scVodMark\": \"\"\r\n}"    },
-    {"key": "csp_xpath_qiumi","name": "🏀球迷","type": 3,"api": "csp_XPathFilter","searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXP/qiumi.json"},
+      
+      
+      {"key":"DJ-XP-JRS低调看","name":"JRS低调看（XP）","type":3,"api":"csp_XPath","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/ddk.json","jar":"http://dlj.bz/TtBGOP"},
+      
+ {"key":"csp_xpath_qiumi","name":"🏀JRKAN直播","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/XB/qiumi.json","jar":"http://dlj.bz/TtBGOP"},
     	{"key": "csp_XYQBiu_一起看","name": "一起看(XYQB)","type": 3,"api": "csp_XYQBiu","searchable": 0,"quickSearch": 0,"filterable": 0,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/17kan.json","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/XC0906.jar"},{"key":"csp_xyqb_网易CC直播","name":"网易CC直播(XYQB)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/wycc.json","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/XYQBiu_0907.jar"},
 {"key":"csp_xyqb_斗鱼直播","name":"斗鱼直播(XYQB)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/douyu.json","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/XYQBiu_0907.jar"},
 {"key":"csp_xyqb_310直播","name":"310直播(XYQB)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/310zb.json","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/XYQBiu_0907.jar"},
@@ -502,7 +498,8 @@
       "filterable": 1,
       "ext":"https://gitea.com/lh2513/live/raw/branch/root/json/%E5%AE%8C%E7%BE%8E%E7%9C%8B%E7%9C%8B.json"
     },
-   {"key":"csp_GitCafe","name":"📜纸条(SP)","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext": "7bb5b24ca3274ad781a6071082e9eebd"},
+   {"key":"csp_GitCafe","name":"📜纸条(SP)","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext": "7f6f2851be4c411d8297823a7f85cc61"
+   ,"jar":"https://ghproxy.com/https://raw.githubusercontent.com/ygyzy/TvJar/master/jar/custom_spider.jar;md5;d3d445955c3522e85e71bf1e29415ef3"},
      //  d6b96cc3799b6417d30e4715d2973f64
      // f7be19e8382c4524acbcf8ab0d94a6b3
      {
@@ -560,13 +557,13 @@
             "key":"t4public",
             "name":"T4公共2",
             "type":4,
-            "api":"https://t4.secan.icu/vod?sites=all&ali_token=3781469b13074e4cac1e0e7113e4fa20&timeout=10",
+            "api":"https://t4.secan.icu/vod?sites=all&ali_token=7f6f2851be4c411d8297823a7f85cc61&timeout=10",
             "searchable":1,
             "quickSearch":1,
             "filterable":0
 },
     //{"key":"t4e","name":"🍁T4(搜索)","type":4,"api":"http://catvod.fun:8002/vod?sites=all&ali_token=59744816075f4729bc00cd23b98e3447&timeout=8","searchable":1,"quickSearch":1,"filterable":0},
-    {"key": "T4a","name": "🍁T4聚合","type": 4,"api": "https://t4.secan.icu/vod?sites=all&ali_token=4acb3ad2f2254ba1b566279f7cd98ba3&timeout=5","searchable": 1,"quickSearch": 1,"filterable": 1},
+    {"key": "T4a","name": "🍁T4聚合","type": 4,"api": "https://t4.secan.icu/vod?sites=all&ali_token=569a2e9c46034e369260f2d053e3cda0&timeout=5","searchable": 1,"quickSearch": 1,"filterable": 1},
    	{"key": "csp_Alist2","name":"️Alist合集(SP)", "type": 3,"api": "csp_Alist","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/alisr/alistzd.txt","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/alist1.jar"},
 	
 
