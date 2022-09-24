@@ -1,13 +1,163 @@
 // 配置地址 --> clan://localhost/TVBox/bc.json
 
 {
-"spider":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar",
+"spider":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/alitangsang0906.jar",
 
-"wallpaper":"https://tuapi.eees.cc/api.php?category=fengjing&type=302",
-"lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9hZ2l0LmFpLzEzODAwMTM4MDAwMC9NSFFUVi9yYXcvYnJhbmNoL21hc3Rlci9UVi9tdHYudHh0"]}]}],
+  "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+"lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9hZ2l0LmFpLzEzODAwMTM4MDAwMC9NSFFUVi9yYXcvYnJhbmNoL21hc3Rlci9UVi9saXZlLnR4dA=="]}]}],
 
 //Y2xhbiUzQS8vVFZCb3gvdHYveG0udHh0
 "sites":[
+
+
+{
+      "key": "360_spider",
+      "name": "点击设置切换线路首页数据源,切换后按返回生效，资源来自于互联网，请勿用于非法用途",
+      "type": 3,
+      "api": "csp_SP360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+      },
+       
+       
+    
+{"key":"mang","name":"芒guo(解析)","type":3,"api":"csp_MGTV","searchable":1,"quickSearch":1,"filterable":1},
+
+       
+       {
+            "key": "Kuaikan",
+            "name": "快看(爬虫🍭)",
+            "type": 3,
+            "api": "csp_Kuaikan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "Lezhu",
+            "name": "乐猪(爬虫🍭)",
+            "api": "csp_Lezhu",
+            "type": 3,
+            "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1
+        },
+       
+         {"key":"csp_77"            ,"name":"🐞酷云七七","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
+        // https://vod.kooo.eu.org/t4/libvio
+        // https://agit.ai/138001380000/MHQTV/raw/commit/c573236f4e4a9c87faf907c75a81979dd6833d0d/XB/Libv.json
+        
+        //		{"key":"csp_xp_在线之家","name":"爬虫┃在线之家","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.lanmoyingshi.cn/XP/zxzj2.json"},
+        {
+            "key": "神马影院",
+            "name": "神马(爬虫🍭)",
+            "type": 3,
+            "api": "csp_Smdyy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "厂长",
+            "name": "厂长(爬虫🍭)",
+            "type":3,
+            "api":"csp_Czsapp",
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":1
+        },
+{"key":"mjxq","name":"美剧星球(爬虫🍭)","type":3,"api":"csp_Mjxq","searchable":1,"quickSearch":1,"filterable":1},
+{
+     "key":"多多",
+     "name":"多多资源(爬虫🍭)",
+     "type":1,
+     "api":"https://www.ddzyz1.com/api.php/provide/vod/",
+     "searchable":1,
+     "quickSearch":1,
+     "filterable":1,
+     "categories":["国产剧","日韩剧","港台剧","欧美剧","综艺","动漫","动作片","科幻片","战争片","喜剧片","爱情片","恐怖片","剧情片"]},
+
+{"key":"csp_77","name":"酷云77(爬虫🍭)","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
+
+{
+	"key": "Lezhu_spider",
+	"name": "蓝蓝影视(爬虫🍭)",
+	"api": "csp_Lezhu",
+	"type": 3,
+	"filterable": 1,
+	"quickSearch": 1,
+	"searchable": 1,
+	"ext": "",
+	"jar":"https://agit.ai/138001380000/MHQTV/raw/commit/24e4614e9413a34c17b552d31bb0a138eb8d45af/jar/custom_spider.jar"
+}, {
+		"key": "Smdyy_spider",
+		"name": "晓彤影院(爬虫🍭)",
+		"api": "csp_Smdyy",
+		"type": 3,
+		"filterable": 1,
+		"quickSearch": 1,
+		"searchable": 1,
+		"ext": ""
+	},
+
+		   {"key": "PpTV","name": "📺PPTV《官》","type": 0,"api": "https://www.zycaiji.net:7788/api.php/provide/vod/from/pptv/at/xml/","searchable": 0,"quickSearch": 0,"filterable": 0,"categories": ["综艺", "动漫", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "港台剧", "日韩剧", "欧美剧", "惊悚片", "犯罪片", "冒险片", "悬疑片", "动画片", "武侠片", "少儿", "其他片"],"jar":"http://dlj.bz/wvZjrL"},
+    {    "key":"csp_IQIYI",
+  "name":"🦄爱奇艺",
+  "type":3,
+  "api":"csp_IQIYI",
+  "searchable":1,
+  "quickSearch":1,
+  "filterable":1,
+  "jar":"http://dlj.bz/j3NMbR"
+        },{
+      "key": "凌云影视(XYQ)",
+      "name": "凌云影视(XYQ)",
+      "type": 3,
+      "api": "csp_XYQBiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://agit.ai/138001380000/MHQTV/raw/commit/cf759c9093ff58e1002db221bcefffd26e70aebf/XYQ/%e5%87%8c%e4%ba%91%e5%bd%b1%e8%a7%86.json" },
+        {
+      "key": "剧荒影院(XYQ)",
+      "name": "剧荒影院(切换EXO播放器)",
+      "type": 3,
+      "api": "csp_XYQBiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://agit.ai/138001380000/MHQTV/raw/commit/61a04391e0cf7853f63d914ff0581b54f1d00557/XYQ/%e5%89%a7%e8%8d%92.json"     
+    },
+        {
+      "key": "万能影院(XYQ)",
+      "name": "万能影院(XYQ)",
+      "type": 3,
+      "api": "csp_XYQBiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/XYQ/%e4%b8%87%e8%83%bd%e5%bd%b1%e8%a7%86.json"
+      
+    },
+   
+    
+    {
+     "key":"csp_xbb_555电影",
+     "name":"555电影",
+     "type":3,
+     "api":"csp_XBiubiu",
+     "searchable":1,
+     "quickSearch":1,
+     "filterable":0,
+     "ext":"https://agit.ai/138001380000/MHQTV/raw/commit/c2e813c84808aa7cf1ba0c48c30b445d59a20466/XB/555电影.json"
+    },
+    
+    {"key":"csp_GitCafe","name":"📜纸条(SP)","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext": "7bb5b24ca3274ad781a6071082e9eebd"},
+      
+
+
+
    {"key": "学堂1",
       "name": "🅱️儿童乐园",
       "type": 3,
@@ -21,7 +171,7 @@
         "searchable":0,
         "quickSearch": 0,
         "filterable": 1,
-        "ext": "http://dlj.bz/Ec3sbk"},
+        "ext": "http://dlj.bz/Ec3sbk","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"},
           {"key": "学堂3",
           "name": "🅱️初中学习",
           "type": 3,
@@ -29,9 +179,9 @@
           "searchable":0,
           "quickSearch": 0,
           "filterable": 1,
-          "ext": "http://dlj.bz/DL64q9"},
-  {"key": "学堂4","name": "🅱️高中学习","type": 3,"api": "csp_Bili","searchable":0,"quickSearch": 0,"filterable": 1,"ext": "http://dlj.bz/7FcWku"},
-   {"key": "Bili","name": "🅱️哔哩套餐","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "clan://TVBox/MaooxB/bilibili.json"},
+          "ext": "http://dlj.bz/DL64q9","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"},
+  {"key": "学堂4","name": "🅱️高中学习","type": 3,"api": "csp_Bili","searchable":0,"quickSearch": 0,"filterable": 1,"ext": "http://dlj.bz/7FcWku","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"},
+   {"key": "Bili","name": "🅱️哔哩套餐","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "clan://TVBox/MaooxB/bilibili.json","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"},
 
  {"key": "相声小品","name": "🅱️相声小品","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "http://dlj.bz/0Q5nyb","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"},
     {"key": "戏曲","name": "🅱️戏曲国乐","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "http://dlj.bz/k19XIj","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"},
@@ -62,20 +212,20 @@
     },   
 	
    {"key": "MV","name": "🅱️歌曲MV","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "http://dlj.bz/E6t9DT","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"}, 
-   {"key":"csp_BBB2","name":"🅱️美女（B站）","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext": "https://agit.ai/138001380000/MHQTV/raw/commit/a16274759bb91ef09162340e3e10d4a346604059/BIBI/%e5%a5%b3%e5%9b%a2MV.txt"},
+   {"key":"csp_BBB2","name":"🅱️美女（B站）","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext": "https://agit.ai/138001380000/MHQTV/raw/commit/a16274759bb91ef09162340e3e10d4a346604059/BIBI/%e5%a5%b3%e5%9b%a2MV.txt","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"},
 	{"key": "女团热舞","name": "🅱️女团热舞","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "https://share.nite07.com/api/v3/file/source/17787/%E5%A5%B3%E5%9B%A2%E8%88%9E.txt?sign=4WxbXzPxaa1Mn1g23N7gczXZUzQFpKuVsEYH1MtREh4%3D%3A0","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"},
    {"key": "足球","name": " 🅱️球星资源","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "http://dlj.bz/413vKc","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"},
    {"key": "美食","name": "🅱️美食乐欢天","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,
-   "ext":"http://dlj.bz/NcBi4M"
+   "ext":"http://dlj.bz/NcBi4M","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"
   },
    {"key": "棋牌","name": "🅱️棋牌老头乐","type": 3,"api": "csp_Bili",
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "http://dlj.bz/A4VIpv"},
-{"key": "球类","name": "🅱️体育扛把子球类","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "http://dlj.bz/xgEGxg"},
-  	{"key": "UP主","name": "🅱️UP测评","type": 3,"api": "csp_Bili","searchable":0,"quickSearch": 0,"filterable": 1,"ext": "http://dlj.bz/qpG0as"},
-{"key": "EXCEL","name": "🅱️表格学习","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "http://dlj.bz/KL4bH4"}, {"key": "jiaocheng","name": "🅱️站教程①","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "https://agit.ai/138001380000/MHQTV/raw/commit/b66ac4d6a5c0043e2297e301325adb07d73b8e3d/XB/%e6%95%99%e7%a8%8b.txt","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"},
+   "ext": "http://dlj.bz/A4VIpv","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"},
+{"key": "球类","name": "🅱️体育扛把子球类","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "http://dlj.bz/xgEGxg","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"},
+  	{"key": "UP主","name": "🅱️UP测评","type": 3,"api": "csp_Bili","searchable":0,"quickSearch": 0,"filterable": 1,"ext": "http://dlj.bz/qpG0as","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"},
+{"key": "EXCEL","name": "🅱️表格学习","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "http://dlj.bz/KL4bH4","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"}, {"key": "jiaocheng","name": "🅱️站教程①","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "https://agit.ai/138001380000/MHQTV/raw/commit/b66ac4d6a5c0043e2297e301325adb07d73b8e3d/XB/%e6%95%99%e7%a8%8b.txt","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"},
 	   	{"key": "软件","name": "🅱️软件教程②","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBb3d0QlVrR3NRUExpVGVRX0J1M3J6RUtRYlJY.json","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/bili.jar"},
         {"key": "py_cctvfz",
 		"name": "📺央视法治",
