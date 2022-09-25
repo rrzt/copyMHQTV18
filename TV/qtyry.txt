@@ -1,4 +1,16 @@
 台湾,#genre#
+TVBS新聞,https://www.youtube.com/watch?v=2mCSYvcfhtc
+民視新聞,https://www.youtube.com/watch?v=ylYJSBUgaMA
+三立海外,https://www.youtube.com/watch?v=FoBfXvlOR6I
+三立財經,https://www.youtube.com/watch?v=EB4g7wecgTI
+中天新聞,https://www.youtube.com/watch?v=_QbRXRnHMVY
+東森新聞,https://www.youtube.com/watch?v=R2iMq5LKXco
+東森財經,https://www.youtube.com/watch?v=ABn_ccXn_jc
+華視新聞,https://www.youtube.com/watch?v=wM0g8EoUZ_E
+中視新聞,https://www.youtube.com/watch?v=TCnaIE_SAtM
+台視新聞,https://www.youtube.com/watch?v=xL0ch83RAK8
+寰宇新聞,https://www.youtube.com/watch?v=B7Zp3d6xXWw
+鏡新聞,https://www.youtube.com/watch?v=5n0y6b0Q25o
 CNN,P2p://ns1.hellotvvod.com:9906/a7171d39ac4f440b9dfb0168f32fd955
 民视,P2p://ns1.hellotvvod.com:9906/afb3ce5ff4b343acbd4dcc18e779f000
 人间卫视,P2p://ns1.hellotvvod.com:9906/483f21e0289341acb5d31fcc07784c30
