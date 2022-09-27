@@ -436,6 +436,8 @@ class Spider(Spider):  # 元类 默认的元类 type
 				self.timeoutTick = self.localTime + self.expiresIn
 				return True
 			return False
+		else:
+			return True
 
 			# print(self.authorization)
 			# print(self.timeoutTick)
