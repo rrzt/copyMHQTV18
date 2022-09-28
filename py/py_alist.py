@@ -41,7 +41,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 
 "触光":"https://pan.ichuguang.com",
 "大人":"https://drive.9t.ee",
-
+"大人番":"https://www.kugutsu.ml/"
 }
 
             
