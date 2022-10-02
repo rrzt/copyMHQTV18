@@ -43,7 +43,6 @@ class Spider(Spider):
 		if len(url) == 0:
 			return ""
 		newArray = [url]
-		print(newArray)
 		return self.ali.detailContent(newArray)
 
 	def searchContent(self,key,quick):
@@ -56,15 +55,16 @@ class Spider(Spider):
 			url = "https://zhaoziyuan.la/so?filename={0}&t={1}".format(key,tKey)
 			rsp = self.fetch(url,headers=self.header)
 			root = self.html(self.cleanText(rsp.text))
-			aList = root.xpath("//li[@class='clear']//a")
+			aList = root.xpath("//li[@class='clear']/div/div[@class='news_text']/a")
 			for a in aList:
-				# title = a.xpath('./h3/text()')[0] + a.xpath('./p/text()')[0]
-				title = self.xpText(a,'./h3/text()') + self.xpText(a,'./p/text()')
-				pic = 'https://img0.baidu.com/it/u=603086994,1727626977&fm=253&fmt=auto?w=500&h=667'
+				title = self.xpText(a,'./h3/text()')
+				pic = 'https://inews.gtimg.com/newsapp_bt/0/13263837859/1000'
+				remark = self.xpText(a,'./p/text()').split('|')[1].strip()
 				jo = {
 					'vod_id': self.xpText(a,'@href'),
-					'vod_name': '[{0}]{1}'.format(key,title),
-					'vod_pic': pic
+					'vod_name': title,
+					'vod_pic': pic,
+					"vod_remarks": remark
 				}
 				ja.append(jo)
 		result = {
