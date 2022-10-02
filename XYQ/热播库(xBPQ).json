@@ -14,9 +14,10 @@
   "导演": "导演：&&</div>",
   "主演": "主演：&&</div>",
   "简介": "<p class=\"sqjj_a\" style=\"display: none;\">&&<span",
-  
-  "线路数组": "<li  class=&&/li>",
+   "线路二次截取": "class=\"py-tabs&&/select>",
+  "线路数组": "<option&&/option>",
   "线路标题": ">&&<",
+  
   
   "播放数组": "<ul class=\"player&&</ul>",
   
