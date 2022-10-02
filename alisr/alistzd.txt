@@ -1,5 +1,5 @@
 {
-"神器云": "https://quanzi.laoxianghuijia.cn",
+"灭火器": "https://alist1.owen10086.repl.co",
 "资源小站": "https://960303.xyz/",
 "菊花盘": "https://pan.142856.xyz",
 "轻弹浅唱": "https://g.xiang.lol",
