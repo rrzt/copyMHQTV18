@@ -33,21 +33,85 @@
 //  0830tv  aHR0cHM6Ly9hZ2l0LmFpLzEzODAwMTM4MDAwMC9NSFFUVi9yYXcvYnJhbmNoL21hc3Rlci9UVi8wODMwLnR4dA==
 //成人源 tv aHR0cHM6Ly9hZ2l0LmFpLzEzODAwMTM4MDAwMC9NSFFUVi9yYXcvYnJhbmNoL21hc3Rlci9UVi8lZTYlODglOTAlZTQlYmElYmElZTYlYmElOTAudHh0
 // 0903综合TV aHR0cHM6Ly9hZ2l0LmFpLzEzODAwMTM4MDAwMC9NSFFUVi9yYXcvYnJhbmNoL21hc3Rlci9UVi8wOTAzemgudHh0
-         
+     //那样只是可以, 还差点东西..电脑正常, 但是手机访问就只显示左侧一边的背景..需要加几句..
+
+  // @manage/login
          
  {
 
-"spider":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/0924.jar",
+"spider":"https://agit.ai/138001380000/MHQTV/raw/commit/b9cfc2569f556b20c0d2ae8ecc0fa33ddf4aa353/jar/xBPQ0927%e9%80%82%e9%85%8d%e6%97%a0%e5%9b%be%e6%90%9c%e7%b4%a2.jar",
 
 
 "wallpaper":"https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 
-"lives": [{"group": "redirect","channels": [{"name": "live","urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9hZ2l0LmFpLzEzODAwMTM4MDAwMC9NSFFUVi9yYXcvYnJhbmNoL21hc3Rlci9UVi8wOTIzLnR4dA=="]}]}],
+"lives": [{"group": "redirect","channels": [{"name": "live","urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9hZ2l0LmFpLzEzODAwMTM4MDAwMC9NSFFUVi9yYXcvYnJhbmNoL21hc3Rlci9UVi8wOTAzemgudHh0"]}]}],
 
 
 "sites":[
 
+      {
+      "key": "csp_xBPQ_zhi",
+      "name": "️🎾抓饭体育xBPQ",
+      "type": 3,
+      "api": "csp_xBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "{\"分类url\":\"https://www.zhuafan.tech/sports-home/category/{cateId}\",\"分类\":\"全部$/all#足球$Football#篮球$Basketball#羽乒$Badminton#台球$Billiards#棒球$Baseball#户外$Outdoors#搏击$Wrestling#综合$Others#棋盘$Boardgame#电竞$Popular#网球$Tennis#排球$Volleyball#聊天$Chat#原声$Acoustic\",\"热门推荐\":\"1\",\"起始页\":\"1\",\"直接播放\":\"1\",\"数组\":\"{&&}\",\"图片\":\"imageUrl\\\":\\\"&&\\\"\",\"标题\":\"cname\\\":\\\"&&\\\"\",\"链接\":\"id\\\":\\\"&&\\\"\",\"链接前缀\":\"https://www.zhuafan.tech/\"}"
+    },
 
+
+        {"key": "csp_xBPQ_爱看影视","name": "xBPQ | 爱看影视","type": 3,"api": "csp_xBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "{\"免嗅\":\"0\",\"播放标题\":\"span>&&<\",\"播放数组\":\"class=\\\"myui-content&&</ul>\",\"分类url\":\"https://ikan6.vip/vodshow/{cateId}--------{catePg}---/\"}"},
+{
+            "key": "csp_xbpq_子子影视",
+            "name": "子子影视(XBPQ)",
+            "type": 3,
+            "api": "csp_xBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/commit/c485b56226b807a1923e3b0e78b291c98281a29c/XYQ/%e5%ad%90%e5%ad%90%e5%bd%b1%e8%a7%86.json"
+            
+        },
+        {
+	"key": "csp_蓝光",
+	"name": "蓝光🍑(xBPQ)",
+	"type": 3,
+	"api": "csp_xBPQ",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 0,
+	"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/XYQ/蓝光影院(xBPQ).json"},
+        {
+	"key": "csp_黑洞网",
+	"name": "黑洞网🍑(xBPQ)",
+	"type": 3,
+	"api": "csp_xBPQ",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 0,
+	"ext": "clan://TVBox/xbb/黑洞网(xBPQ).json"},{
+	"key": "csp_热播库",
+	"name": "热播酷🍑(xBPQ)",
+	"type": 3,
+	"api": "csp_xBPQ",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 0,
+	"ext": "clan://TVBox/xbb/热播库(xBPQ).json"},{
+	"key": "csp_REPEN",
+	"name": "REPEN🍑(xBPQ)",
+	"type": 3,
+	"api": "csp_xBPQ",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 0,
+	"ext": "clan://TVBox/xbb/RENPE(xBPQ).json"},
+	
+	
+	
+
+{"key":"csp_xb_lgyy","name":"蓝光影院(R)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://lgyy.tv/vodshow/{cateId}--------{catePg}---.html","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/XBiu.jar"},
 
 {
             "key": "Kuaikan",
@@ -498,19 +562,11 @@
       "filterable": 1,
       "ext":"https://gitea.com/lh2513/live/raw/branch/root/json/%E5%AE%8C%E7%BE%8E%E7%9C%8B%E7%9C%8B.json"
     },
-   {"key":"csp_GitCafe","name":"📜纸条(SP)","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext": "7f6f2851be4c411d8297823a7f85cc61"
-   ,"jar":"https://ghproxy.com/https://raw.githubusercontent.com/ygyzy/TvJar/master/jar/custom_spider.jar;md5;d3d445955c3522e85e71bf1e29415ef3"},
+   {"key":"csp_GitCafe","name":"📜纸条(SP)","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext": "ab7de46e476d4a78b5ab562b6e87ed0c"
+   },
      //  d6b96cc3799b6417d30e4715d2973f64
      // f7be19e8382c4524acbcf8ab0d94a6b3
-     {
-            "key":"感谢桉佬",
-            "name":"榜单荐片（桉佬T4）",
-            "type":4,
-            "api":"https://t4.secan.icu/vod?sites=voflix,bdys01,onelist&timeout=6",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":0
-        },
+     
 		
 		{
 			"key": "Ikan",
@@ -557,13 +613,14 @@
             "key":"t4public",
             "name":"T4公共2",
             "type":4,
-            "api":"https://t4.secan.icu/vod?sites=all&ali_token=7f6f2851be4c411d8297823a7f85cc61&timeout=10",
+            "api":"https://t4.secan.icu/vod?sites=all&ali_token=ab7de46e476d4a78b5ab562b6e87ed0c&timeout=8",
             "searchable":1,
             "quickSearch":1,
-            "filterable":0
+            "filterable":0,
+            "ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/T4/vod.json"
 },
     //{"key":"t4e","name":"🍁T4(搜索)","type":4,"api":"http://catvod.fun:8002/vod?sites=all&ali_token=59744816075f4729bc00cd23b98e3447&timeout=8","searchable":1,"quickSearch":1,"filterable":0},
-    {"key": "T4a","name": "🍁T4聚合","type": 4,"api": "https://t4.secan.icu/vod?sites=all&ali_token=569a2e9c46034e369260f2d053e3cda0&timeout=5","searchable": 1,"quickSearch": 1,"filterable": 1},
+   // {"key": "T4a","name": "🍁T4聚合","type": 4,"api": "https://t4.secan.icu/vod?sites=all&ali_token=569a2e9c46034e369260f2d053e3cda0&timeout=5","searchable": 1,"quickSearch": 1,"filterable": 1},
    	{"key": "csp_Alist2","name":"️Alist合集(SP)", "type": 3,"api": "csp_Alist","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/alisr/alistzd.txt","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/alist1.jar"},
 	
 
@@ -593,7 +650,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "7bb5b24ca3274ad781a6071082e9eebd",
+      "ext": "ab7de46e476d4a78b5ab562b6e87ed0c",
    "jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/0917.jar"   
     },
     {
@@ -647,7 +704,17 @@
 {"name":"Json轮询","type":2,"url":"Sequence"},
 {"name":"萝卜","type": 0,"url": "https://ys.lbbb.cc/?url="},
 {"name":"365","type":0,"url": "https://chaxun.truechat365.com/?url=","ext":{"flag":["qq","腾讯","qiyi","iqiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
+  {"name":"无名1","type": 1,"url":"http://api.ckflv.cn/?url="},{"name":"佳宸","type":0,"url":"http://1link.atwebpages.com/?url="},
 
+            {"name":"BT51","type": 1,"url":"https://rx.bt5v.com/json/jsonindex.php/?url="},
+            {"name":"插萝莉","type": 1,"url":"http://chaloli.cn/home/api?type=ys&uid=1&key=dklsuzIKNPRVW14568&url="},
+            {"name":"8090","type": 1,"url":"https://www.8090.la/8090/?url="},
+            {"name":"无名2","type": 1,"url":"https://h5.freejson.xyz/player/?url="},
+            {"name":"云龙3","type": 1,"url":"https://freejx.rx88.top:1234/?url="},
+            {"name":"左岸","type": 1,"url":"https://jx.bozrc.com:4433/player/?url="},
+            {"name":"ok","type": 1,"url":"https://okjx.cc/?url="},
+            {"name":"思古3","type": 1,"url":"https://jsap.attakids.com/?url="},
+            {"name":"夜幕","type": 1,"url":"https://www.yemu.xyz/?url="},
       {
 		"name": "keyu",
 		"type": 1,
