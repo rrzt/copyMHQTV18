@@ -1,4 +1,4 @@
-#coding=utf-8
+﻿#coding=utf-8
 #!/usr/bin/python
 import sys
 sys.path.append('..') 
@@ -28,7 +28,7 @@ class Spider(Spider):
 		return result
 	header = {
 		"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36",
-		"Referer": "https://zhaoziyuan.me/"
+		"Referer": "https://zhaoziyuan.la/"
 	}
 	def detailContent(self,array):
 		tid = array[0]
@@ -38,7 +38,7 @@ class Spider(Spider):
 		if len(url) > 0:
 			return self.ali.detailContent(array)
 
-		rsp = self.fetch('https://zhaoziyuan.me/'+tid)
+		rsp = self.fetch('https://zhaoziyuan.la/'+tid)
 		url = self.regStr(rsp.text,pattern)
 		if len(url) == 0:
 			return ""
@@ -53,7 +53,7 @@ class Spider(Spider):
 		}
 		ja = []
 		for tKey in map.keys():
-			url = "https://zhaoziyuan.me/so?filename={0}&t={1}".format(key,tKey)
+			url = "https://zhaoziyuan.la/so?filename={0}&t={1}".format(key,tKey)
 			rsp = self.fetch(url,headers=self.header)
 			root = self.html(self.cleanText(rsp.text))
 			aList = root.xpath("//li[@class='clear']//a")
