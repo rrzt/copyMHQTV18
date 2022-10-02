@@ -426,7 +426,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 		url = 'https://api.aliyundrive.com/token/refresh'
 		if len(self.authorization) == 0 or self.timeoutTick - self.localTime <= 600:
 			form = {
-				'refresh_token':'ab7de46e476d4a78b5ab562b6e87ed0c'				
+				'refresh_token':'9f0d076e13a04674b09d369508adc015'				
 			}
 			rsp = requests.post(url,json = form,headers=self.header)
 			jo = json.loads(rsp.text)
