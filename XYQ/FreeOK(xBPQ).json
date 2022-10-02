@@ -19,6 +19,8 @@
   "线路标题": "<span>&&</small>",
   
   "播放数组": "<div class=\"module-play-list\">&&</div>",
+       
+"嗅探词": "m3u8?#ixigua#.czspp#.m3u8#mp4#.flv#.mp3#.m4a#.mp4#item/video#is_play_url=1",
   
   "筛选": {
 "1":[
