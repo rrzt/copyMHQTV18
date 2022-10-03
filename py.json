@@ -1,22 +1,27 @@
 {
-"wallpaper":"http://cms.nokia.press/pics",
+"wallpaper":"https://drpy.owen10086.repl.co/pics",
 "dr_count": 19,
 "mode": 2,
-"sites": [
+"sites": [ 
+{"key":"LIBVIO(DR)","name":"LIBVIO",
+"type":3,"api":"https://raw.githubusercontent.com/pluto-player/updates/main/android/plugins/js/drpy.min.js","ext":"clan://TVBox/drpy/js/LIBVIO.js"},
+// /clan://TVBox/drpy/js/360影视.js
+
 {
-    "key":"dr_库马伊",
-    "name":"腾云驾雾(道长)",
+    "key":"dr_Missav",
+    "name":"Missav(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=库马伊",
+    "ext":"clan://TVBox/drpy/js/Missav.js",
     "searchable": 1,
     "quickSearch": 1,
-    "filterable": 0
+    "filterable": 0,
+    "api":"https://raw.githubusercontent.com/pluto-player/updates/main/android/plugins/js/drpy.min.js"
 },
 {
-    "key":"dr_菜狗",
-    "name":"菜狗(道长)",
+    "key":"dr_养端",
+    "name":"养端(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=菜狗",
+    "api":"clan://TVBox/drpy/js/养端.js",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 0
@@ -25,7 +30,7 @@
     "key":"dr_555影视",
     "name":"555影视(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=555影视",
+    "api":"https://drpy.owen10086.repl.co/vod?rule=555影视",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 0
@@ -34,7 +39,7 @@
     "key":"dr_cokemv",
     "name":"cokemv(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=cokemv",
+    "api":"https://drpy.owen10086.repl.co/vod?rule=cokemv",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 0
@@ -43,7 +48,7 @@
     "key":"dr_LIBVIO",
     "name":"LIBVIO(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=LIBVIO",
+    "api":"https://drpy.owen10086.repl.co/vod?rule=LIBVIO",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 0
@@ -52,7 +57,7 @@
     "key":"dr_vip影院",
     "name":"vip影院(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=vip影院",
+    "api":"https://drpy.owen10086.repl.co/vod?rule=vip影院",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 0
@@ -61,16 +66,16 @@
     "key":"dr_万能影视",
     "name":"万能影视(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=万能影视",
+    "api":"https://drpy.owen10086.repl.co/vod?rule=万能影视",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 0
 },
 {
-    "key":"dr_养端",
-    "name":"养端(道长)",
+    "key":"dr_吸瓜",
+    "name":"吸瓜(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=养端",
+    "api":"https://drpy.owen10086.repl.co/vod?rule=吸瓜&ext=txt/js/18/吸瓜.js",
     "searchable": 0,
     "quickSearch": 0,
     "filterable": 0
@@ -79,7 +84,7 @@
     "key":"dr_剧白白",
     "name":"剧白白(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=剧白白",
+    "api":"https://drpy.owen10086.repl.co/vod?rule=剧白白",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 0
@@ -88,7 +93,7 @@
     "key":"dr_喵喵",
     "name":"喵喵(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=喵喵",
+    "api":"https://drpy.owen10086.repl.co/vod?rule=喵喵",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 0
@@ -97,7 +102,7 @@
     "key":"dr_在线之家",
     "name":"在线之家(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=在线之家",
+    "api":"https://drpy.owen10086.repl.co/vod?rule=在线之家",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 0
@@ -106,7 +111,7 @@
     "key":"dr_夜空",
     "name":"夜空(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=夜空",
+    "api":"https://drpy.owen10086.repl.co/vod?rule=夜空",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 0
@@ -115,7 +120,7 @@
     "key":"dr_干饭影视",
     "name":"干饭影视(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=干饭影视",
+    "api":"https://drpy.owen10086.repl.co/vod?rule=干饭影视",
     "searchable": 0,
     "quickSearch": 0,
     "filterable": 0
@@ -124,7 +129,7 @@
     "key":"dr_影视工厂",
     "name":"影视工厂(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=影视工厂",
+    "api":"https://drpy.owen10086.repl.co/vod?rule=影视工厂",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 0
@@ -133,7 +138,7 @@
     "key":"dr_玩偶姐姐",
     "name":"玩偶姐姐(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=玩偶姐姐",
+    "api":"https://drpy.owen10086.repl.co/vod?rule=玩偶姐姐",
     "searchable": 0,
     "quickSearch": 0,
     "filterable": 0
@@ -142,7 +147,7 @@
     "key":"dr_瓜皮TV",
     "name":"瓜皮TV(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=瓜皮TV",
+    "api":"https://drpy.owen10086.repl.co/vod?rule=瓜皮TV",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 0
@@ -151,7 +156,7 @@
     "key":"dr_看视界",
     "name":"看视界(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=看视界",
+    "api":"https://drpy.owen10086.repl.co/vod?rule=看视界",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 0
@@ -160,7 +165,7 @@
     "key":"dr_莫扎兔",
     "name":"莫扎兔(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=莫扎兔",
+    "api":"https://drpy.owen10086.repl.co/vod?rule=莫扎兔",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 0
@@ -169,7 +174,7 @@
     "key":"dr_蓝光影院",
     "name":"蓝光影院(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=蓝光影院",
+    "api":"https://drpy.owen10086.repl.co/vod?rule=蓝光影院",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 0
@@ -178,7 +183,7 @@
     "key":"dr_蓝莓影视",
     "name":"蓝莓影视(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=蓝莓影视",
+    "api":"https://drpy.owen10086.repl.co/vod?rule=蓝莓影视",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 0
@@ -187,7 +192,7 @@
     "key":"dr_鸭奈飞",
     "name":"鸭奈飞(道长)",
     "type":1,
-    "api":"http://cms.nokia.press/vod?rule=鸭奈飞",
+    "api":"https://drpy.owen10086.repl.co/vod?rule=鸭奈飞",
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 0
