@@ -8,7 +8,7 @@ import math
 
 class Spider(Spider):
 	def getName(self):
-		return "企鹅体育"
+		return "体育直播"
 	def init(self,extend=""):
 		pass
 	def isVideoFormat(self,url):
@@ -80,7 +80,6 @@ class Spider(Spider):
 		pic = divContent.xpath(".//img[@class='gameLogo1 homeTeam_img']/@src")[0]
 		typeName = divContent.xpath(".//div/p[@class='name1 matchTime_wap']/text()")[0]
 		remark = divContent.xpath(".//div/p[@class='time1 matchTitle']/text()")[0].replace(' ','')
-		url = divContent.xpath("//div[@class='liveCotainer']/iframe[@id='pp']/@src")[0]
 		vod = {
 			"vod_id": aid,
 			"vod_name": title,
@@ -93,7 +92,12 @@ class Spider(Spider):
 			"vod_director":'',
 			"vod_content": ''
 		}
-		playUrl = '{0}${1}#'.format(title, url)
+		urlList = root.xpath("//div[@class='liveshow']/a")
+		playUrl = ''
+		for url in urlList:
+			name = url.xpath("./text()")[0]
+			purl = url.xpath("./@data-url")[0]
+			playUrl =playUrl + '{0}${1}#'.format(name, purl)
 		vod['vod_play_from'] = '体育直播'
 		vod['vod_play_url'] = playUrl
 
@@ -111,31 +115,35 @@ class Spider(Spider):
 	def playerContent(self,flag,id,vipFlags):
 		result = {}
 		url = id
-		rsp = self.fetch(url)
-		html = rsp.text
-		strList = re.findall(r"eval\((.*?)\);", html)
-		fuctList = strList[1].split('+')
-		scrpit = ''
-		for fuc in fuctList:
-			if fuc.endswith(')'):
-				append = fuc.split(')')[-1]
-			else:
-				append = ''
-			Unicode = int(self.regStr(reg=r'l\((.*?)\)', src=fuc))
-			char = chr(Unicode%256)
-			char = char + append
-			scrpit = scrpit + char
-		par= self.regStr(reg=r'/(.*)/', src=scrpit).replace(')','')
-		pars= par.split('/')
-		infoList = strList[2].split('+')
-		str = ''
-		for info in infoList:
-			if info.startswith('O'):
-				Unicode = int(int(self.regStr(reg=r'O\((.*?)\)', src=info))/int(pars[0])/int(pars[1]))
+		if '04stream' in url:
+			rsp = self.fetch(url)
+			html = rsp.text
+			strList = re.findall(r"eval\((.*?)\);", html)
+			fuctList = strList[1].split('+')
+			scrpit = ''
+			for fuc in fuctList:
+				if fuc.endswith(')'):
+					append = fuc.split(')')[-1]
+				else:
+					append = ''
+				Unicode = int(self.regStr(reg=r'l\((.*?)\)', src=fuc))
 				char = chr(Unicode % 256)
-				str = str +char
-		url = self.regStr(reg=r"play_url=\'(.*?)\'", src=str)
-		result["parse"] = 0
+				char = char + append
+				scrpit = scrpit + char
+			par = self.regStr(reg=r'/(.*)/', src=scrpit).replace(')', '')
+			pars = par.split('/')
+			infoList = strList[2].split('+')
+			str = ''
+			for info in infoList:
+				if info.startswith('O'):
+					Unicode = int(int(self.regStr(reg=r'O\((.*?)\)', src=info)) / int(pars[0]) / int(pars[1]))
+					char = chr(Unicode % 256)
+					str = str + char
+			url = self.regStr(reg=r"play_url=\'(.*?)\'", src=str)
+			result["parse"] = 0
+		else:
+			url = id
+			result["parse"] = 1
 		result["playUrl"] = ''
 		result["url"] = url
 		result["header"] = ''
