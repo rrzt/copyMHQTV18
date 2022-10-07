@@ -46,9 +46,14 @@ class Spider(Spider):
 		for a in aList:
 			urlList = a.xpath("./td[@class='update_data live_link']/a")
 			stat = a.xpath("./td[contains(@style, 'font-weight:bold')]/sapn/@title")[0]
-			if len(urlList) != 1 and stat == '直播中':
-				remark = a.xpath("./td/p[@class='raceclass matchcolor']/a/text()")[0]
-				name = a.xpath("./td/a/span[@class='team']/text()")[0] + 'VS' + a.xpath("./td/a/span[@class='team']/text()")[1]
+			time = a.xpath("./td[contains(@style, 'font-weight:bold')]/sapn/text()")[0]
+			if '比分' not in urlList[0].xpath("./text()")[0] and stat == '直播中':
+				remark = a.xpath(".//p[@class='raceclass matchcolor']/@title")[0].replace('直播','') + '|' + time
+				name = a.xpath("string(./td[4])").replace(' ','').replace('\tVS','VS')
+				if 'VS' not in name:
+					names = name.split('\t')
+					remark = names[0] + '|' + time
+					name = names[-1].replace('vs','VS')
 				aid = ''
 				for url in urlList:
 					title = url.xpath("./text()")[0]
@@ -57,7 +62,7 @@ class Spider(Spider):
 					if '比分' not in title:
 						aid = aid + title + '@@@' + aurl + '#'
 				videos.append({
-					"vod_id": name + '###' + remark + '###' + aid,
+					"vod_id": name + '###' + remark.split('|')[0] + '###' + aid,
 					"vod_name": name,
 					"vod_pic": img,
 					"vod_remarks": remark
@@ -133,6 +138,7 @@ class Spider(Spider):
 			purl = self.regStr(reg=r'(.*)/', src=url) + '/' + aurl
 			prsp = self.fetch(purl, headers=pheaders)
 			url = self.regStr(reg=r"url: \'(.*?)\'", src=prsp.text)
+		result["parse"] = 0
 		result["playUrl"] = ''
 		result["url"] = url
 		result["header"] = ''
