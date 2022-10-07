@@ -48,7 +48,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 		for item in joList:
 			rating = item['rating']['value'] if item['rating'] else ""
 			lists.append({
-				"vod_id": item['id'],
+				"vod_id": f'msearch:{item.get("type", "")}__{item.get("id", "")}',
 				"vod_name": item['title'],
 				"vod_pic": item['pic']['normal'],
 				"vod_remarks": rating
@@ -82,7 +82,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 			urlpath = f"/{tid}/recommend"
 			getdata = "items"
 
-		url = host_url + urlpath + apikey + '&sort=' + sort + '&tags=' + tags + '&start=' + pg
+		url = host_url + urlpath + apikey + '&sort=' + sort + '&tags=' + tags + '&start=' + str((int(pg) - 1) * 30)
 		rsp = self.fetch(url,headers=self.header)
 		jo = json.loads(rsp.text)
 		jolist = jo[getdata]
@@ -92,18 +92,17 @@ class Spider(Spider):  # 元类 默认的元类 type
 			rating = vod.get("rating", "").get("value", "") if vod.get("rating", "") else ""
 			pic = vod.get("pic", "").get("normal", "") if vod.get("pic", "") else ""
 			videos.append({
-				"vod_id": vod['id'],
+				"vod_id": f'msearch:{vod.get("type", "")}__{vod.get("id", "")}',
 				"vod_name": vod['title'],
 				"vod_pic": pic,
 				"vod_remarks": rating
 			})
-		numvL = len(videos)
-        pgc = math.ceil(numvL/15)
+
 		result['list'] = videos
 		result['page'] = pg
-		result['pagecount'] = pgc
-		result['limit'] = numvL
-		result['total'] = numvL
+		result['pagecount'] = 9999
+		result['limit'] = 90
+		result['total'] = 999999
 		return result
 
 	def detailContent(self,array):
