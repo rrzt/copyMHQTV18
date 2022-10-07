@@ -22,19 +22,7 @@
 	
 	
 	
-	{    "key":"kunyu77_2-js",
-	      "name":"酷云",
-	      "type":3,
-	      "api":"clan:TVBox/js/kunyu77_2.js"
-	},{    "key":"kunyu77-js",
-	      "name":"酷云1",
-	      "type":3,
-	      "api":"clan:TVBox/js/kunyu77.js"
-	},{    "key":"douban-js",
-	      "name":"豆瓣js",
-	      "type":3,
-	      "api":"clan:TVBox/js/douban.js"
-	},
+
 	
 	{
 		"key": "py_douban",
@@ -55,7 +43,20 @@
 		"quickSearch": 0,
 		"filterable": 1,
 		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_qie.py"
-	}, {
+	}, 
+	{
+		"key": "py_freezb",
+		"name": "体育直播p",
+		"type": 3,
+		"api": "py_freezb",
+		"searchable": 0,
+		"quickSearch": 0,
+		"filterable": 1,
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_freezb.py"
+	},
+	
+	
+	{
 		"key": "py_jrskbs",
 		"name": "JRS直播",
 		"type": 3,
@@ -123,7 +124,17 @@
 		"quickSearch": 0,
 		"filterable": 1,
 		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_cctv.py"
-	}, {
+	}, 
+	{
+		"key": "py_lezhutv",
+		"name": "乐猪",
+		"type": 3,
+		"api": "py_lezhutv",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_lezhutv.py"
+	},{
 		"key": "py_czspp",
 		"name": "厂长",
 		"type": 3,
@@ -241,7 +252,7 @@
 		"searchable": 1,
 		"quickSearch": 1,
 		"filterable": 1,
-		"ext": "clan://TVBox/py/py_alist.py"
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_alist.py"
 	},
 	 {
 		"key": "py_gitcafe",
@@ -252,6 +263,15 @@
 		"quickSearch": 1,
 		"filterable": 0,
 		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_gitcafe.py"
+	}, {
+		"key": "py_小纸条",
+		"name": "小小纸条",
+		"type": 3,
+		"api": "py_小纸条",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 0,
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_小纸条.py"
 	}, 
 	{
 		"key": "py_yunso",
@@ -292,9 +312,9 @@
             "filterable":0,
             "jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/0919.jar"
 },
-    {"key":"DJ-XP-JRS低调看","name":"JRS低调看（XP）","type":3,"api":"csp_XPath","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/ddk.json",  "jar":"http://dlj.bz/TtBGOP"},
+    {"key":"DJ-XP-JRS低调看","name":"JRS低调看（XP）","type":3,"api":"csp_XPath","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/ddk.json",  "jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/1004.jar"},
       
-    {"key": "csp_xpath_qiumi","name": "🏀球迷","type": 3,"api": "csp_XPathFilter","searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/XB/qiumi.json",  "jar":"http://dlj.bz/TtBGOP"},
+    {"key": "csp_xpath_qiumi","name": "🏀球迷","type": 3,"api": "csp_XPathFilter","searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/XB/qiumi.json",  "jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/1004.jar"},
     	{"key": "csp_XYQBiu_一起看","name": "一起看(XYQB)","type": 3,"api": "csp_XYQBiu","searchable": 0,"quickSearch": 0,"filterable": 0,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/17kan.json","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/XC0906.jar"},{"key":"csp_xyqb_网易CC直播","name":"网易CC直播(XYQB)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/wycc.json","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/XYQBiu_0907.jar"},
 {"key":"csp_xyqb_斗鱼直播","name":"斗鱼直播(XYQB)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/douyu.json","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/XYQBiu_0907.jar"},
 {"key":"csp_xyqb_310直播","name":"310直播(XYQB)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/310zb.json","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/XYQBiu_0907.jar"},
