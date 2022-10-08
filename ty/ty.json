@@ -1,5 +1,5 @@
 {
-    "spider": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/1004.jar",
+    "spider": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/0928.jar",
     "lives": [
         {
             "group": "redirect",
@@ -50,14 +50,14 @@
             "ext": "{\"分类url\":\"https://www.zhuafan.tech/sports-home/category/{cateId}\",\"分类\":\"全部$/all#足球$Football#篮球$Basketball#羽乒$Badminton#台球$Billiards#棒球$Baseball#户外$Outdoors#搏击$Wrestling#综合$Others#棋盘$Boardgame#电竞$Popular#网球$Tennis#排球$Volleyball#聊天$Chat#原声$Acoustic\",\"热门推荐\":\"1\",\"起始页\":\"1\",\"直接播放\":\"1\",\"数组\":\"{&&}\",\"图片\":\"imageUrl\\\":\\\"&&\\\"\",\"标题\":\"cname\\\":\\\"&&\\\"\",\"链接\":\"id\\\":\\\"&&\\\"\",\"链接前缀\":\"https://www.zhuafan.tech/\"}"
         },
 	{
-		"key": "py_ddys",
+		"key": "py_yytv",
 		"name": "JRS直播2",
 		"type": 3,
-		"api": "py_ddys",
+		"api": "py_yytv",
 		"searchable": 0,
 		"quickSearch": 0,
 		"filterable": 1,
-		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_ddys.py"
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_yytv.py"
 	}, 
     
     {
@@ -136,23 +136,30 @@
             "filterable": 0,
             "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/310zb.json",
             "jar": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/XYQBiu_0907.jar"
-        },
+        },{"key": "csp_XBiu看视界",
+  "name": "看视界",
+  "type": 3,
+  "api": "csp_XBiu",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 0,
+  "ext": "http://1080kan.tv/show/{cateId}--------{catePg}---.html"},
 
-{"key":"csp_XBiu_动漫巴士","name":"🍀动漫巴士(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://dm84.tv/show-{cateId}------{catePg}.html","jar":"clan://TVBox/jar/XBiu.jar"},
-{"key":"csp_XBiu_星空影院","name":"🍀星空影院(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://m.7caa.com/list/{cateId}-{catePg}.html","jar":"clan://TVBox/jar/XBiu.jar"},
-{"key":"csp_XBiu_极品影视","name":"🍀极品影视(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.jpys.me/vodshow/{cateId}--------{catePg}---.html","jar":"clan://TVBox/jar/XBiu.jar"},
-{"key":"csp_XBiu_片吧影视","name":"🍀片吧影视(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.pbpb.tv/class/{cateId}--------{catePg}---.html","jar":"clan://TVBox/jar/XBiu.jar"},
-{"key":"csp_XBiu_达达龟影视","name":"🍀达达龟影视(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.dadagui.me/vodshow/{cateId}--------{catePg}---.html","jar":"clan://TVBox/jar/XBiu.jar"},
-{"key":"csp_XBiu_135看看","name":"🍀135看看(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.135kan.com/type/{cateId}-{catePg}/","jar":"clan://TVBox/jar/XBiu.jar"},
-{"key":"csp_XBiu_鸭奈飞影视","name":"🍀鸭奈飞影视(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://netflix.mom/vodshow/{cateId}--------{catePg}---.html","jar":"clan://TVBox/jar/XBiu.jar"},
-{"key":"csp_XBiu_电影迷8","name":"🍀电影迷8(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.dym8.com/vod/type/{cateId}-{catePg}.html","jar":"clan://TVBox/jar/XBiu.jar"},
-{"key":"csp_XBiu_爱看影视","name":"🍀爱看影视(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ikan6.vip/vodshow/{cateId}--------{catePg}---/","jar":"clan://TVBox/jar/XBiu.jar"},
-{"key":"csp_XBiu_段友影视","name":"🍀段友影视(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://shangjihuoke.com/index.php/vod/show/id/{cateId}/page/{catePg}.html","jar":"clan://TVBox/jar/XBiu.jar"},
-{"key":"csp_XBiu_543影视","name":"🍀543影视(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://543mv.com/vodshow/{cateId}--------{catePg}---/","jar":"clan://TVBox/jar/XBiu.jar"},
-{"key":"csp_XBiu_冷曦视频","name":"🍀冷曦视频(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.lenxitv.cc/t/{cateId}-{catePg}.html","jar":"clan://TVBox/jar/XBiu.jar"},
-{"key":"csp_XBiu_影视工场","name":"🍀影视工场(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.ysgc.cc/vodshow/{cateId}--------{catePg}---.html","jar":"clan://TVBox/jar/XBiu.jar"},
-{"key":"csp_XBiu_钉子电影","name":"🍀钉子电影(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.dingzidy.wang/type/{cateId}-{catePg}.html","jar":"clan://TVBox/jar/XBiu.jar"},
-{"key":"csp_XBiu_黑洞影视","name":"🍀黑洞影视(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.nulltm.com/vodshow/{cateId}--------{catePg}---.html","jar":"clan://TVBox/jar/XBiu.jar"},{
+{"key":"csp_XBiu_动漫巴士","name":"🍀动漫巴士(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://dm84.tv/show-{cateId}------{catePg}.html","jar":"https://agit.ai/138001380000/MHQTV/raw/commit/fe6bad2aa686b9f7622ffad355d8b79406068769/jar/spider.jar"},
+{"key":"csp_XBiu_星空影院","name":"🍀星空影院(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://m.7caa.com/list/{cateId}-{catePg}.html","jar":"https://agit.ai/138001380000/MHQTV/raw/commit/fe6bad2aa686b9f7622ffad355d8b79406068769/jar/spider.jar"},
+{"key":"csp_XBiu_极品影视","name":"🍀极品影视(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.jpys.me/vodshow/{cateId}--------{catePg}---.html","jar":"https://agit.ai/138001380000/MHQTV/raw/commit/fe6bad2aa686b9f7622ffad355d8b79406068769/jar/spider.jar"},
+{"key":"csp_XBiu_片吧影视","name":"🍀片吧影视(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.pbpb.tv/class/{cateId}--------{catePg}---.html","jar":"https://agit.ai/138001380000/MHQTV/raw/commit/fe6bad2aa686b9f7622ffad355d8b79406068769/jar/spider.jar"},
+{"key":"csp_XBiu_达达龟影视","name":"🍀达达龟影视(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.dadagui.me/vodshow/{cateId}--------{catePg}---.html","jar":"https://agit.ai/138001380000/MHQTV/raw/commit/fe6bad2aa686b9f7622ffad355d8b79406068769/jar/spider.jar"},
+{"key":"csp_XBiu_135看看","name":"🍀135看看(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.135kan.com/type/{cateId}-{catePg}/","jar":"https://agit.ai/138001380000/MHQTV/raw/commit/fe6bad2aa686b9f7622ffad355d8b79406068769/jar/spider.jar"},
+{"key":"csp_XBiu_鸭奈飞影视","name":"🍀鸭奈飞影视(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://netflix.mom/vodshow/{cateId}--------{catePg}---.html","jar":"https://agit.ai/138001380000/MHQTV/raw/commit/fe6bad2aa686b9f7622ffad355d8b79406068769/jar/spider.jar"},
+{"key":"csp_XBiu_电影迷8","name":"🍀电影迷8(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.dym8.com/vod/type/{cateId}-{catePg}.html","jar":"https://agit.ai/138001380000/MHQTV/raw/commit/fe6bad2aa686b9f7622ffad355d8b79406068769/jar/spider.jar"},
+{"key":"csp_XBiu_爱看影视","name":"🍀爱看影视(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ikan6.vip/vodshow/{cateId}--------{catePg}---/","jar":"https://agit.ai/138001380000/MHQTV/raw/commit/fe6bad2aa686b9f7622ffad355d8b79406068769/jar/spider.jar"},
+{"key":"csp_XBiu_段友影视","name":"🍀段友影视(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://shangjihuoke.com/index.php/vod/show/id/{cateId}/page/{catePg}.html","jar":"https://agit.ai/138001380000/MHQTV/raw/commit/fe6bad2aa686b9f7622ffad355d8b79406068769/jar/spider.jar"},
+{"key":"csp_XBiu_543影视","name":"🍀543影视(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://543mv.com/vodshow/{cateId}--------{catePg}---/","jar":"https://agit.ai/138001380000/MHQTV/raw/commit/fe6bad2aa686b9f7622ffad355d8b79406068769/jar/spider.jar"},
+{"key":"csp_XBiu_冷曦视频","name":"🍀冷曦视频(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.lenxitv.cc/t/{cateId}-{catePg}.html","jar":"https://agit.ai/138001380000/MHQTV/raw/commit/fe6bad2aa686b9f7622ffad355d8b79406068769/jar/spider.jar"},
+{"key":"csp_XBiu_影视工场","name":"🍀影视工场(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.ysgc.cc/vodshow/{cateId}--------{catePg}---.html","jar":"https://agit.ai/138001380000/MHQTV/raw/commit/fe6bad2aa686b9f7622ffad355d8b79406068769/jar/spider.jar"},
+{"key":"csp_XBiu_钉子电影","name":"🍀钉子电影(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.dingzidy.wang/type/{cateId}-{catePg}.html","jar":"https://agit.ai/138001380000/MHQTV/raw/commit/fe6bad2aa686b9f7622ffad355d8b79406068769/jar/spider.jar"},
+{"key":"csp_XBiu_黑洞影视","name":"🍀黑洞影视(XBiu)","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.nulltm.com/vodshow/{cateId}--------{catePg}---.html","jar":"https://agit.ai/138001380000/MHQTV/raw/commit/fe6bad2aa686b9f7622ffad355d8b79406068769/jar/spider.jar"},{
             "key": "push_agent",
             "name": "推送",
             "type": 3,
