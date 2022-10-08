@@ -29,8 +29,8 @@
 		"name": "豆瓣",
 		"type": 3,
 		"api": "py_douban",
-		"searchable": 0,
-		"quickSearch": 0,
+		"searchable": 1,
+		"quickSearch": 1,
 		"filterable": 1,
 		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_douban.py"
 	}, 
@@ -111,17 +111,30 @@
 		"name": "3QU",
 		"type": 3,
 		"api": "py_3qu",
-		"searchable": 0,
-		"quickSearch": 0,
+		"searchable": 1,
+		"quickSearch": 1,
 		"filterable": 1,
 		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_3qu.py"
-	},{
+	},
+	{
+		"key": "py_if101",
+		"name": "if101(N)",
+		"type": 3,
+		"api": "py_if101",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_if101.py"
+	},
+	
+	
+	{
 		"key": "py_cctv",
 		"name": "央视",
 		"type": 3,
 		"api": "py_cctv",
-		"searchable": 0,
-		"quickSearch": 0,
+		"searchable": 1,
+		"quickSearch": 1,
 		"filterable": 1,
 		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_cctv.py"
 	}, 
@@ -148,8 +161,8 @@
 		"name": "创艺",
 		"type": 3,
 		"api": "py_cyys",
-		"searchable": 0,
-		"quickSearch": 0,
+		"searchable": 1,
+		"quickSearch": 1,
 		"filterable": 1,
 		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_cyys.py"
 	},{"key":"py_kunyu77.py","name":"酷云77(py)","type":3,"api":"py_kunyu77.py","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_kunyu77.py"},
@@ -208,7 +221,17 @@
 		"quickSearch": 1,
 		"filterable": 1,
 		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_genmov.py"
-	}, {
+	}, 
+	            {
+            "key" : "py_yixi",
+            "name" : "一席话",
+            "type" : 3,
+            "api" : "py_yixi",
+            "searchable" : 1,
+            "quickSearch" : 1,
+            "filterable" : 1,
+            "ext" : "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_yixi.py"
+        },{
 		"key": "py_huya",
 		"name": "虎牙",
 		"type": 3,
@@ -261,7 +284,7 @@
 		"api": "py_gitcafe",
 		"searchable": 1,
 		"quickSearch": 1,
-		"filterable": 0,
+		"filterable": 1,
 		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_gitcafe.py"
 	}, {
 		"key": "py_小纸条",
@@ -270,7 +293,7 @@
 		"api": "py_小纸条",
 		"searchable": 1,
 		"quickSearch": 1,
-		"filterable": 0,
+		"filterable": 1,
 		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_小纸条.py"
 	}, 
 	{
@@ -280,7 +303,7 @@
 		"api": "py_yunso",
 		"searchable": 1,
 		"quickSearch": 1,
-		"filterable": 0,
+		"filterable": 1,
 		"ext": "clan://TVBox/py/py_yunso.py"
 	},
 	{
@@ -290,7 +313,7 @@
 		"api": "py_yiso",
 		"searchable": 1,
 		"quickSearch": 1,
-		"filterable": 0,
+		"filterable": 1,
 		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_yiso.py"
 	}, {
 		"key": "py_zhaozy",
@@ -299,7 +322,7 @@
 		"api": "py_zhaozy",
 		"searchable": 1,
 		"quickSearch": 1,
-		"filterable": 0,
+		"filterable": 1,
 		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_zhaozy.py"
 	}, 
 	{
@@ -309,7 +332,7 @@
             "api":"https://t4.secan.icu/vod?sites=all&ali_token=7f6f2851be4c411d8297823a7f85cc61&timeout=10",
             "searchable":1,
             "quickSearch":1,
-            "filterable":0,
+            "filterable":1,
             "jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/0919.jar"
 },
     {"key":"DJ-XP-JRS低调看","name":"JRS低调看（XP）","type":3,"api":"csp_XPath","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/ddk.json",  "jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/1004.jar"},
