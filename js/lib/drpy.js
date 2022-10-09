@@ -1,6 +1,6 @@
-import './util.js';
-import cheerio from './cheerio.min.js';
-import './crypto-js.js'
+import 'https://kebedd69.github.io/CatVodSpiderJS/lib/util.js';
+import cheerio from 'assets://js/lib/cheerio.min.js';
+import 'assets://js/lib/crypto-js.js'
 // import muban from 'https://gitcode.net/qq_32394351/dr_py/-/raw/master/js/模板.js';
 
 // const key = 'drpy_zbk';
@@ -286,76 +286,8 @@ const parseTags = {
         },
     },
     jq: {
-        pdfh(html, parse, base_url) {
-            if (!parse || !parse.trim()) {
-                return ''
-            }
-            let option = undefined;
-            if (parse.indexOf('&&') > -1) {
-                let sp = parse.split('&&');
-                option = sp[sp.length - 1];
-                sp.splice(sp.length - 1);
-                if (sp.length > 1) {
-                    for (let i in sp) {
-                        if (!SELECT_REGEX.test(sp[i])) {
-                            sp[i] = sp[i] + ':eq(0)';
-                        }
-                    }
-                } else {
-                    if (!SELECT_REGEX.test(sp[0])) {
-                        sp[0] = sp[0] + ':eq(0)';
-                    }
-                }
-                parse = sp.join(' ');
-            }
-            let result = '';
-            const $ = cheerio.load(html);
-            let ret = $(parse);
-            if (option) {
-                if (option === 'Text') {
-                    result = $(ret).text();
-                }
-                else if (option === 'Html') {
-                    result = $(ret).html();
-                }
-                else {
-                    result = $(ret).attr(option);
-                }
-                if (result && base_url && DOM_CHECK_ATTR.test(option)) {
-                    if (/http/.test(result)) {
-                        result = result.substr(result.indexOf('http'));
-                    } else {
-                        result = urljoin(base_url, result)
-                    }
-                }
-            } else {
-                result = $(ret).toString();
-            }
-            return result;
-        },
-        pdfa(html, parse) {
-            if (!parse || !parse.trim()) {
-                return [];
-            }
-            if (parse.indexOf('&&') > -1) {
-                let sp = parse.split('&&');
-                for (let i in sp) {
-                    if (!SELECT_REGEX_A.test(sp[i]) && i < sp.length - 1) {
-                        sp[i] = sp[i] + ':eq(0)';
-                    }
-                }
-                parse = sp.join(' ');
-            }
-            const $ = cheerio.load(html);
-            let ret = $(parse);
-            let result = [];
-            if (ret) {
-                ret.each(function (idx, ele) {
-                    result.push($(ele).toString());
-                });
-            }
-            return result;
-        },
+        pdfh: pdfh,
+        pdfa: pdfa,
         pd(html, parse, uri) {
             return parseTags.jq.pdfh(html, parse, MY_URL);
         },
@@ -701,6 +633,7 @@ function homeParse(homeObj) {
             try {
                 let html = getHtml(homeObj.MY_URL);
                 if (html) {
+                    homeHtmlCache = html;
                     let list = pdfa(html, p[0]);
                     if (list && list.length > 0) {
                         list.forEach((it, idex) => {
@@ -716,8 +649,8 @@ function homeParse(homeObj) {
                                 }
 
                                 classes.push({
-                                    'type_id': url,
-                                    'type_name': name
+                                    'type_id': url.trim(),
+                                    'type_name': name.trim()
                                 });
                             } catch (e) {
                                 console.log(`分类列表定位第${idex}个元素正常报错:${e.message}`);
@@ -780,7 +713,8 @@ function homeVodParse(homeVodObj) {
         let is_json = p[0].startsWith('json:');
         p[0] = p[0].replace(/^(jsp:|json:|jq:)/, '');
         // print(p[0]);
-        let html = getHtml(MY_URL);
+        let html = homeHtmlCache || getHtml(MY_URL);
+        homeHtmlCache = undefined;
         if (is_json) {
             html = dealJson(html);
         }
@@ -820,11 +754,7 @@ function homeVodParse(homeVodObj) {
                         }
 
                     }
-
-
                 }
-
-
             } else {
                 let items = _pdfa(html, p[0]);
                 for (let item of items) {
@@ -1113,16 +1043,22 @@ function detailParse(detailObj) {
         if (!html) {
             html = getHtml(MY_URL);
         }
+        let _impJQP = true;
         let _ps;
         if (p.is_json) {
             _ps = parseTags.json;
             html = dealJson(html);
+            _impJQP = false;
         } else if (p.is_jsp) {
             _ps = parseTags.jsp;
         } else if (p.is_jq) {
             _ps = parseTags.jq;
         } else {
             _ps = parseTags.jq;
+        }
+        if (_impJQP) {
+            let c$ = cheerio.load(html);
+            html = { rr: c$, ele: c$('html')[0] }
         }
         _pdfa = _ps.pdfa;
         _pdfh = _ps.pdfh;
@@ -1166,6 +1102,10 @@ function detailParse(detailObj) {
         let playFrom = [];
         if (p.重定向 && p.重定向.startsWith('js:')) {
             html = eval(p.重定向.replace('js:', ''));
+            if (_impJQP) {
+                let c$ = cheerio.load(html);
+                html = { rr: c$, ele: c$('html')[0] }
+            }
         }
 
         // console.log(2);
@@ -1214,7 +1154,8 @@ function detailParse(detailObj) {
                 vodList.forEach(it => {
                     // 请注意,这里要固定pdfh解析body&&Text,不需要下划线,没写错
                     // new_vod_list.push(pdfh(it,'body&&Text')+'$'+_pd(it,'a&&href',MY_URL));
-                    new_vod_list.push(cheerio.load(it).text() + '$' + _pd(it, 'a&&href', MY_URL));
+                    // new_vod_list.push(cheerio.load(it).text() + '$' + _pd(it, 'a&&href', MY_URL));
+                    new_vod_list.push(_pdfh(it, 'body&&Text') + '$' + _pd(it, 'a&&href', MY_URL));
                 });
                 let vlist = new_vod_list.join('#');
                 vod_tab_list.push(vlist);
@@ -1280,7 +1221,7 @@ function init(ext) {
     try {
         // make shared jsContext happy        
         if (typeof (globalThis.mubanJs) === 'undefined') {
-            let mubanJs = request('https://gitcode.net/qq_32394351/dr_py/-/raw/master/js/模板.js', { 'User-Agent': MOBILE_UA });
+            let mubanJs = request('https://kebedd69.github.io/TVbox-interface/js/模板.js', { 'User-Agent': MOBILE_UA });
             mubanJs = mubanJs.replace('export default', '(function() {return muban;}()) // export default');
             globalThis.mubanJs = mubanJs;
         }
@@ -1352,6 +1293,8 @@ function init(ext) {
         console.log('init_test发生错误:' + e.message);
     }
 }
+
+let homeHtmlCache = undefined;
 
 /**
  * js源获取首页分类和筛选特定返回对象中的函数
