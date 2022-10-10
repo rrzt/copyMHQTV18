@@ -22,7 +22,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 		cateManual = {
 			"中国女团":"中国女团 4K"，
     "日本女团":"日本女团 4K"，
-    "韩国女团":"韩国女团 4K"
+    "韩国女团":"韩国女团 4K",
     "SNH48":"SNH48 MV 合集",
         "S.H.E":"S.H.E MV 合集",
         "Twins":"Twins MV 合集",
