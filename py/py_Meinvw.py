@@ -20,8 +20,8 @@ class Spider(Spider):  # 元类 默认的元类 type
 	def homeContent(self,filter):
 		result = {}
 		cateManual = {
-			"古风舞蹈":"古风舞蹈 4K"，
-    "印度歌舞":"印度歌舞 4K"，
+			"古风舞蹈":"古风舞蹈"，
+    "印度歌舞":"印度歌舞"，
     "明星舞蹈":"明星舞蹈",
         "韩舞":"韩舞",
         "古典舞":"古典舞",
@@ -53,8 +53,7 @@ class Spider(Spider):  # 元类 默认的元类 type
         "超短裤":"超短裤",
         "超短裙":"超短裙",
         "舞蹈综合":"舞蹈综合",
-        "舞蹈教程":"舞蹈教程"
-    
+        "舞蹈教程":"舞蹈教程"   
 		}
 		classes = []
 		for k in cateManual:
