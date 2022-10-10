@@ -20,9 +20,9 @@ class Spider(Spider):  # 元类 默认的元类 type
 	def homeContent(self,filter):
 		result = {}
 		cateManual = {
-			"中国女团":"中国女团4K"，
-"日本女团":"日本女团4K"，
-"韩国女团":"韩国女团4K"
+			"中国女团":"中国女团"，
+"日本女团":"日本女团"，
+"韩国女团":"韩国女团"
 
         }
 		classes = []
