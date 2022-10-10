@@ -20,10 +20,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 	def homeContent(self,filter):
 		result = {}
 		cateManual = {
-			
-    
- 
-    "中国女团":"中国女团 4K"，
+			"中国女团":"中国女团 4K"，
     "日本女团":"日本女团 4K"，
     "韩国女团":"韩国女团 4K"
     "SNH48":"SNH48 MV 合集",
@@ -77,9 +74,7 @@ class Spider(Spider):  # 元类 默认的元类 type
         "NiziU":"NiziU MV 合集",
         "BiSH":"BiSH MV 合集",
         "早安少女组":"早安少女组 MV 合集"
-        
-
-		}
+        }
 		classes = []
 		for k in cateManual:
 			classes.append({
