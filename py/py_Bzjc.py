@@ -34,15 +34,14 @@ class Spider(Spider):  # 元类 默认的元类 type
 "xml":"xml",
 "PR":"PR",
 "AE":"AE",
-"C4D":"C4D"
-"alist+WebDav":"alist+WebDav","Photoshop":"Photoshop"
+"C4D":"C4D",
+"alist+WebDav":"alist+WebDav","Photoshop":"Photoshop",
  "EXCEL":"EXCEL",
  "office":"office",
  "WPS":"WPS",
   "Studioone":"Studioone",
  "声卡调试":"声卡调试"
- 
-		}
+ }
 		classes = []
 		for k in cateManual:
 			classes.append({
