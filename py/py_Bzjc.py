@@ -20,27 +20,26 @@ class Spider(Spider):  # 元类 默认的元类 type
 	def homeContent(self,filter):
 		result = {}
 		cateManual = {
-			   
-    "WPS文字":"WPS文字教程",
-    "WPS表格":"WPS表格教程",
-    "WPS演示":"WPS演示教程", 
-   "word":"word教程",
-    "PPT":"ppt教程",
+			   "WPS文字":"WPS文字",
+    "WPS表格":"WPS表格",
+    "WPS演示":"WPS演示", 
+   "word":"word",
+    "PPT":"PPT",
     "MT管理器":"MT管理器",
 "网盘挂载":"网盘挂载",
- "EXCEL":"EXCEL教程",
+ "EXCEL":"EXCEL",
 "Git入门到精通":"Git入门到精通",
-"java":"java教程",
-"phyton":"phyton教程",
-"xml":"xml教程",
-"PR":"PR教程",
-"AE":"AE教程",
-"C4D":"C4D教程"
-"alist+WebDav":"alist+WebDav","Photoshop":"PS教程"
- "EXCEL":"EXCEL教程",
- "office":"office教程",
- "WPS":"WPS教程",
-  "Studio one":"Studio one教程",
+"java":"java",
+"phyton":"phyton",
+"xml":"xml",
+"PR":"PR",
+"AE":"AE",
+"C4D":"C4D"
+"alist+WebDav":"alist+WebDav","Photoshop":"Photoshop"
+ "EXCEL":"EXCEL",
+ "office":"office",
+ "WPS":"WPS",
+  "Studioone":"Studioone",
  "声卡调试":"声卡调试"
  
 		}
