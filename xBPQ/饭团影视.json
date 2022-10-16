@@ -1,0 +1,27 @@
+{
+  "作者": "菜妮丝https://cainisi.cf",
+  "站名": "饭团影视",
+  "主页url": "https://www.fantuanhd.com",
+  "免嗅": "1",
+  
+  "分类": "电影$20#电视剧$21#综艺$22#动漫$23#纪录片$24",
+  
+  "分类url": "https://www.fantuanhd.com/show/id-{cateId}{area}{by}{class}/page/{catePg}{year}.html",
+  
+  "数组": "data-&&</h4>",
+  "图片": "original=\"&&\"",
+  "标题": "title=\"&&\"",
+  "链接": "href=\"&&\"",
+  
+  "副标题": "text-right\">&&</span>",
+  
+  "搜索后缀":"/detail/id-",
+  
+  "导演": "导演：&&</p>",
+  "主演": "主演：&&</p>",
+  "简介": "display: none;\">&&</span>",
+  
+  "线路数组": "<span class=\"pull-right\">&&/h3>",
+  "线路标题": "<h3>&&<",
+  
+  "播放数组": "<ul class=\"stui-content&&</ul>"}
