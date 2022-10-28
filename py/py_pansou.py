@@ -3,6 +3,7 @@
 import sys
 sys.path.append('..') 
 from base.spider import Spider
+import requests
 
 class Spider(Spider):
 	def getDependence(self):
@@ -29,21 +30,22 @@ class Spider(Spider):
 
 	def detailContent(self,array):
 		tid = array[0]
-		print(self.getName())
 		pattern = '(https:\\/\\/www.aliyundrive.com\\/s\\/[^\\\"]+)'
 		url = self.regStr(tid,pattern)
 		if len(url) > 0:
 			return self.ali.detailContent(array)
-
-		rsp = self.fetch('https://www.alipansou.com'+tid)
-		url = self.regStr(rsp.text,pattern)
+		header = {
+			'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+			'Referer': 'https://www.alipansou.com/s/' +tid
+		}
+		rsp = requests.get('https://www.alipansou.com/cv/'+tid, allow_redirects=False, headers=header)
+		url = self.regStr(reg=r'href=\"(.*)\"', src=rsp.text)
 		if len(url) == 0:
 			return ""
 		url = url.replace('\\','')
 		newArray = [url]
 		print(newArray)
 		return self.ali.detailContent(newArray)
-
 
 	def searchContent(self,key,quick):
 		map = {
@@ -58,19 +60,17 @@ class Spider(Spider):
 			aList = root.xpath("//van-row/a")
 			for a in aList:
 				title = ''
-				# title = a.xpath('string(.//template/div)')
-				# title = self.cleanText(title).strip()
-
 				divList = a.xpath('.//template/div')
-				for div in divList:
-					t = div.xpath('string(.)')
-					t = self.cleanText(t).strip()
-					title = title + t
+				t = divList[0].xpath('string(.)')
+				t = self.cleanText(t).strip()
+				title = title + t
+				remark = divList[1].xpath('string(.)')
+				remark = self.cleanText(remark).replace('\xa0\xa0','').strip().split(' ')[1]
 				if key in title:
 					pic = 'https://www.alipansou.com'+ self.xpText(a,'.//van-card/@thumb')
 					jo = {
-						'vod_id': a.xpath('@href')[0],
-						'vod_name': '[{0}]{1}'.format(key,title),
+						'vod_id': self.regStr(a.xpath('@href')[0],'/s/(.*)'),
+						'vod_name': '{0}[{1}]'.format(title,remark),
 						'vod_pic': pic
 					}
 					ja.append(jo)
