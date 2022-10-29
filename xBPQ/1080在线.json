@@ -8,7 +8,7 @@
   "分类url": "https://1080zx.com/show/{cateId}-{area}-{by}------{catePg}---{year}.html",
   
   "副标题": "text-right\">&&</span>",
-  
+  "搜索url":"https://1080zx.com/search/-------------.html?wd={wd}&submit=",
   "搜索后缀":"/detail/",
   
   "导演": "导演：&&</p>",
