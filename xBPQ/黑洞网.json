@@ -10,6 +10,8 @@
   
   "副标题": "remarks\">&&</span>",
   
+  "搜索模式": "0",
+  "搜索url": "https://www.nulltm.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=500",
   "搜索后缀":"/voddetail/",
   
   "导演": "导演：&&</li>",
