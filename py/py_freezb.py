@@ -58,7 +58,7 @@ class Spider(Spider):
 				for url in urlList:
 					title = url.xpath("./text()")[0]
 					aurl = url.xpath("./@href")[0]
-					aurl = self.regStr(reg=r'/tv/(.*?).html', src=aurl)
+					#aurl = self.regStr(reg=r'/tv/(.*?).html', src=aurl)
 					if '比分' not in title:
 						aid = aid + title + '@@@' + aurl + '#'
 				videos.append({
@@ -99,11 +99,7 @@ class Spider(Spider):
 		for tu in tus:
 			title = tu.split('@@@')[0]
 			uid = tu.split('@@@')[1]
-			url = "http://www.freezb.live/tv/{0}.html".format(uid)
-			rsp = self.fetch(url)
-			root = self.html(rsp.text)
-			phpurl = root.xpath("//div[@class='media']/iframe/@src")[0]
-			purl = purl + '{0}${1}@@@{2}'.format(title,phpurl,uid) + '#'
+			purl = purl + '{0}${1}'.format(title,uid) + '#'
 		vod['vod_play_from'] = '体育直播'
 		vod['vod_play_url'] = purl
 		result = {
@@ -119,28 +115,36 @@ class Spider(Spider):
 
 	def playerContent(self,flag,id,vipFlags):
 		result = {}
-		ids = id.split('@@@')
-		url = ids[0]
-		vid = ids[1]
+		url = id.strip('#')
+		rsp = self.fetch(url)
+		root = self.html(rsp.text)
+		phpurl = root.xpath("//div[@class='media']/iframe/@src")[0]
 		headers = {
-			"referer": "http://www.freezb.live/tv/{0}.html".format(vid),
+			"Referer": url,
 			"User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
 		}
-		rsp = self.fetch(url,headers=headers)
-		aurl = self.regStr(reg=r'\"../(.*?)\"', src=rsp.text)
-		if aurl =='':
-			url = self.regStr(reg=r"url: \'(.*?)\'", src=rsp.text)
+		rsp = self.fetch(phpurl,headers=headers,cookies=rsp.cookies)
+		if 'm3u8' in rsp.text:
+			if 'm3u8.html?id=' in rsp.text:
+				purl = re.search(r'm3u8\.html\?id=(.*?m3u8.*?)\"', rsp.text).group(1)
+			else:
+				purl = re.search(r"url: \'(.*?)\'", rsp.text).group(1)
+			if not purl.startswith('http'):
+				purl = re.search(r"(.*)/", phpurl).group(1) + purl
 		else:
-			pheaders = {
-				"referer": url,
+			aurl = re.search(r"(.*)/", phpurl).group(1) + re.search(r'src=\"..(.*?)\"', rsp.text).group(1)
+			aheaders = {
+				"Referer": phpurl,
 				"User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
 			}
-			purl = self.regStr(reg=r'(.*)/', src=url) + '/' + aurl
-			prsp = self.fetch(purl, headers=pheaders)
-			url = self.regStr(reg=r"url: \'(.*?)\'", src=prsp.text)
+			r = self.fetch(aurl, headers=aheaders, cookies=rsp.cookies)
+			purl = re.search(r"url: \'(.*?)\'", r.text)
+			if purl == None:
+				purl = re.search(r'm3u8\.html\?id=(.*?)\"', r.text)
+			purl = purl.group(1)
 		result["parse"] = 0
 		result["playUrl"] = ''
-		result["url"] = url
+		result["url"] = purl
 		result["header"] = ''
 		return result
 
