@@ -10,6 +10,8 @@
   
   "副标题": "</span>&&</span>",
   
+  "搜索模式": "0",
+  "搜索url": "https://www.30dian.cn/index.php/ajax/suggest?mid=1&wd={wd}&limit=500",
   "搜索后缀": "/voddetail/",
   
   "导演": "导演：&&</p>",
