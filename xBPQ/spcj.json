@@ -1,5 +1,5 @@
 {
-"spider":"clan://TVBox/jar/Yoursmile.jar",
+"spider":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/Yoursmile1.jar",
 "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=https://agit.ai/138001380000/MHQTV/raw/branch/master/cr/1029zh.txt"]}]}],
 "wallpaper":"http://maoyingshi.cc/api.php",
 
