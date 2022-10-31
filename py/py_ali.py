@@ -392,7 +392,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 		url = 'https://api.aliyundrive.com/token/refresh'
 		if len(self.authorization) == 0 or self.timeoutTick - self.localTime <= 600:
 			form = {
-				'refresh_token':'5f85cfa17ee34bc6a5b5ee51d9cc4fe5'
+				'refresh_token':'b9fbd657a716432da68ef6ecfee68d2b'
 			}
 			if len(self.extend) > 0:
 				form['refresh_token'] = self.extend
