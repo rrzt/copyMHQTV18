@@ -147,7 +147,16 @@
             "filterable" : 1,
             "ext" : "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_Yinl2.py"
         }, 
-	
+	{
+      "key": "csp_Bliyc",
+      "name": "🅱️健身(SP)",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+	 "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/bilibili.json","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/1080bi.jar"
+    },
 
 	{
             "key" : "py_cctv",
@@ -258,7 +267,16 @@
             "filterable" : 1,
             "ext" : "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_cctvzy.py"
         }, 
-        
+        {
+		"key": "py_alistzg",
+		"name": "alist",
+		"type": 3,
+		"api": "py_alistzg",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_alistzg.py"
+	},
         
         
         
