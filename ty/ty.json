@@ -21,6 +21,16 @@
     
     "sites":[ 
     {
+      "key": "csp_Bliyc",
+      "name": "🅱️健身(SP)",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+	 "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/bilibili.json","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/1080bi.jar"
+    },
+    {
 		"key": "py_qie",
 		"name": "企鹅体育",
 		"type": 3,
