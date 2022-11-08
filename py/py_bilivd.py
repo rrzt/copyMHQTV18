@@ -64,9 +64,8 @@ class Spider(Spider):  # 元类 默认的元类 type
 
     def getCookie(self):
         # 在cookies_str中填入会员或大会员cookie，以获得更好的体验。
-        cookies_str = "_uuid=5E4B2B98-1014A-84D8-FA33-EC210C5BEC10DA82367infoc; buvid3=E9D0A426-85E9-E6C7-C75E-206A3E1BEB4D81910infoc; b_nut=1666168082; buvid4=4FC87B9C-3540-2275-688C-8612D3EA719B81910- 022101916-ZLe640jXRAMHySuaCe9aUw==; rpdid=|(k|u)YYm)uY0J'uYYYuY)uuu; i-wanna-go-back=-1; fingerprint=9c214a6da0197a48e576ccf22e9f0ac7; buvid_fp_plain=undefined; nostalgia_conf=-1;  DedeUserID=3493076028885079; DedeUserID__ckMd5=60a8757a1f4d6ae9; buvid_fp=9c214a6da0197a48e576ccf22e9f0ac7; CURRENT_QUALITY=80; b_ut=5; PVID=2; bp_video_offset_3493076028885079=undefined;  bsource=search_google; SESSDATA=42b8ada6,1683277266,4bd05*b2; bili_jct=2dbe39aea02b41324395630a24d4775f; sid=89gnel66; innersign=0; b_lsid=9EF63922_1844D55A286; CURRENT_FNVAL=4048
-"
-		cookies_dic = dict([co.strip().split('=',1) for co in cookies_str.split(';')])
+        cookies_str = "b_lsid=6BCB5710F_18454DA2C31; _uuid=410EE2CEC-ADA4-9AB6-E259-21714EB65B11095158infoc; buvid3=D2C34CF2-6477-AB89-6311-7A238568957195576infoc; b_nut=1667870895; buvid4=4D6335BC-498A-C88E-EB87-A5CC5B771BB795576-022110809-PZe5YmhE95rj0NUMn8rXOw%3D%3D; fingerprint=9ea566a1c49f6dbc3e4cd0fa2565d9e6; buvid_fp_plain=undefined; SESSDATA=a78d4f8f%2C1683422957%2C701df%2Ab2; bili_jct=0572eca27e88ddae2b9333352ccdfdea; DedeUserID=40142097; DedeUserID__ckMd5=d7d2a455ec709713; sid=6j83rpm6; buvid_fp=9ea566a1c49f6dbc3e4cd0fa2565d9e6; PVID=1"
+        cookies_dic = dict([co.strip().split('=',1) for co in cookies_str.split(';')])
         rsp = session()
         cookies_jar = utils.cookiejar_from_dict(cookies_dic)
         rsp.cookies = cookies_jar
