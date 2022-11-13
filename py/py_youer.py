@@ -56,7 +56,7 @@ class Spider(Spider):  # 元类 默认的元类 type
         import requests
         import http.cookies
         # 这里填cookie
-        raw_cookie_line = "_uuid=410EE2CEC-ADA4-9AB6-E259-21714EB65B11095158infoc; buvid3=D2C34CF2-6477-AB89-6311-7A238568957195576infoc; b_nut=1667870895; buvid4=4D6335BC-498A-C88E-EB87-A5CC5B771BB795576-022110809-PZe5YmhE95rj0NUMn8rXOw%3D%3D; fingerprint=9ea566a1c49f6dbc3e4cd0fa2565d9e6; buvid_fp_plain=undefined; SESSDATA=a78d4f8f%2C1683422957%2C701df%2Ab2; bili_jct=0572eca27e88ddae2b9333352ccdfdea; DedeUserID=40142097; DedeUserID__ckMd5=d7d2a455ec709713; sid=6j83rpm6; buvid_fp=9ea566a1c49f6dbc3e4cd0fa2565d9e6; PVID=1"
+        raw_cookie_line = "buvid3=CFF74DA7-E79E-4B53-BB96-FC74AB8CD2F3184997infoc; LIVE_BUVID=AUTO4216125328906835; rpdid=|(umRum~uY~R0J'uYukYukkkY; balh_is_closed=; balh_server_inner=__custom__; PVID=4; video_page_version=v_old_home; i-wanna-go-back=-1; CURRENT_BLACKGAP=0; blackside_state=0; fingerprint=8965144a609d60190bd051578c610d72; buvid_fp_plain=undefined; CURRENT_QUALITY=120; hit-dyn-v2=1; nostalgia_conf=-1; buvid_fp=CFF74DA7-E79E-4B53-BB96-FC74AB8CD2F3184997infoc; CURRENT_FNVAL=4048; DedeUserID=85342; DedeUserID__ckMd5=f070401c4c699c83; b_ut=5; hit-new-style-dyn=0; buvid4=15C64651-E8B7-100C-4B1F-C7CFD2DB473007906-022110820-jYQRaMeS%2BRXRfw14q70%2FLQ%3D%3D; b_nut=1667910208; b_lsid=3CE4AE79_184578915C0; is-2022-channel=1; innersign=0; SESSDATA=a5e4d58d%2C1683641322%2C2c39a%2Ab1; bili_jct=2f3126b5954e37f593130f2fef082cd8; sid=p7tjqv22; bp_video_offset_85342=726936847258746900"
         simple_cookie = http.cookies.SimpleCookie(raw_cookie_line)
         cookie_jar = requests.cookies.RequestsCookieJar()
         cookie_jar.update(simple_cookie)
