@@ -1,0 +1,38 @@
+{
+    "cookie": "https://agit.ai/138001380000/MHQTV/raw/commit/37359c2a206cd2c021035b8d67d44b7bb5b6a5aa/bbcookie.txt",
+    "classes": [
+        {
+            "type_name": "广场舞",
+            "type_id": "广场舞"
+        },
+        {
+            "type_name": "性感MV",
+            "type_id": "性感MV"
+        },
+        {
+            "type_name": "MV合集",
+            "type_id": "MV合集"
+        },
+        {
+            "type_name": "热舞合集",
+            "type_id": "热舞合集"
+        },
+        {
+            "type_name": "舞蹈合集",
+            "type_id": "舞蹈合集"
+        },
+        {
+            "type_name": "美女合集",
+            "type_id": "美女合集"
+        },
+        {
+            "type_name": "女神合集",
+            "type_id": "女神合集"
+        },
+        {
+            "type_name": "泳装合集",
+            "type_id": "泳装合集"
+        }
+    ],
+    "filter": {}
+}
