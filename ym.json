@@ -1,5 +1,5 @@
 {
-    "spider": "https://agit.ai/138001380000/MHQTV/raw/commit/361b2ed68278c8294ee7d59da576f7fe844d3517/jar/duov.jar",
+    "spider": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/duov.jar",
     "wallpaper": "https://tuapi.eees.cc/api.php?category=meinv&type=302",
     "lives": [
         {
@@ -86,7 +86,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "clan://TVBox/xyq/酷狗MV.json"
+      "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/XYQ/酷狗MV.json"
     },
         {
             "key": "csp_Bliyc广场",
@@ -96,7 +96,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "clan://TVBox/biubiu/测试.json"
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/测试.json"
         },{
             "key": "csp_直播",
             "name": "电视直播",
@@ -105,7 +105,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "clan://TVBox/xBPQ/电视直播.json"
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/xbpq/电视直播.json"
         },{
       "key": "csp_XYQ_lu1",
       "name": "️🖥️电视直播",
@@ -114,7 +114,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "clan://TVBox/xyq/电视直播.json"
+      "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/XYQ/电视直播.json"
     },{
       "key": "csp_xpath_酷狗MV",
       "name": "🐶酷狗MV",
@@ -123,8 +123,9 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "clan://TVBox/xyq/酷狗MV.json"
+      "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/XYQ/酷狗MV.json"
     },
+ //   https://agit.ai/138001380000/MHQTV/raw/branch/master/xbpq/xb555.json
         {
             "key": "csp_逛啊北京",
             "name": "黄仓库2(SP)",
