@@ -134,7 +134,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "clan://TVBox/xBPQ/香蕉AV解说.json"
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/cr/香蕉AV解说.json"
         },
         
         {
@@ -167,16 +167,7 @@
             "filterable": 0,
             "ext": "{\"分类url\":\"https://iy54321.com/gccm/gg/{cateId}-{catePg}.html\", \"分类\":\"麻豆原创$madouyuanchuang#91制片厂$91zhipianchang#糖心Vlgo$tangxinVlgo#天美传媒$tianmeichuanmei#蜜桃传媒$mitaochuanmei#皇家华人$huangjiahuaren#星空传媒$xingkongchuanmei#精东影业$jingdongyingye#乐播传媒$lebochuanmei#乌鸦传媒$wuyachuanmei#兔子先生$tuzixiansheng#杏吧原创$xingbayuanchuang#mini传媒$minichuanmei#大象传媒$daxiangchuanmei#开心鬼传媒$kaixinguichuanmei#PsychoPorn$PsychoPorn\", \"副标题\":\".duration\\\">Text</div\", \"链接\": \"href=\\\"/gccm/g&&.html\\\"\", \"链接前缀\": \"https://iy54321.com/gccm/gplay\", \"链接后缀\": \"-1-1.html\", \"直接播放\": \"1\" }"
         },
-        {
-            "key": "csp_xBPQ_OMO",
-            "name": "OMO",
-            "type": 3,
-            "api": "csp_xBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "clan:///TVBox/xBPQ/OMOFUN(XBPQ).json"
-        },
+        
         
         
         {
@@ -220,16 +211,7 @@
             "ext": "https://www.fantuantva.com/s/{cateId}/area/{area}/by/{by}/letter/{letter}/page/{catePg}/year/{year}.html"
         },
         
-        {
-            "key": "csp_xBPQ_城市电影",
-            "name": "️xBPQ | 城市电影",
-            "type": 3,
-            "api": "csp_xBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "clan://TVBox/xBPQ/城市电影.json"
-        },
+        
         {
             "key": "csp_xb_citydy",
             "name": "城市电影",
@@ -554,7 +536,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "clan://TVBox/MaooXB/qiumi.json"
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/qiumi.json"
             
         },
         {
