@@ -10,9 +10,15 @@ CCTV16,http://117.169.124.149:8080/live/HD-4000k-1080P-cctv16/1.m3u8
 CCTV16-4K,http://27.36.62.163:9090/live/4010.m3u8
 CCTV4K,http://27.36.62.163:9090/live/4005.m3u8 
 CCTV4K,http://39.135.41.243/PLTV/88888888/224/3221226716/index.m3u8
-#世界杯 #直播源
 
-世界杯m3u8直播源，导入支持m3u8播放器即可播放。
+
+咪咕视频 全高清源：http://39.135.134.67/000000001000/3000000001000028638/index.m3u8
+
+CCTV16 全高清源：http://117.169.124.149:8080/live/HD-4000k-1080P-cctv16/1.m3u8
+
+CCTV5 高清源：http://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctv5hd/2300000/mnf.m3u8
+
+
 
 CCTV16-4K-SDR源：
 http://111.20.105.192:6610/000000001000/5000000008000023254/index.m3u8?channel-id=bestzb&Contentid=5000000008000023254&livemode=1&stbId=3
