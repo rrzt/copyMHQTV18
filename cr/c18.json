@@ -366,7 +366,7 @@
       "type": 3,
       "api": "csp_Nbys",
       "searchable": 1,
-      "filterable": 1,"jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;cdac5d0feef2fb20bb47496ec835a0a2"
+      "filterable": 1,"jar":"https://raw.iqiq.io/FongMi/CatVodSpider/main/jar/custom_spider.jar"
     },
     {
       "key": "玩偶",
@@ -374,7 +374,7 @@
       "type": 3,
       "api": "csp_Doll",
       "searchable": 1,
-      "filterable": 1,"jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;cdac5d0feef2fb20bb47496ec835a0a2"
+      "filterable": 1,"jar":"https://raw.iqiq.io/FongMi/CatVodSpider/main/jar/custom_spider.jar"
     },
     {
       "key": "18AV",
@@ -382,7 +382,7 @@
       "type": 3,
       "api": "csp_Eighteen",
       "searchable": 1,
-      "filterable": 1,"jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;cdac5d0feef2fb20bb47496ec835a0a2"
+      "filterable": 1,"jar":"https://raw.iqiq.io/FongMi/CatVodSpider/main/jar/custom_spider.jar"
     },
     {
       "key": "Jable",
@@ -390,7 +390,7 @@
       "type": 3,
       "api": "csp_Jable",
       "searchable": 1,
-      "filterable": 1,"jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;cdac5d0feef2fb20bb47496ec835a0a2"
+      "filterable": 1,"jar":"https://raw.iqiq.io/FongMi/CatVodSpider/main/jar/custom_spider.jar"
     },
     {
       "key": "PigAV",
@@ -398,7 +398,7 @@
       "type": 3,
       "api": "csp_Pig",
       "searchable": 1,
-      "filterable": 1,"jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;cdac5d0feef2fb20bb47496ec835a0a2"
+      "filterable": 1,"jar":"https://raw.iqiq.io/FongMi/CatVodSpider/main/jar/custom_spider.jar"
     },
     {
       "key": "MissAV",
@@ -406,7 +406,7 @@
       "type": 3,
       "api": "csp_Miss",
       "searchable": 1,
-      "filterable": 1,"jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;cdac5d0feef2fb20bb47496ec835a0a2"
+      "filterable": 1,"jar":"https://raw.iqiq.io/FongMi/CatVodSpider/main/jar/custom_spider.jar"
     },
     {
       "key": "Supjav",
@@ -414,7 +414,7 @@
       "type": 3,
       "api": "csp_Supjav",
       "searchable": 1,
-      "filterable": 1,"jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;cdac5d0feef2fb20bb47496ec835a0a2"
+      "filterable": 1,"jar":"https://raw.iqiq.io/FongMi/CatVodSpider/main/jar/custom_spider.jar"
     },
     {
       "key": "Hanime",
@@ -422,7 +422,7 @@
       "type": 3,
       "api": "csp_Hanime",
       "searchable": 1,
-      "filterable": 1,"jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;cdac5d0feef2fb20bb47496ec835a0a2"
+      "filterable": 1,"jar":"https://raw.iqiq.io/FongMi/CatVodSpider/main/jar/custom_spider.jar"
     },
     {
       "key": "madouse.la",
