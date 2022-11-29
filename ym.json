@@ -87,7 +87,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/XYQ/酷狗MV.json"
-    },{"key":"YQK_spider","name":"一起看TV","api":"csp_YQKAPP","type":3,"filterable":1,"playerType":2,"quickSearch":1,"searchable":1,"ext":"https://api-tx.shumaxc.xyz","jar":"http://rl1eetffv.bkt.clouddn.com/qj1121.jar;md5;536fa865c4502be4907a2c6759373de8"},
+    },
         {
             "key": "csp_Bliyc广场",
             "name": "🅱️广场舞(SP)",
