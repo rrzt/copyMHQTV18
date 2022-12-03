@@ -1,5 +1,5 @@
 {
-    "spider": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/spider.jar",
+    "spider": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/新视觉.jar",
     "wallpaper": "https://tuapi.eees.cc/api.php?category=meinv&type=302",
     "lives": [
         {
@@ -8,7 +8,7 @@
                 {
                     "name": "live",
                     "urls": [
-                        "proxy://do=live&type=txt&ext=https://agit.ai/138001380000/MHQTV/raw/commit/fef0f74234b0a1eef5c4d4d15d957f225cf9a3d8/TV/HBO%20TV.txt"
+                        "proxy://do=live&type=txt&ext=https://agit.ai/138001380000/MHQTV/raw/branch/master/TV/1108zh.txt"
                     ]
                 }
             ]
@@ -75,6 +75,14 @@
             "name": "芒果TV",
             "type": 3,
             "api": "csp_MGTV",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },{
+            "key": "csp_新视觉",
+            "name": "🍁新视觉",
+            "type": 3,
+            "api": "csp_Xinsj",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
