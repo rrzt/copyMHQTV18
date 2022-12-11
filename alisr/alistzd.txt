@@ -1,5 +1,5 @@
 {
-    "小雅":"http://101.34.67.237:5244/",
+    "小雅":"http://alist.xiaoya.pro",
 "灭火器": "https://alist1.owen10086.repl.co",
 "木偶":"https://www.kugutsu.ml",
 "大人番":"https://www.kugutsu.ml",
