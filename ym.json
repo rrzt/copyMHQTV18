@@ -1,5 +1,5 @@
 {
-    "spider": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/xBPQ.jar",
+    "spider": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/新视觉.jar",
     "wallpaper": "https://tuapi.eees.cc/api.php?category=meinv&type=302",
     "lives": [
         {
@@ -43,6 +43,8 @@
         }
     ],
     "sites": [
+    
+    
         {
             "key": "360",
             "name": "360影视",
@@ -116,126 +118,13 @@
             "quickSearch": 0,
             "filterable": 1
         },
-        {
-            "key": "csp_Bliyc广场",
-            "name": "🅱️广场舞(SP)",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/测试.json"
-        },
-        {
-            "key": "csp_直播",
-            "name": "电视直播",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/xbpq/电视直播.json"
-        },
-        {
-            "key": "csp_XYQ_lu1",
-            "name": "️🖥️电视直播",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/XYQ/电视直播.json"
-        },
-        {
-            "key": "csp_xpath_酷狗MV",
-            "name": "🐶酷狗MV",
-            "type": 3,
-            "api": "csp_XYQBiu",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/XYQ/酷狗MV.json"
-        },
-        {
-            "key": "csp_逛啊北京",
-            "name": "AV解说(SP)",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/cr/香蕉AV解说.json"
-        },
-        {
-            "key": "csp_XBPQ_99",
-            "name": "99资源网",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "{\"分类url\":\"https://iy54321.com/99re/rr/{cateId}-{catePg}.html\", \"分类\":\"国产自拍$guochanzipai#欧美$oumei#中文字幕$zhongwenzimu#李宗瑞全集$lizongruiquanji#日本无码$ribenwuma#加勒比$jialebi#日本有码$ribenyouma#一本道$yibendao#高清$gaoqing#潮吹$chaochui#制服丝袜$zhifusiwa#口爆颜射$koubaoyanshe#肛交$gangjiao#东京热$dongjingre#小格式综合$xiaogeshizonghe#女主播系列$hanguonvzhuboxilie#成人动漫$chengrendongman#SM性虐$SMxingnue#韩国综合$hanguozonghe#会员认证作品$jiujiurehuiyuanrenzhengzuopin\", \"副标题\":\"duration\\\">&&</div\", \"链接\": \"href=\\\"/99re/r&&.html\\\"\", \"链接前缀\": \"https://iy54321.com/99re/rplay\", \"链接后缀\": \"-1-1.html\", \"直接播放\": \"1\" }"
-        },
-        {
-            "key": "csp_XBPQ_超清",
-            "name": "超清资源网",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "{\"分类url\":\"https://iy54321.com/cq/cc/{cateId}-{catePg}.html\", \"分类\":\"亚洲ＡＶ$yazhou#自拍偷拍$zipaitoupai#超清传媒$chaoqingchuanmei#3D动漫$3Ddongman#欧美ＡＶ$oumei#乱伦人妻$luanlunrenqi#丝袜制服$siwazhifu#直播录播$zhibolubo#SM另类$SMlinglei#超清三级$chaoqingsanji\", \"副标题\":\".duration\\\">Text</div\", \"链接\": \"href=\\\"/cq/c&&.html\\\"\", \"链接前缀\": \"https://iy54321.com/cq/cplay\", \"链接后缀\": \"-1-1.html\", \"直接播放\": \"1\" }"
-        },
-        {
-            "key": "csp_XBPQ_国产传媒",
-            "name": "国产传媒",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "{\"分类url\":\"https://iy54321.com/gccm/gg/{cateId}-{catePg}.html\", \"分类\":\"麻豆原创$madouyuanchuang#91制片厂$91zhipianchang#糖心Vlgo$tangxinVlgo#天美传媒$tianmeichuanmei#蜜桃传媒$mitaochuanmei#皇家华人$huangjiahuaren#星空传媒$xingkongchuanmei#精东影业$jingdongyingye#乐播传媒$lebochuanmei#乌鸦传媒$wuyachuanmei#兔子先生$tuzixiansheng#杏吧原创$xingbayuanchuang#mini传媒$minichuanmei#大象传媒$daxiangchuanmei#开心鬼传媒$kaixinguichuanmei#PsychoPorn$PsychoPorn\", \"副标题\":\".duration\\\">Text</div\", \"链接\": \"href=\\\"/gccm/g&&.html\\\"\", \"链接前缀\": \"https://iy54321.com/gccm/gplay\", \"链接后缀\": \"-1-1.html\", \"直接播放\": \"1\" }"
-        },
-        {
-            "key": "csp_XBPQ_zhi",
-            "name": "️🎾抓饭体育xBPQ",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "{\"分类url\":\"https://www.zhuafan.tech/sports-home/category/{cateId}\",\"分类\":\"全部$/all#足球$Football#篮球$Basketball#羽乒$Badminton#台球$Billiards#棒球$Baseball#户外$Outdoors#搏击$Wrestling#综合$Others#棋盘$Boardgame#电竞$Popular#网球$Tennis#排球$Volleyball#聊天$Chat#原声$Acoustic\",\"热门推荐\":\"1\",\"起始页\":\"1\",\"直接播放\":\"1\",\"数组\":\"{&&}\",\"图片\":\"imageUrl\\\":\\\"&&\\\"\",\"标题\":\"cname\\\":\\\"&&\\\"\",\"链接\":\"id\\\":\\\"&&\\\"\",\"链接前缀\":\"https://www.zhuafan.tech/\"}"
-        },
-        {
-            "key": "csp_XBPQ_TVB云播",
-            "name": "TVB云播",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "{\"免嗅\":\"1\",\"副标题\":\"class=\\\"pic-tag pic-tag-top\\\">&&</span>\",\"播放标题\":\"span>&&<\",\"播放数组\":\"class=\\\"myui-content__list scrollbar sort-list clearfix&&</ul>\",\"分类\":\"电影$1#美剧$2#韩剧$3#日剧$4#泰剧$5#动漫$6\",\"分类url\":\"http://www.tvyb03.com/vod/show{class}{area}{by}/id/{cateId}/page/{catePg}{year}.html\"}"
-        },
-        {
-            "key": "csp_XBPQ_香蕉中文",
-            "name": "香蕉中文",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "{\"分类url\":\"https://iy54321.com/xjzy/jj/{cateId}-{catePg}.html\", \"分类\":\"中文无码$zhongwenwuma#中文综合$zhongwenzonghe#中文近亲$zhongwenjingqing#中文护士$zhongwenhushi#中文师生$zhongwenshisheng#中文强奸$zhongwenqiangjian#国产自拍$guochanzipai#美女主播$meinvzhubo#三级伦理$sanjizonghe\", \"副标题\":\"duration\\\">&&</div\", \"链接\": \"href=\\\"/xjzy/j&&.html\\\"\", \"链接前缀\": \"https://iy54321.com/xjzy/jplay\", \"链接后缀\": \"-1-1.html\", \"直接播放\": \"1\" }"
-        },
-        {
-            "key": "csp_xb_fttv",
-            "name": "饭团TV(R)",
-            "type": 3,
-            "api": "csp_XBiu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "https://www.fantuantva.com/s/{cateId}/area/{area}/by/{by}/letter/{letter}/page/{catePg}/year/{year}.html"
-        },
+     // https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/88看球.json
+{"key":"csp_XPath_鹅直播","name":"🐧企鹅直播","type":3,"api":"csp_XPath","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/企鹅直播.json"},
+{"key":"JRS赛事直播","name":"🏀JRS赛事直播","type":3,"api":"csp_XPath","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/JRS直播.json"},
+{"key":"88看球","name":"⚽88看球","type":3,"api":"csp_XPath","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/88看球.json"},
+{"key":"csp_XYQBiu_17kan","name":"⚽17kan","type":3,"api":"csp_XYQHiker","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/海阔一起看.json"},
+{"key":"dr_88看球","name":"88看球(js)","type":3,"api":"https://agit.ai/138001380000/MHQTV/raw/branch/master/js/lib/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/js/js/88看球.js"},
+{"key":"dr_JRKAN直播","name":"JRKAN直播(js)","type":3,"api":"https://agit.ai/138001380000/MHQTV/raw/branch/master/js/lib/drpy.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/js/js/JRKAN直播.js"},
         {
             "key": "csp_xb_citydy",
             "name": "城市电影",
@@ -247,10 +136,10 @@
             "ext": "https://www.citydy.com/show/id-{cateId}{area}{by}{class}/page/{catePg}{year}.html"
         },
         {
-            "key": "csp_XBPQ_DOUYIN",
+            "key": "csp_xBPQ_DOUYIN",
             "name": "短视频┃xBPQ",
             "type": 3,
-            "api": "csp_XBPQ",
+            "api": "csp_xBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
@@ -337,10 +226,10 @@
             "ext": "https://ikan6.vip/vodshow/{cateId}--------{catePg}---"
         },
         {
-            "key": "csp_XBPQ_七小时影院",
+            "key": "csp_xBPQ_七小时影院",
             "name": "🕖七小时影院",
             "type": 3,
-            "api": "csp_XBPQ",
+            "api": "csp_xBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
@@ -397,30 +286,30 @@
             "ext": "http://www.kmy5.com/tv/{cateId}-{catePg}.html"
         },
         {
-            "key": "csp_XBPQ_爱看影视",
+            "key": "csp_xBPQ_爱看影视",
             "name": "xBPQ | 爱看影视",
             "type": 3,
-            "api": "csp_XBPQ",
+            "api": "csp_xBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
             "ext": "{\"免嗅\":\"0\",\"播放标题\":\"span>&&<\",\"播放数组\":\"class=\\\"myui-content&&</ul>\",\"分类url\":\"https://ikan6.vip/vodshow/{cateId}--------{catePg}---/\"}"
         },
         {
-            "key": "csp_XBPQ_子子影视",
+            "key": "csp_xBPQ_子子影视",
             "name": "子子影视(XBPQ)",
             "type": 3,
-            "api": "csp_XBPQ",
+            "api": "csp_xBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
             "ext": "https://agit.ai/138001380000/MHQTV/raw/commit/c485b56226b807a1923e3b0e78b291c98281a29c/XYQ/%e5%ad%90%e5%ad%90%e5%bd%b1%e8%a7%86.json"
         },
         {
-            "key": "csp_XBPQ_花猫",
+            "key": "csp_xBPQ_花猫",
             "name": "花猫TV(XBPQ)",
             "type": 3,
-            "api": "csp_XBPQ",
+            "api": "csp_xBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
@@ -430,7 +319,7 @@
             "key": "csp_539影院",
             "name": "539影院🍑(xBPQ)",
             "type": 3,
-            "api": "csp_XBPQ",
+            "api": "csp_xBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
@@ -440,7 +329,7 @@
             "key": "csp_鸭奶飞",
             "name": "鸭奶飞🍑(xBPQ)",
             "type": 3,
-            "api": "csp_XBPQ",
+            "api": "csp_xBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
@@ -450,7 +339,7 @@
             "key": "csp_蓝光",
             "name": "蓝光🍑(xBPQ)",
             "type": 3,
-            "api": "csp_XBPQ",
+            "api": "csp_xBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
@@ -460,7 +349,7 @@
             "key": "csp_黑洞网",
             "name": "黑洞网🍑(xBPQ)",
             "type": 3,
-            "api": "csp_XBPQ",
+            "api": "csp_xBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
@@ -470,7 +359,7 @@
             "key": "csp_热播库",
             "name": "热播酷🍑(xBPQ)",
             "type": 3,
-            "api": "csp_XBPQ",
+            "api": "csp_xBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
@@ -480,7 +369,7 @@
             "key": "csp_REPEN",
             "name": "REPEN🍑(xBPQ)",
             "type": 3,
-            "api": "csp_XBPQ",
+            "api": "csp_xBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
@@ -497,111 +386,7 @@
             "ext": "https://lgyy.tv/vodshow/{cateId}--------{catePg}---.html",
             "jar": "https://agit.ai/138001380000/MHQTV/raw/branch/master/XBiu.jar"
         },
-        {
-            "key": "dr_88看球",
-            "name": "🏀88看球",
-            "type": 3,
-            "api": "https://gitlab.com/duomv/duo/-/raw/main/js/drpymin.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "https://gitlab.com/duomv/duo/-/raw/main/js/88%E7%9C%8B%E7%90%83.js"
-        },
-        {
-            "key": "csp_XBPQ_抓饭体育",
-            "name": "️⚽抓饭体育",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "{\"分类url\":\"https://www.zhuafan.tech/sports-home/category/{cateId}\",\"分类\":\"全部$/all#足球$Football#篮球$Basketball#羽乒$Badminton#台球$Billiards#棒球$Baseball#户外$Outdoors#搏击$Wrestling#综合$Others#棋盘$Boardgame#电竞$Popular#网球$Tennis#排球$Volleyball#聊天$Chat#原声$Acoustic\",\"热门推荐\":\"1\",\"起始页\":\"1\",\"直接播放\":\"1\",\"数组\":\"{&&}\",\"图片\":\"imageUrl\\\":\\\"&&\\\"\",\"标题\":\"cname\\\":\\\"&&\\\"\",\"链接\":\"id\\\":\\\"&&\\\"\",\"链接前缀\":\"https://www.zhuafan.tech/\"}"
-        },
-        {
-            "key": "csp_XYQHiker_无插件直播(XYQ)",
-            "name": "17无插件直播",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/17kan1.json",
-            "jar": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/0928.jar"
-        },
-        {
-            "key": "DJ-XP-JRS低调看",
-            "name": "JRS低调看（XP）",
-            "type": 3,
-            "api": "csp_XPath",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/ddk.json"
-        },
-        {
-            "key": "DJ-XP-88",
-            "name": "88看球（XP）",
-            "type": 3,
-            "api": "csp_XPath",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/88看球.json"
-        },
-        {
-            "key": "csp_xpath_qiumi",
-            "name": "🏀JRKAN直播",
-            "type": 3,
-            "api": "csp_XPath",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/qiumi.json"
-        },
-        {
-            "key": "csp_XYQBiu_一起看",
-            "name": "一起看(XYQB)",
-            "type": 3,
-            "api": "csp_XYQBiu",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/17kan.json",
-            "jar": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/XYQBiu_0907.jar"
-        },
-        {
-            "key": "csp_xyqb_网易CC直播",
-            "name": "网易CC直播(XYQB)",
-            "type": 3,
-            "api": "csp_XYQBiu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/wycc.json",
-            "jar": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/XYQBiu_0907.jar"
-        },
-        {
-            "key": "csp_xyqb_斗鱼直播",
-            "name": "斗鱼直播(XYQB)",
-            "type": 3,
-            "api": "csp_XYQBiu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/douyu.json",
-            "jar": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/XYQBiu_0907.jar"
-        },
-        {
-            "key": "csp_xyqb_310直播",
-            "name": "310直播(XYQB)",
-            "type": 3,
-            "api": "csp_XYQBiu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/310zb.json",
-            "jar": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/XYQBiu_0907.jar"
-        },
+        
         {
             "key": "csp_Kunyu77",
             "name": "🍁多多七七",
