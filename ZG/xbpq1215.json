@@ -575,6 +575,15 @@
             "filterable": 0,
             "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ZG/XBPQ/热播库.json"
         },
+        {
+            "key": "泥巴",
+            "name": "泥巴(VPN)",
+            "type": 3,
+            "api": "csp_Nbys",
+            "searchable": 1,
+            "filterable": 1,
+            "jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;e889b257fb9dbaf519f3c095231c12ea"
+        },
     {
             "key" : "py_youer",
             "name" : "幼儿教育",
