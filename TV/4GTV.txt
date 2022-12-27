@@ -1,0 +1,88 @@
+
+八大综艺台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv039&hd=720
+三立财经新闻iNEWS,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live089&hd=720
+三立综合台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live207&hd=720
+大爱二台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live106&hd=720
+大爱电视,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live007&hd=720
+中天全民最大党,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live076&hd=720
+中天美食旅游,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live123&hd=720
+中天综合台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live033&hd=720
+中天新闻台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv009&hd=720
+中视,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv040&hd=720
+中视经典台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv080&hd=720
+中视菁采台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv064&hd=720
+中视新闻,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv074&hd=720
+公视戏剧,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv042&hd=720
+车迷TV,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live201&hd=720
+东森财经新闻台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live019&hd=720
+东森购物一台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live047&hd=720
+东森购物二台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live046&hd=720
+东森新闻台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live114&hd=720
+尼克儿童频道,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live105&hd=720
+民视,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv002&hd=720
+民视台湾台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv001&hd=720
+民视旅游台,http://8.218.112.221:8086/channel.m3u8?fid=litv-ftv07&hd=720
+民视第一台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv003&hd=720
+民视综艺台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv004&hd=720
+民视新闻台,http://8.218.112.221:8086/channel.m3u8?fid=litv-ftv13&hd=720
+民视影剧台,http://8.218.112.221:8086/channel.m3u8?fid=litv-ftv09&hd=720
+电影原声台CMusic,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live031&hd=720
+龙华电影台,http://8.218.112.221:8086/channel.m3u8?fid=litv-longturn03&hd=720
+龙华戏剧台,http://8.218.112.221:8086/channel.m3u8?fid=litv-longturn18&hd=720
+亚洲旅游台,http://8.218.112.221:8086/channel.m3u8?fid=litv-longturn17&hd=720
+华视,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv041&hd=720
+华视新闻,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv052&hd=720
+时尚运动X,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv014&hd=720
+达文西频道,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv018&hd=720
+幸福空间居家台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live206&hd=720
+客家电视台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv043&hd=720
+爱尔达生活旅游台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live120&hd=720
+爱尔达娱乐台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv070&hd=720
+猪哥亮歌厅秀,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv006&hd=720
+博斯无限台,http://8.218.112.221:8086/channel.m3u8?fid=litv-longturn10&hd=720
+博斯网球台,http://8.218.112.221:8086/channel.m3u8?fid=litv-longturn09&hd=720
+博斯运动一台,http://8.218.112.221:8086/channel.m3u8?fid=litv-longturn07&hd=720
+博斯高球台,http://8.218.112.221:8086/channel.m3u8?fid=litv-longturn05&hd=720
+智林体育台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv101&hd=720
+韩国娱乐台 KMTV,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv016&hd=720
+新唐人亚太台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live050&hd=720
+滚动力rollor,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live012&hd=720
+靖天日本台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv047&hd=720
+靖天卡通台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv044&hd=720
+靖天电影台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv061&hd=720
+靖天育乐台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv062&hd=720
+靖天资讯台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv065&hd=720
+靖天综合台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv046&hd=720
+靖洋卡通Nice Bingo,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv057&hd=720
+影迷数位电影台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv011&hd=720
+寰宇新闻台,http://8.218.112.221:8086/channel.m3u8?fid=litv-longturn14&hd=720
+镜电视新闻台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv075&hd=720
+amc最爱电影,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv017&hd=720
+ARIRANG阿里郎频道,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv079&hd=720
+CLASSICA 古典乐,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv059&hd=720
+CN卡通,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live205&hd=720
+ELTV生活英语台,http://8.218.112.221:8086/channel.m3u8?fid=litv-longturn20&hd=720
+GINX Esports TV,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv053&hd=720
+History 历史频道,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live026&hd=720
+i-Fun动漫台,http://8.218.112.221:8086/channel.m3u8?fid=litv-ftv15&hd=720
+KLT-靖天国际台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv063&hd=720
+Lifetime 娱乐频道,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live029&hd=720
+LiveABC互动英语频道,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live030&hd=720
+Love Nature,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live208&hd=720
+LUXE TV Channel,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live121&hd=720
+Mezzo Live,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv083&hd=720
+MOMO亲子台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live107&hd=720
+MTV Live  音乐频道,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live025&hd=720
+Nice TV 靖天欢乐台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv054&hd=720
+Nick Jr. 儿童频道,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live032&hd=720
+Pet Club TV,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live110&hd=720
+SBN全球财经台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live060&hd=720
+Smithsonian Channel,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live088&hd=720
+TechStorm,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live109&hd=720
+TRACE Sport Stars,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv077&hd=720
+TRACE Urban,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv082&hd=720
+TV5MONDE STYLE  生活时尚,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live122&hd=720
+TVBS,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv073&hd=720
+TVBS欢乐台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-4gtv068&hd=720
+TVBS新闻,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live072&hd=720
+TVBS精采台,http://8.218.112.221:8086/channel.m3u8?fid=4gtv-live086&hd=720
