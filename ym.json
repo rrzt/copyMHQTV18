@@ -8,7 +8,7 @@
                 {
                     "name": "live",
                     "urls": [
-                        "proxy://do=live&type=txt&ext=https://agit.ai/138001380000/MHQTV/raw/branch/master/TV/1108zh.txt"
+                        "proxy://do=live&type=txt&ext=https://drfilestreambot.cf/AgADzg125752"
                     ]
                 }
             ]
@@ -99,6 +99,8 @@
             "filterable": 1,
             "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/XYQ/4K极客.json"
         },
+        {"key":"csp_xBPQ二萌","name":"🦝┃二萌┃影视","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":{"分类":"电影$dianying#连续剧$lianxuju#综艺$zongyi#动漫$dongman","分类url":"https://ys.ccmoe.cc/vodshow/{cateId}--{by}--{class}----{cateid}---{year}/"}},
+        {"key":"csp_xBPQ霹雳","name":"🦝┃霹雳┃影视","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":{"免嗅":1,"分类":"电影$1#连续剧$2#综艺$3#动漫$4#记录片$41","分类url":"https://plyingshi.com/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html","数组":"class=\"module-item-pic&&</div>","播放数组":"sort-item&&</div>","播放列表": "VIP图标新*VIP图标新&&</a>","简介":"vod_content\"&&</div>","主演":"video-info-actor\"&&</div>"}},
         {
             "key": "泥巴",
             "name": "泥巴(VPN)",
