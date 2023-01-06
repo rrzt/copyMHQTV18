@@ -55,6 +55,29 @@
     ],
     "sites": [
        {"key":"csp_XBPQ新视觉","name":"新视觉影院〔xBPQ〕","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/xBPQ/新视觉影院.json"},
+       {
+            "key": "csp_xbpq_姊姊影视",
+            "name": "子子影视(XBPQ)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ZG/XBPQ/子子影视.json"
+        },
+        {
+            "key": "csp_xbpq_人人影视",
+            "name": "人人影视(XBPQ)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ZG/XBPQ/人人影视.json"
+        },
+       {"key":"600影视","name":"️🍹600影视","type":3,"api":"XBPQ","ext":"免嗅:0,分类url:http://www.600dvd.com/type/{cateId}-{area}-{by}------{catePg}---{year}.html"},
+       {"key":"低端影院","name":"️低端影院","type":3,"api":"XBPQ","ext":"免嗅:1,分类url:http://www.jinyanw.com/vodshow/{cateId}-{area}--{class}-{lang}-------{year}.html"},
+        {"key":"云播tv","name":"️TVB2云播","type":3,"api":"XBPQ","ext":"免嗅:1,分类url:http://www.hktvyun.com/vod/show/area/{area}/class/{class}/id/{cateId}/lang/{lang}/year/{year}.html"},
         {
             "key": "csp_xbpq_胖虎影视",
             "name": "胖虎影视(XBPQ)",
