@@ -66,6 +66,16 @@
             "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ZG/XBPQ/子子影视.json"
         },
         {
+            "key": "csp_xbpq_小猫咪影视",
+            "name": "小猫咪影视(XBPQ)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ZG/XBPQ/小猫咪.json"
+        },
+        {
             "key": "csp_xbpq_人人影视",
             "name": "人人影视(XBPQ)",
             "type": 3,
