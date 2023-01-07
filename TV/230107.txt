@@ -4710,13 +4710,8 @@ EBS KIDS,http://ye23.win/iptv/korea2021.php?id=EBS_KIDS
 dema,http://ye23.win/iptv/korea2021.php?id=dema
 阿里郎WORLD,http://ye23.win/iptv/korea2021.php?id=arirang_1
 阿里郎WORLD,http://ye23.win/iptv/korea2021.php?id=arirang_2
-💞密码获取,#genre#
-公众号,http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
-月光宝盒BOX,https://cn-hbyc2-dx-live-01.bilivideo.com/live-bvc/545768/live_179302204_68184269.m3u8
-回复VIP,http://125.40.191.58:9901/tsfile/live/1002_1.m3u8#http://59.49.41.44/live.aishang.ctlcdn.com/00000110240324_1/playlist.m3u8?CONTENTID=00000110240324_1#http://117.148.179.157/PLTV/88888888/224/3221231580/index.m3u8#http://117.148.179.157/PLTV/88888888/224/3221232945/index.m3u8#http://111.20.33.93/PLTV/88888893/224/3221226465/index.m3u8#http://117.148.179.138/PLTV/88888888/224/3221231580/index.m3u8#http://111.20.33.93/TVOD/88888893/224/3221226465/index.m3u8#http://59.49.41.41/live.aishang.ctlcdn.com/00000110240324_1/playlist.m3u8?CONTENTID=00000110240324_1
 
-获取密码,http://125.40.191.58:9901/tsfile/live/1001_1.m3u8#http://111.20.33.93/TVOD/88888893/224/3221226462/index.m3u8#http://117.148.179.157/PLTV/88888888/224/3221232942/index.m3u8#http://111.20.33.93/TVOD/88888893/224/3221226462/index.m3u8#http://gxfrg007.8800.org:8282/tsfile/live/1096_1.m3u8#http://59.49.41.41/live.aishang.ctlcdn.com/00000110240323_1/playlist.m3u8?CONTENTID=00000110240323_1#http://117.148.179.151/PLTV/88888888/224/3221231799/index.m3u8
-💞GA测试1_777,#genre#
+💞GA测试,#genre#
 HBO,http://line.premiumpowers.net:80/Manuel/1234567/941648
 HBO家庭,http://line.premiumpowers.net:80/Manuel/1234567/941646
 HBO原创,http://line.premiumpowers.net:80/Manuel/1234567/941645
@@ -5180,7 +5175,7 @@ TVBS新闻台,http://38.64.72.148/hls/modn/list/4006/chunklist0.m3u8
 长城精品,http://38.64.72.148:80/hls/modn/list/4008/chunklist0.m3u8
 番薯,http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8 
 番薯,http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8 
-💞GA测试2_777,#genre#
+💞GA测试2,#genre#
 MEDIACORP U,http://line.premiumpowers.net:80/Manuel/1234567/941617
 衛視電影,http://line.premiumpowers.net:80/Manuel/1234567/941625
 ROCK ENTERTAINMENT,http://line.premiumpowers.net:80/Manuel/1234567/941643
@@ -5472,7 +5467,7 @@ MOMo综合,http://154.216.191.59/iptv/tw222.php?id=64
 ELEVEN1,http://154.216.191.59/iptv/tw222.php?id=65
 ELEVEN2,http://154.216.191.59/iptv/tw222.php?id=66
 
-🎞️电影电视_777,#genre#
+🎞️电影电视,#genre#
 东森电影,http://120.84.96.122:808/hls/32/index.m3u8
 东森电影,http://120.84.96.72:808/hls/32/index.m3u8
 东森电影,http://120.84.96.73:808/hls/32/index.m3u8
@@ -5544,7 +5539,7 @@ HBO强档,http://pull-l3-cny.douyincdn.com/live/162f0111fdd134e929d72640e6c4ea56
 天映电影台,https://pull-l3-cny.douyincdn.com/live/4480903e93e7bf6ddde637e903c423a0.m3u8
 东森洋片台,https://pull-l3-cny.douyincdn.com/live/ed503be0a61dc988e0a7d9e1f57a1885.m3u8
 东森电影台,https://pull-l3-cny.douyincdn.com/live/3d50d525417f450fdbc3fbbf5ac32960.m3u8
-💞TW测试_777,#genre#
+💞TW测试,#genre#
 TBS,http://redlabmcdn.s.llnwi.net/nv02/ryowa4hd/playlist.m3u8
 TBS,http://redlabmcdn.s.llnwi.net/nv02/ryowa4hd/tracks-v1a1/mono.m3u8
 DW,https://dwamdstream106.akamaized.net/hls/live/2017965/dwstream106/index.m3u8
@@ -5705,7 +5700,7 @@ TVBS新聞,https://lss.line-scdn.net/cc_tw/p/live/hUkPJ5N5FC0U9XhVVBUsWclZjVXJAA
 民視新聞,https://lss.line-scdn.net/cc_tw/p/live/h6LXFIIC5aGI3UnZyDUd1VV48YAYYXyhgWFkvUhc6ZARBXCswClEgUEg2YwBNDSYwDQoiA0g2NFtISi40CwogUhQ_KVNJEC42WkYmBUAgN1FPBC40WFAn/720/chunklist.m3u8
 台灣生活新聞台,https://lss.line-scdn.net/cc_tw/p/live/htuvxWuk-KlsZbDRLI3k3bDpIazpmOWRfJzBjaTsJIG9iNGhcJDVgPGgId2w0M2RcIGdsb2oHJWJkN2pJd2Y2b2hWIWh4MW0TdGVmI2gHamxkOmwNdm5l/abr.m3u8
 
-👽|中天_777,#genre#
+👽|中天,#genre#
 好萊塢電影 HD,http://pull-l3-cny.douyincdn.com/live/06027cd7cadf310982fe67221578515b.m3u8
 龍祥時代,http://pull-l3-cny.douyincdn.com/live/c32278dece9f79334a2a878aaa730e95.m3u8
 HBO HD,http://pull-l3-cny.douyincdn.com/live/b2478a833f3e8b439b680048fcbf7786.m3u8
@@ -5819,7 +5814,7 @@ AODHD,http://198.16.64.10:8278/AodHD/playlist.m3u8?tid=MFCF1671455616714556&ct=1
 AOD511,http://198.16.64.10:8278/Aod350/playlist.m3u8?tid=MF1F3186735831867358&ct=19254&tsum=a39293798a92f4779c48b2e917adbf74
 AllTheKpop,http://198.16.64.10:8278/allthekpop_korea/playlist.m3u8?tid=MDDD8149394181493941&ct=19225&tsum=9f1d9df0da62cc0a30d0e5357356e012
 
-💞4GTW_777,#genre#
+💞4GTW,#genre#
 翡翠台,http://2023.stream-link.org/playlist/tvb_jade
 華麗(翡翠)台,http://2023.stream-link.org/playlist/astro_jade
 八度空間,http://2023.stream-link.org/playlist/8tv
