@@ -8,7 +8,7 @@
                 {
                     "name": "live",
                     "urls": [
-                        "proxy://do=live&type=txt&ext=https://drfilestreambot.cf/AgADzg125752"
+                        "proxy://do=live&type=txt&ext=http://shuyuan.miaogongzi.net/shuyuan/1673126383.txt"
                     ]
                 }
             ]
@@ -87,6 +87,33 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },{
+            "key": "csp_xbpq_影迷影视",
+            "name": "映迷影视(XBPQ)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ZG/XBPQ/映迷.json"
+        },{
+            "key": "csp_xbpq_银狐影视",
+            "name": "银狐影视(XBPQ)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ZG/XBPQ/银狐.json"
+        },{
+            "key": "csp_xbpq_VIP蓝光影视",
+            "name": "VIP蓝光影视(XBPQ)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ZG/XBPQ/VIP蓝光.json"
         },
           {
             "key": "4k极客",
