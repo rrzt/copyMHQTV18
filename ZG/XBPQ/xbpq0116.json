@@ -654,153 +654,136 @@
             "jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;e889b257fb9dbaf519f3c095231c12ea"
         },
     {
-            "key" : "py_youer",
-            "name" : "幼儿教育",
-            "type" : 3,
-            "api" : "py_youer",
-            "searchable" : 1,
-            "quickSearch" : 1,
-            "filterable" : 1,
-            "ext" : "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_youer.py"
-        }, {
-            "key" : "py_xiaoxue",
-            "name" : "小学教育",
-            "type" : 3,
-            "api" : "py_xiaoxue",
-            "searchable" : 1,
-            "quickSearch" : 1,
-            "filterable" : 1,
-            "ext" : "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_xiaoxue.py"
-        }, {
-            "key" : "py_czxx",
-            "name" : "初中教育",
-            "type" : 3,
-            "api" : "py_czxx",
-            "searchable" : 1,
-            "quickSearch" : 1,
-            "filterable" : 1,
-            "ext" : "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_czxx.py"
-        }, {
-            "key" : "py_gaozxx",
-            "name" : "高中教育",
-            "type" : 3,
-            "api" : "py_gaozxx",
-            "searchable" : 1,
-            "quickSearch" : 1,
-            "filterable" : 1,
-            "ext" : "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_gaozxx.py"
-        }, {
-            "key" : "py_xuqu1",
-            "name" : "戏曲专栏",
-            "type" : 3,
-            "api" : "py_xuqu1",
-            "searchable" : 1,
-            "quickSearch" : 1,
-            "filterable" : 1,
-            "ext" : "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_xuqu1.py"
-        }, {
-            "key" : "py_TYjs",
-            "name" : "体育健身",
-            "type" : 3,
-            "api" : "py_TYjs",
-            "searchable" : 1,
-            "quickSearch" : 1,
-            "filterable" : 1,
-            "ext" : "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_TYjs.py"
-        }, {
-            "key" : "py_xiangsh",
-            "name" : "相声小品",
-            "type" : 3,
-            "api" : "py_xiangsh",
-            "searchable" : 1,
-            "quickSearch" : 1,
-            "filterable" : 1,
-            "ext" : "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_xiangsh.py"
-        }, {
-            "key" : "py_FBqx",
-            "name" : "球队球星",
-            "type" : 3,
-            "api" : "py_FBqx",
-            "searchable" : 1,
-            "quickSearch" : 1,
-            "filterable" : 1,
-            "ext" : "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_FBqx.py"
-        }, {
-            "key" : "py_Bzjc",
-            "name" : "B站教程",
-            "type" : 3,
-            "api" : "py_Bzjc",
-            "searchable" : 1,
-            "quickSearch" : 1,
-            "filterable" : 1,
-            "ext" : "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_Bzjc.py"
-        }, {
-            "key" : "py_Meinvw",
-            "name" : "美女热舞",
-            "type" : 3,
-            "api" : "py_Meinvw",
-            "searchable" : 1,
-            "quickSearch" : 1,
-            "filterable" : 1,
-            "ext" : "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_Meinvw.py"
-        }, 
-        {
-            "key" : "py_biliys",
-            "name" : "歌手专辑",
-            "type" : 3,
-            "api" : "py_biliys",
-            "searchable" : 1,
-            "quickSearch" : 1,
-            "filterable" : 1,
-            "ext" : "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_biliys.py"
+            "key": "csp_Bliyc学前",
+            "name": "🅱️学前教育(SP)",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/学前儿童.txt"
         },
         {
-            "key" : "py_yanchh",
-            "name" : "影视测",
-            "type" : 3,
-            "api" : "py_yanchh",
-            "searchable" : 1,
-            "quickSearch" : 1,
-            "filterable" : 1,
-            "ext" : "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_yanchh.py"
-        }, {
-            "key" : "py_Nvtuan",
-            "name" : "女团热舞",
-            "type" : 3,
-            "api" : "py_Nvtuan",
-            "searchable" : 1,
-            "quickSearch" : 1,
-            "filterable" : 1,
-            "ext" : "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_Nvtuan.py"
-        }, {
-            "key" : "py_MTV",
-            "name" : "歌曲MTV",
-            "type" : 3,
-            "api" : "py_MTV",
-            "searchable" : 1,
-            "quickSearch" : 1,
-            "filterable" : 1,
-            "ext" : "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_MTV.py"
-        }, {
-            "key" : "py_Yinl2",
-            "name" : "B站音乐",
-            "type" : 3,
-            "api" : "py_Yinl2",
-            "searchable" : 1,
-            "quickSearch" : 1,
-            "filterable" : 1,
-            "ext" : "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_Yinl2.py"
-        }, 
-	{
-      "key": "csp_Bliyc",
-      "name": "🅱️健身(SP)",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-	 "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/bilibili.json","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/1080bi.jar"
-    },
+            "key": "csp_Bliyc小学",
+            "name": "🅱️小学教育(SP)",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/小学学堂.txt"
+        },
+        {
+            "key": "csp_Bliyc初中",
+            "name": "🅱️初中教育(SP)",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/初中学堂.txt"
+        },
+        {
+            "key": "csp_Bliyc高中",
+            "name": "🅱️高中教育(SP)",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/高中学堂.txt"
+        },
+        {
+            "key": "csp_女团",
+            "name": "🅱️女团MV(SP)",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/女团MV.txt"
+        },
+        {
+            "key": "csp_美食",
+            "name": "🅱️美食(SP)",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/美食天地.txt"
+        },
+        {
+            "key": "csp_热舞",
+            "name": "🅱️女团热舞(SP)",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/女团热舞.json"
+        },
+        {
+            "key": "csp_Bliyc音乐",
+            "name": "🅱️音乐现场(SP)",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/音乐现场.json"
+        },
+        {
+            "key": "csp_Bliyc印度",
+            "name": "🅱️印度歌舞(SP)",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/印度歌舞.txt"
+        },
+        {
+            "key": "csp_Bliyc全",
+            "name": "🅱️站综合(SP)",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/bilibili.json"
+        },
+        {
+            "key": "csp_Bliyc动物",
+            "name": "🅱️动物世界(SP)",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/动物世界.json"
+        },
+        {
+            "key": "csp_Bliyc歌手",
+            "name": "🅱️歌手演唱会(SP)",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/歌手演唱会.json"
+        },
+        
+        {
+            "key": "csp_Bliyc戏曲",
+            "name": "🅱️戏曲(SP)",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/戏曲.txt"
+        },
 
 	{
             "key" : "py_cctv",
