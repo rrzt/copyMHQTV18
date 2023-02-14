@@ -1,5 +1,5 @@
 {
-    "spider": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ZG/XBPQ/230114.jar",
+    "spider": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ZG/XBPQ/ly.jar",
     "wallpaper": "https://tuapi.eees.cc/api.php?category=meinv&type=302",
     "lives": [
         {
@@ -59,6 +59,8 @@
 
 
 {"key":"Gitcafe","name":"小纸条〔ts〕","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/Pandora2277/box/main/token.txt","jar":"./JAR/cs.jar"},
+
+       
        {"key":"csp_XBPQ新视觉","name":"新视觉影院〔xBPQ〕","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://agit.ai/138001380000/MHQTV/raw/branch/master/xBPQ/新视觉影院.json"},{"key":"韩剧","name":"️韩剧网","type":3,"api":"XBPQ","ext":"免嗅:1,分类:韩剧$hanju#日剧$riju#泰剧$taiju#电影$dianying#动作片$dongzoupian#喜剧片$xijupian爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#剧情片$juqingpian#战争片$zhanzhengpian#韩综$hanzong,分类url:https://www.hantvn.com/vod/show/class/{class}/id/{cateId}/page/{catepg}/lang/{lang}/year/{year}.html"},
        {
             "key": "csp_XBPQ_影迷影视",
@@ -68,7 +70,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ZG/XBPQ/映迷.json"
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ZG/XBPQ/映迷.json","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/ZG/XBPQ/新视觉.jar"
         },{
             "key": "csp_XBPQ_银狐影视",
             "name": "银狐影视(XBPQ)",
@@ -1010,24 +1012,81 @@
 		"filterable": 0,
 		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_ali.py"
 	}],
-    "parses": [
-        {
-            "name": "解析聚合",
-            "type": 3,
-            "url": "Demo"
-        },
-        {
-            "name": "Json并发",
-            "type": 2,
-            "url": "Parallel"
-        },
-        {
-            "name": "Json轮询",
-            "type": 2,
-            "url": "Sequence"
-        },
-            
-    {"name": "255解析","type": 1,"url": "http://47.108.39.237:55/api//?key=ffQTjdEIKxqZYQgN2c&url=","ext":{"flag":["qq","腾讯","qiyi","iqiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
+  "parses": [
+      {
+        "name": "解析聚合",
+        "type": 3,
+        "url": "Demo"
+      },
+      {
+        "name": "Json并发",
+        "type": 2,
+        "url": "Parallel"
+      },
+      {
+        "name": "Json轮询",
+        "type": 2,
+        "url": "Sequence"
+      },
+      {
+        "name": "恋影1",
+        "type": 1,
+        "url": "http://lanlan.ckflv.cn/?url="
+      },
+      {
+        "name": "恋影2",
+        "type": 0,
+        "url": "https://jx.xmflv.com/?url=",
+        "ext": {
+          "flag": [
+            "qq",
+            "腾讯",
+            "qiyi",
+            "iqiyi",
+            "爱奇艺",
+            "奇艺",
+            "youku",
+            "优酷",
+            "mgtv",
+            "芒果",
+            "letv",
+            "乐视",
+            "pptv",
+            "PPTV",
+            "sohu",
+            "bilibili",
+            "哔哩哔哩",
+            "哔哩"
+          ]
+        }
+      },
+      {
+        "name": "恋影3",
+        "type": 0,
+        "url": "https://www.ckmov.com/?url=",
+        "ext": {
+          "flag": [
+            "qq",
+            "腾讯",
+            "qiyi",
+            "iqiyi",
+            "爱奇艺",
+            "奇艺",
+            "youku",
+            "优酷",
+            "mgtv",
+            "芒果",
+            "letv",
+            "乐视",
+            "pptv",
+            "PPTV",
+            "sohu",
+            "bilibili",
+            "哔哩哔哩",
+            "哔哩"
+          ]
+        }
+      },
     
     {"name": "风起0","type": 1,"url": "https://drpy.liucn.repl.co/parse/api/dyg.js?url="},
     
