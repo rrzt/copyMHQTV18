@@ -1,6 +1,6 @@
 {
     "小雅":"http://alist.xiaoya.pro",
-"灭火器": "https://alist1.owen10086.repl.co",
+"灭火器": "https://alist-xyabb.run.goorm.site",
 "木偶":"https://www.kugutsu.ml",
 "大人番":"https://www.kugutsu.ml",
 "资源小站": "https://960303.xyz/",
