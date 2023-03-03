@@ -118,9 +118,18 @@
             "quickSearch": 1,
             "filterable": 0,
             "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ZG/XBPQ/人人影视.json"
+        },{
+            "key": "csp_XBPQ_布雷影视",
+            "name": "布雷影视(XBPQ)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ZG/XBPQ/布雷影视.json"
         },
         // http://www.bulei.cc/index.php/vod/show/id/2/page/2.html
-        {"key":"布雷影视","name":"️🍹布雷影视","type":3,"api":"XBPQ","ext":"免嗅:0,分类url:http://www.bulei.cc/index.php/vod/show/{cateId}-{area}-{by}------{catePg}---{year}.html"},
+        
        {"key":"600影视","name":"️🍹600影视","type":3,"api":"XBPQ","ext":"免嗅:0,分类url:http://www.600dvd.com/type/{cateId}-{area}-{by}------{catePg}---{year}.html"},
        {"key":"低端影院","name":"️低端影院","type":3,"api":"XBPQ","ext":"免嗅:1,分类url:http://www.jinyanw.com/vodshow/{cateId}-{area}--{class}-{lang}-------{year}.html"},
         {"key":"云播tv","name":"️TVB2云播","type":3,"api":"XBPQ","ext":"免嗅:1,分类url:http://www.hktvyun.com/vod/show/area/{area}/class/{class}/id/{cateId}/lang/{lang}/year/{year}.html"},
