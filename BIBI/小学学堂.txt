@@ -1,5 +1,4 @@
 {
-"cookie": "https://agit.ai/138001380000/MHQTV/raw/commit/37359c2a206cd2c021035b8d67d44b7bb5b6a5aa/bbcookie.txt",
   "classes": [
     {
       "type_name": "1年级语文",
@@ -76,6 +75,7 @@
 
 
   ],
+  "cookie":"https://agit.ai/138001380000/MHQTV/raw/branch/master/bbcookie.txt",
   "filter": {
    
     "1年级语文": [
