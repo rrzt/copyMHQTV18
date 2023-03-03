@@ -1,4 +1,4 @@
-{"cookie": "https://agit.ai/138001380000/MHQTV/raw/commit/37359c2a206cd2c021035b8d67d44b7bb5b6a5aa/bbcookie.txt",    
+{  
 "classes": [
         {
             "type_name": "帕梅拉",
@@ -145,5 +145,6 @@
             "type_id": "荒野求生超清"
         }
     ],
+    "cookie":"https://agit.ai/138001380000/MHQTV/raw/branch/master/bbcookie.txt",
   "filter": {}
 }
