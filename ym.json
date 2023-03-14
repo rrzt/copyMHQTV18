@@ -899,7 +899,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "searchable": 1
-        },{"key":"csp_黄仓库","name":"黄仓库〔SP〕","api":"csp_Hsck","type":3,"filterable":1,"quickSearch":1,"searchable":1,"ext":"https://www.javsee.men/","jar":"clan://TVBox/JAR/18.jar"},
+        },{"key":"csp_黄仓库","name":"黄仓库〔SP〕","api":"csp_Hsck","type":3,"filterable":1,"quickSearch":1,"searchable":1,"ext":"https://www.javsee.men/","jar":"https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/18.jar"},
         {
             "key": "csp_biubiu_23999",
             "name": "23999",
