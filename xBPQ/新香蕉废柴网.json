@@ -11,7 +11,7 @@
 "链接":"href=\"/fcw/fplay&&.html\"",
 "副标题":"<div class=\"duration\">&&</div>",
 "链接前缀":"https://avhh.vip/fcw/fplay",
-"链接后缀":".html?btwaf=&&",
+"链接后缀":".html",
 "线路数组":"button-rounded&&/a>",
 "线路标题":">&&<",
 //"搜索数组":"<div class=\"item\"&&</div>",
@@ -24,6 +24,6 @@
 "搜索链接前缀":"https://avhh.vip/fcw/fplay",
 "搜索链接后缀":"-1-1.html",
 "简介":"<p>&&</p>",
-"分类url":"https://avhh.vip/fcw/{cateId}-{catePg}.html?btwaf=&&",
+"分类url":"https://avhh.vip/fcw/{cateId}-{catePg}.html",
 "免嗅":"0"
 }
