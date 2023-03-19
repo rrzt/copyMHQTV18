@@ -55,6 +55,18 @@
     ],
     "sites": [
     {
+"key": "csp_xBPQ_超清",
+"name": "香蕉超清",
+"type": 3,
+"api": "csp_xBPQ",
+"searchable": 1,
+"quickSearch": 1,
+"filterable": 0,
+"ext": "{\"分类url\":\"https://avhh.vip/cq/{cateId}-{catePg}.html\", \"分类\":\"请勿外传$2k-yazhou#按首页切换源$2k-zipaitoupai#设置可选推荐豆瓣$2k-chaoqingchuanmei#未成年禁止使用$2k-3Ddongman#资源网络共享$2k-oumei#有倒卖贩卖纯属欺诈$2k-luanlunrenqi#请勿相信！$2k-siwazhifu#直播录播$2k-zhibolubo#SM另类$2k-SMlinglei#超清三级$2k-chaoqingsanji\",\"副标题\":\"duration\\\">&&</div\",\"链接\": \"href=\\\"/cq/Kplay&&.html\\\"\", \"链接前缀\": \"https://avhh.vip/cq/Kplay\", \"链接后缀\": \"-1-1.html\", \"直接播放\": \"1\" }"
+},
+    
+    
+    {
             "key": "csp_xBPQ-说明",
             "name": "♦未成年人止步！请勿外传！♦",
             "type": 3,
