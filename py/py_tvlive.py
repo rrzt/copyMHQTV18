@@ -8,7 +8,7 @@ from base.spider import Spider
 
 class Spider(Spider):  # 元类 默认的元类 type
     def getName(self):
-        return "电视直播"
+        return "电视直播转点播"
 
     def init(self, extend=""):
         print("============{0}============".format(extend))
