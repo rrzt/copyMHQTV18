@@ -22,9 +22,9 @@ class Spider(Spider):  # 元类 默认的元类 type
     def homeContent(self, filter):
         result = {}
         cateManual = {
-            "4Gtv": "直播地址https://agit.ai/138001380000/MHQTV/raw/branch/master/TV/4GTV.txt",
-            "18c":"https://agit.ai/138001380000/MHQTV/raw/branch/master/TV/18c.txt",
-            "2301":"https://agit.ai/138001380000/MHQTV/raw/branch/master/TV/230107.txt"
+            "4Gtv": "https://agit.ai/138001380000/MHQTV/raw/branch/master/TV/4GTV.txt",
+            "18c": "https://agit.ai/138001380000/MHQTV/raw/branch/master/TV/18c.txt",
+            "2301": "https://agit.ai/138001380000/MHQTV/raw/branch/master/TV/230107.txt"
         }
         classes = []
         for k in cateManual:
