@@ -1,17 +1,16 @@
 #coding=utf-8
 #!/usr/bin/python
 import sys
-sys.path.append('..')
+sys.path.append('..') 
 from base.spider import Spider
 import json
-from requests import session, utils
-import os
 import time
 import base64
+import requests
 
 class Spider(Spider):  # 元类 默认的元类 type
 	def getName(self):
-		return "B站影视"
+		return "哔哩"
 	def init(self,extend=""):
 		print("============{0}============".format(extend))
 		pass
@@ -22,13 +21,18 @@ class Spider(Spider):  # 元类 默认的元类 type
 	def homeContent(self,filter):
 		result = {}
 		cateManual = {
-			"番剧": "1",
-			"国创": "4",
-			"电影": "2",
-			"综艺": "7",
-			"电视剧": "5",
-			"纪录片": "3"
-			
+			"Zard": "Zard",
+			"玩具汽车": "玩具汽车",
+			"儿童": "儿童",
+			"幼儿": "幼儿",
+			"儿童玩具": "儿童玩具",
+			"昆虫": "昆虫",
+			"动物世界": "动物世界",
+			"纪录片": "纪录片",
+			"相声小品": "相声小品",
+			"搞笑": "搞笑",
+			"假窗-白噪音": "窗+白噪音",
+			"演唱会": "演唱会"
 		}
 		classes = []
 		for k in cateManual:
@@ -47,10 +51,10 @@ class Spider(Spider):  # 元类 默认的元类 type
 		return result
 	cookies = ''
 	def getCookie(self):
-		cookies_str = self.fetch('https://agit.ai/138001380000/MHQTV/raw/branch/master/bbcookie.txt').text
+		cookies_str = self.fetch("https://agit.ai/138001380000/MHQTV/raw/branch/master/bbcookie.txt").text
 		cookies_dic = dict([co.strip().split('=') for co in cookies_str.split(';')])
-		rsp = session()
-		cookies_jar = utils.cookiejar_from_dict(cookies_dic)
+		rsp = requests.session()
+		cookies_jar = requests.utils.cookiejar_from_dict(cookies_dic)
 		rsp.cookies = cookies_jar
 		content = self.fetch("http://api.bilibili.com/x/web-interface/nav", cookies=rsp.cookies)
 		res = json.loads(content.text)
@@ -60,22 +64,26 @@ class Spider(Spider):  # 元类 默认的元类 type
 			rsp = self.fetch("https://www.bilibili.com/")
 			self.cookies = rsp.cookies
 		return rsp.cookies
-
+		
 	def categoryContent(self,tid,pg,filter,extend):		
 		result = {}
-		url = 'https://api.bilibili.com/pgc/season/index/result?order=2&season_status=-1&style_id=-1&sort=0&area=-1&pagesize=20&type=1&st={0}&season_type={0}&page={1}'.format(tid,pg)
+		url = 'https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword={0}&duration=4&page={1}'.format(tid,pg)
 		if len(self.cookies) <= 0:
 			self.getCookie()
-		rsp = self.fetch(url, cookies=self.cookies)
+		rsp = self.fetch(url,cookies=self.cookies)
 		content = rsp.text
 		jo = json.loads(content)
+		if jo['code'] != 0:			
+			rspRetry = self.fetch(url,cookies=self.getCookie())
+			content = rspRetry.text		
+		jo = json.loads(content)
 		videos = []
-		vodList = jo['data']['list']
+		vodList = jo['data']['result']
 		for vod in vodList:
-			aid = str(vod['season_id']).strip()
-			title = vod['title'].strip()
-			img =  vod['cover'].strip()
-			remark = vod['index_show'].strip()
+			aid = str(vod['aid']).strip()
+			title = vod['title'].strip().replace("<em class=\"keyword\">","").replace("</em>","")
+			img = 'https:' + vod['pic'].strip()
+			remark = str(vod['duration']).strip()
 			videos.append({
 				"vod_id":aid,
 				"vod_name":title,
@@ -92,38 +100,35 @@ class Spider(Spider):  # 元类 默认的元类 type
 		return str.replace('\n','').replace('\t','').replace('\r','').replace(' ','')
 	def detailContent(self,array):
 		aid = array[0]
-		url = "http://api.bilibili.com/pgc/view/web/season?season_id={0}".format(aid)
+		url = "https://api.bilibili.com/x/web-interface/view?aid={0}".format(aid)
+
 		rsp = self.fetch(url,headers=self.header)
 		jRoot = json.loads(rsp.text)
-		jo = jRoot['result']
-		id = jo['season_id']
-		title = jo['title']
-		pic = jo['cover']
-		areas = jo['areas'][0]['name']
-		typeName = jo['share_sub_title']
-		dec = jo['evaluate']
-		remark = jo['new_ep']['desc']
+		jo = jRoot['data']
+		title = jo['title'].replace("<em class=\"keyword\">","").replace("</em>","")
+		pic = jo['pic']
+		desc = jo['desc']
+		typeName = jo['tname']
 		vod = {
-			"vod_id":id,
+			"vod_id":aid,
 			"vod_name":title,
 			"vod_pic":pic,
 			"type_name":typeName,
 			"vod_year":"",
-			"vod_area":areas,
-			"vod_remarks":remark,
+			"vod_area":"",
+			"vod_remarks":"",
 			"vod_actor":"",
 			"vod_director":"",
-			"vod_content":dec
+			"vod_content":desc
 		}
-		ja = jo['episodes']
+		ja = jo['pages']
 		playUrl = ''
 		for tmpJo in ja:
-			eid = tmpJo['id']
 			cid = tmpJo['cid']
-			part = tmpJo['title'].replace("#", "-")
-			playUrl = playUrl + '{0}${1}_{2}#'.format(part, eid, cid)
+			part = tmpJo['part']
+			playUrl = playUrl + '{0}${1}_{2}#'.format(part,aid,cid)
 
-		vod['vod_play_from'] = 'B站影视'
+		vod['vod_play_from'] = 'B站'
 		vod['vod_play_url'] = playUrl
 
 		result = {
@@ -133,65 +138,35 @@ class Spider(Spider):  # 元类 默认的元类 type
 		}
 		return result
 	def searchContent(self,key,quick):
-		url = 'https://api.bilibili.com/x/web-interface/search/type?search_type=media_bangumi&keyword={0}'.format(key)  # 番剧搜索
-		if len(self.cookies) <= 0:
-			self.getCookie()
-		rsp = self.fetch(url, cookies=self.cookies)
-		content = rsp.text
-		jo = json.loads(content)
-		rs = jo['data']
-		if rs['numResults'] == 0:
-			url = 'https://api.bilibili.com/x/web-interface/search/type?search_type=media_ft&keyword={0}'.format(key)  # 影视搜索
-			rspRetry = self.fetch(url, cookies=self.cookies)
-			content = rspRetry.text
-		jo = json.loads(content)
-		videos = []
-		vodList = jo['data']['result']
-		for vod in vodList:
-			aid = str(vod['season_id']).strip()
-			title = vod['title'].strip().replace("<em class=\"keyword\">", "").replace("</em>", "")
-			img = vod['eps'][0]['cover'].strip()
-			remark = vod['index_show']
-			videos.append({
-				"vod_id": aid,
-				"vod_name": title,
-				"vod_pic": img,
-				"vod_remarks": remark
-			})
 		result = {
-			'list': videos
+			'list':[]
 		}
 		return result
-
 	def playerContent(self,flag,id,vipFlags):
+		# https://www.555dianying.cc/vodplay/static/js/playerconfig.js
 		result = {}
+
 		ids = id.split("_")
-		header = {
-			"Referer": "https://www.bilibili.com",
-			"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
-		}
-		url = 'https://api.bilibili.com/pgc/player/web/playurl?qn=116&ep_id={0}&cid={1}'.format(ids[0],ids[1])
-		if len(self.cookies) <= 0:
-			self.getCookie()
-		rsp = self.fetch(url,cookies=self.cookies,headers=header)
+		url = 'https://api.bilibili.com:443/x/player/playurl?avid={0}&cid=%20%20{1}&qn=112'.format(ids[0],ids[1])
+		rsp = self.fetch(url)
 		jRoot = json.loads(rsp.text)
-		if jRoot['message'] != 'success':
-			url = ''
-		else:
-			jo = jRoot['result']
-			ja = jo['durl']
-			maxSize = -1
-			position = -1
-			for i in range(len(ja)):
-				tmpJo = ja[i]
-				if maxSize < int(tmpJo['size']):
-					maxSize = int(tmpJo['size'])
-					position = i
-			url = ''
-			if len(ja) > 0:
-				if position == -1:
-					position = 0
-				url = ja[position]['url']
+		jo = jRoot['data']
+		ja = jo['durl']
+		
+		maxSize = -1
+		position = -1
+		for i in range(len(ja)):
+			tmpJo = ja[i]
+			if maxSize < int(tmpJo['size']):
+				maxSize = int(tmpJo['size'])
+				position = i
+
+		url = ''
+		if len(ja) > 0:
+			if position == -1:
+				position = 0
+			url = ja[position]['url']
+
 		result["parse"] = 0
 		result["playUrl"] = ''
 		result["url"] = url
