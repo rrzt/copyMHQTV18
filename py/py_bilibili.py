@@ -50,6 +50,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 		return result
 	cookies = ''
 	def getCookie(self):
+	    cookies_str = self.fetch( "https://agit.ai/138001380000/MHQTV/raw/branch/master/bbcookie.txt")
 		rsp = self.fetch("https://www.bilibili.com/")
 		self.cookies = rsp.cookies
 		return rsp.cookies
