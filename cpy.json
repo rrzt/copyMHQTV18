@@ -41,7 +41,7 @@
 		"searchable": 0,
 		"quickSearch": 0,
 		"filterable": 1,
-		"ext": "clan://TVBox/py/py_csb.py"
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_csb.py"
 	},
 	{
 		"key": "py_czspp",
@@ -61,7 +61,7 @@
 		"searchable": 1,
 		"quickSearch": 1,
 		"filterable": 1,
-		"ext": "clan://TVBox/py/py_libvio_.py"
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_libvio_.py"
 	}, 
 	
 	{
@@ -72,7 +72,7 @@
 		"searchable": 0,
 		"quickSearch": 0,
 		"filterable": 1,
-		"ext": "clan://TVBox/py/py_TYjs.py"
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_TYjs.py"
 	},{
 		"key": "py_ydgw",
 		"name": "印度歌舞",
@@ -81,7 +81,7 @@
 		"searchable": 0,
 		"quickSearch": 0,
 		"filterable": 1,
-		"ext": "clan://TVBox/py/py_ydgw.py"
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_ydgw.py"
 	},{
 		"key": "py_ylxc",
 		"name": "音乐现场",
@@ -90,7 +90,7 @@
 		"searchable": 0,
 		"quickSearch": 0,
 		"filterable": 1,
-		"ext": "clan://TVBox/py/py_ylxc.py"
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_ylxc.py"
 	},{
 		"key": "py_XQ",
 		"name": "B站戏曲",
@@ -99,7 +99,7 @@
 		"searchable": 0,
 		"quickSearch": 0,
 		"filterable": 1,
-		"ext": "clan://TVBox/py/py_XQ.py"
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_XQ.py"
 	},{
 		"key": "py_NTrw",
 		"name": "女团热舞",
@@ -108,7 +108,7 @@
 		"searchable": 0,
 		"quickSearch": 0,
 		"filterable": 1,
-		"ext": "clan://TVBox/py/py_NTrw.py"
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_NTrw.py"
 	},{
 		"key": "py_NTMV",
 		"name": "女团MV",
@@ -117,7 +117,7 @@
 		"searchable": 0,
 		"quickSearch": 0,
 		"filterable": 1,
-		"ext": "clan://TVBox/py/py_NTMV.py"
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_NTMV.py"
 	},{
 		"key": "py_mstd",
 		"name": "美食天地",
@@ -126,7 +126,7 @@
 		"searchable": 0,
 		"quickSearch": 0,
 		"filterable": 1,
-		"ext": "clan://TVBox/py/py_mstd.py"
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_mstd.py"
 	},{
 		"key": "py_gsych",
 		"name": "歌手MV",
@@ -135,7 +135,7 @@
 		"searchable": 0,
 		"quickSearch": 0,
 		"filterable": 1,
-		"ext": "clan://TVBox/py/py_gsych.py"
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_gsych.py"
 	},{
 		"key": "py_GLjc",
 		"name": "各类教程",
@@ -144,7 +144,7 @@
 		"searchable": 0,
 		"quickSearch": 0,
 		"filterable": 1,
-		"ext": "clan://TVBox/py/py_GLjc.py"
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_GLjc.py"
 	},{
 		"key": "py_QDqx",
 		"name": "足坛各种",
@@ -153,7 +153,7 @@
 		"searchable": 0,
 		"quickSearch": 0,
 		"filterable": 1,
-		"ext": "clan://TVBox/py/py_QDqx.py"
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_QDqx.py"
 	},{
 		"key": "py_XSxp",
 		"name": "相声小品",
@@ -162,7 +162,7 @@
 		"searchable": 0,
 		"quickSearch": 0,
 		"filterable": 1,
-		"ext": "clan://TVBox/py/py_XSxp.py"
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_XSxp.py"
 	},
 	{
 		"key": "py_yejy",
@@ -172,7 +172,7 @@
 		"searchable": 0,
 		"quickSearch": 0,
 		"filterable": 1,
-		"ext": "clan://TVBox/py/py_yejy.py"
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_yejy.py"
 	},
 	{
 		"key": "py_xxjt",
@@ -182,7 +182,7 @@
 		"searchable": 0,
 		"quickSearch": 0,
 		"filterable": 1,
-		"ext": "clan://TVBox/py/py_xxjt.py"
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_xxjt.py"
 	},
 	{
 		"key": "py_Czjy",
@@ -192,7 +192,7 @@
 		"searchable": 0,
 		"quickSearch": 0,
 		"filterable": 1,
-		"ext": "clan://TVBox/py/py_Czjy.py"
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_Czjy.py"
 	},
 	
 	{
@@ -203,7 +203,7 @@
 		"searchable": 0,
 		"quickSearch": 0,
 		"filterable": 1,
-		"ext": "clan://TVBox/py/py_Gzjy.py"
+		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_Gzjy.py"
 	},
 	
 	
