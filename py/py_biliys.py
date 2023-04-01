@@ -33,7 +33,6 @@ class Spider(Spider):
     def homeContent(self, filter):
         result = {}
         cateManual = {
-        "广场舞": "广场舞",
             "番剧": "1",
             "国创": "4",
             "电影": "2",
@@ -42,7 +41,7 @@ class Spider(Spider):
             "综艺": "7",
             "全部": "全部",
             # "追番追剧": "追番追剧",
-            "时间表": "时间表",
+            "时间表": "时间表"
             # ————————以下可自定义关键字，结果以搜索方式展示————————
             # "奥特曼": "奥特曼"
 
@@ -70,7 +69,7 @@ class Spider(Spider):
         # return self.cookies
         # 单用此文件，请注释掉上面4行，取消以下注释，在下方raw_cookie_line后的双引号内填写cookies/外链
         import http.cookies
-        raw_cookie_line = "https://agit.ai/138001380000/MHQTV/raw/branch/master/bbcookie.txt"
+        raw_cookie_line = 'https://agit.ai/138001380000/MHQTV/raw/branch/master/bbcookie.txt'
         if raw_cookie_line.startswith('http'):
             raw_cookie_line = self.fetch(raw_cookie_line).text
         simple_cookie = http.cookies.SimpleCookie(raw_cookie_line)
