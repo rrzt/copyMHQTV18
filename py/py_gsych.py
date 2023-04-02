@@ -10,7 +10,7 @@ import requests
 
 class Spider(Spider):  # 元类 默认的元类 type
 	def getName(self):
-		return "哔哩"
+		return "歌星mv"
 	def init(self,extend=""):
 		print("============{0}============".format(extend))
 		pass
@@ -300,7 +300,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 
 		ids = id.split("_")
 		url = 'https://api.bilibili.com:443/x/player/playurl?avid={0}&cid=%20%20{1}&qn=112'.format(ids[0],ids[1])
-		rsp = self.fetch(url)
+		rsp = self.fetch(url, cookies=self.cookies)
 		jRoot = json.loads(rsp.text)
 		jo = jRoot['data']
 		ja = jo['durl']
