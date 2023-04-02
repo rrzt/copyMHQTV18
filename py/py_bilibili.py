@@ -148,7 +148,8 @@ class Spider(Spider):  # 元类 默认的元类 type
 
 		ids = id.split("_")
 		url = 'https://api.bilibili.com:443/x/player/playurl?avid={0}&cid={1}&qn=120&fnval=1&128=128&fourk=1'.format(ids[0],ids[1])
-		rsp = self.fetch(url)
+		
+		rsp = self.fetch(url, cookies=self.cookies)
 		jRoot = json.loads(rsp.text)
 		jo = jRoot['data']
 		ja = jo['durl']
