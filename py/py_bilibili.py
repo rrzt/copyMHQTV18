@@ -6,6 +6,7 @@ from base.spider import Spider
 import json
 import time
 import base64
+import requests
 
 class Spider(Spider):  # 元类 默认的元类 type
 	def getName(self):
@@ -50,10 +51,20 @@ class Spider(Spider):  # 元类 默认的元类 type
 		return result
 	cookies = ''
 	def getCookie(self):
-	    cookies_str = self.fetch( "https://agit.ai/138001380000/MHQTV/raw/branch/master/bbcookie.txt")
-		rsp = self.fetch("https://www.bilibili.com/")
-		self.cookies = rsp.cookies
+		cookies_str = self.fetch("https://agit.ai/138001380000/MHQTV/raw/branch/master/bbcookie.txt").text
+		cookies_dic = dict([co.strip().split('=') for co in cookies_str.split(';')])
+		rsp = requests.session()
+		cookies_jar = requests.utils.cookiejar_from_dict(cookies_dic)
+		rsp.cookies = cookies_jar
+		content = self.fetch("http://api.bilibili.com/x/web-interface/nav", cookies=rsp.cookies)
+		res = json.loads(content.text)
+		if res["code"] == 0:
+			self.cookies = rsp.cookies
+		else:
+			rsp = self.fetch("https://www.bilibili.com/")
+			self.cookies = rsp.cookies
 		return rsp.cookies
+		
 	def categoryContent(self,tid,pg,filter,extend):		
 		result = {}
 		url = 'https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword={0}&duration=4&page={1}'.format(tid,pg)
@@ -136,7 +147,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 		result = {}
 
 		ids = id.split("_")
-		url = 'https://api.bilibili.com:443/x/player/playurl?avid={0}&cid=%20%20{1}&qn=112'.format(ids[0],ids[1])
+		url = 'https://api.bilibili.com:443/x/player/playurl?avid={0}&cid={1}&qn=120&fnval=1&128=128&fourk=1'.format(ids[0],ids[1])
 		rsp = self.fetch(url)
 		jRoot = json.loads(rsp.text)
 		jo = jRoot['data']
