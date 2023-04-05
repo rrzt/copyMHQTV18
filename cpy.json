@@ -217,7 +217,7 @@
 		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_Gzjy.py"
 	},{
 		"key": "py_ZYY",
-		"name": "高中教育",
+		"name": "中国中医",
 		"type": 3,
 		"api": "py_ZYY",
 		"searchable": 0,
@@ -226,7 +226,7 @@
 		"ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/py/py_ZYY.py"
 	},{
 		"key": "py_CNWH",
-		"name": "高中教育",
+		"name": "中国古文化",
 		"type": 3,
 		"api": "py_CNWH",
 		"searchable": 0,
