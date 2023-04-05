@@ -22,7 +22,7 @@ var rule = {
     quickSearch:0,
     class_parse:'#top_banner_bg div;a&&Text;a&&href;/djlist/(\\d+)_1.html',
     headers:{
-        'User-Agent':'Mozilla/5.0 (Linux; Android 11; M2104K10AC Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.141 Mobile Safari/537.36'
+        'User-Agent':'MOBILE_UA'
     },
     timeout:5000,
     play_parse:true,
