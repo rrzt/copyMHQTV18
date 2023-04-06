@@ -20,7 +20,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 	def homeContent(self,filter):
 		result = {}
 		cateManual = {
-		    "今日说法":"TOPC1451464665008914"
+		    "今日说法":"TOPC1451464665008914",
 		    "方圆阵":"TOPC1571217727564820",
 "天网":"TOPC1451543228296920",
 "生命线":"TOPC1571040589483598",
