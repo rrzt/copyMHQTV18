@@ -43,9 +43,16 @@
         }
     ],
     "sites": [
-  
-    
-    {
+        {
+            "key": "t4桉佬",
+            "name": "🍀豆瓣备用",
+            "type": 4,
+            "api": "https://t4.secan.icu/vod?sites=all&ali_token=0c55c9f1c5cb4327ae2e51423276bb1e",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1
+        },
+        {
             "key": "飞速",
             "name": "️飞速采集",
             "type": 1,
@@ -67,7 +74,7 @@
                 "综艺"
             ]
         },
-    {
+        {
             "key": "天空",
             "name": "️天空采集",
             "type": 1,
@@ -93,7 +100,7 @@
                 "动漫"
             ]
         },
-    {
+        {
             "key": "干饭",
             "name": "️干饭采集",
             "type": 1,
@@ -108,7 +115,8 @@
                 "综艺",
                 "动漫"
             ]
-        },{
+        },
+        {
             "key": "FOX",
             "name": "️FOX采集",
             "type": 1,
@@ -134,7 +142,7 @@
                 "动漫"
             ]
         },
-    {
+        {
             "key": "卧龙",
             "name": "️卧龙采集",
             "type": 1,
@@ -161,7 +169,7 @@
                 "动漫"
             ]
         },
-    {
+        {
             "key": "易梦",
             "name": "️忆梦采集",
             "type": 1,
@@ -213,7 +221,7 @@
                 "动漫"
             ]
         },
-    {
+        {
             "key": "量子",
             "name": "️量子采集",
             "type": 1,
@@ -247,38 +255,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./ali/token.txt",
-            "jar": "clan://TVBox/JAR/玩偶哥哥.jar"
-        },
-        {
-            "key": "csp_Dy1010",
-            "name": "❤️双十┃直连",
-            "type": 3,
-            "api": "csp_Dy1010",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "jar": "clan://TVBox/JAR/玩偶哥哥.jar"
-        },
-        {
-            "key": "csp_黄库",
-            "name": "黄仓",
-            "api": "csp_Hsck",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.javsee.men,#genre#/",
-            "jar": "clan://TVBox/JAR/18.jar"
-        },
-        {
-            "key": "t4桉佬",
-            "name": "🍀豆瓣备用",
-            "type": 4,
-            "api": "https://t4.secan.icu/vod?sites=all&ali_token=0c55c9f1c5cb4327ae2e51423276bb1e",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1
+            "ext": "87e889ad6c84437c9b75a354b650e270",
+            "jar": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/玩偶哥哥.jar"
         },
         {
             "key": "csp_XYQHiker_‍亲宝专辑",
@@ -316,30 +294,7 @@
                 "动漫"
             ]
         },
-        {
-            "key": "csp_xBPQ_超清",
-            "name": "香蕉超清",
-            "type": 3,
-            "api": "csp_xBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "{\"分类url\":\"https://avhh.vip/cq/{cateId}-{catePg}.html\", \"分类\":\"亚洲AV$2k-yazhou#自拍偷拍$2k-zipaitoupai#超清传媒$2k-chaoqingchuanmei#3D动漫$2k-3Ddongman#欧美AV$2k-oumei#乱伦人妻$2k-luanlunrenqi#丝袜制服$2k-siwazhifu#直播录播$2k-zhibolubo#SM另类$2k-SMlinglei#超清三级$2k-chaoqingsanji\",\"副标题\":\"duration\\\">&&</div\",\"链接\": \"href=\\\"/cq/Kplay&&.html\\\"\", \"链接前缀\": \"https://avhh.vip/cq/Kplay\", \"链接后缀\": \".html\", \"直接播放\": \"1\" }"
-        },
-        {
-            "key": "直播转点播",
-            "name": "🎦直播转换",
-            "type": 3,
-            "api": "https://gitea.com/chen154672/tvbox/raw/branch/master/JS/js/直播转点播.js",
-            "ext": "clan://lives/$$$P站成人1108$clan://lives/P站成人源1108.txt#吾爱直播$http://52bsj.vip:81/api/v3/file/get/763/live.txt?sign=87BTGT1_6AOry7FPwy_uuxFTv2Wcb9aDMj46rDdRTD8%3D%3A0#饭太硬直播$http://ftyyy.tk/live.txt"
-        },
-        {
-            "key": "直播转点播22",
-            "name": "🎦本地直播转换",
-            "type": 3,
-            "api": "clan://JS/lib/可自定义图-直播转点播.js",
-            "ext": "./lives/$$$三级片80$clan://lives/三级片80部.txt#成人五千$clan://lives/P站成人源0118.txt#P站转播$clan://lives/P站成人源0119.txt#撸撸爱$clan://lives/lululu.txt&&&https://tuapi.eees.cc/api.php?category=meinv&type=302"
-        },
+        
         {
             "key": "直播",
             "name": "🅿电视直播",
@@ -402,17 +357,7 @@
             "quickSearch": "1",
             "filterable": "1"
         },
-        {
-            "key": "csp_XBPQ鸡婆影视(XBPQ)",
-            "name": "鸡婆影视(XBPQ)",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "clan://TVBox/xBPQ/鸡婆影视(XBPQ).txt",
-            "jar": "clan://TVBox/JAR/spider.jar"
-        },
+        
         {
             "key": "csp_XBPQ小小视觉",
             "name": "小小影院〔xBPQ〕",
@@ -546,15 +491,6 @@
             "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/XYQ/酷狗MV.json"
         },
         {
-            "key": "2022世界杯",
-            "name": "T4|2022世界杯",
-            "type": 4,
-            "api": "http://120.53.102.254/t4/sjb",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1
-        },
-        {
             "key": "抖音小姐姐",
             "name": "T4|抖音小姐姐",
             "type": 4,
@@ -563,15 +499,38 @@
             "quickSearch": 0,
             "filterable": 1
         },
+        // https://agit.ai/138001380000/MHQTV/raw/branch/master/XPath/%e4%bc%81%e9%b9%85%e7%9b%b4%e6%92%ad.json
         {
-            "key": "csp_XPath_鹅直播",
-            "name": "🐧企鹅直播",
+            "key": "csp_xp_qiumi",
+            "name": "⚽ Jrs┃球迷",
             "type": 3,
             "api": "csp_XPath",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ty/企鹅直播.json"
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/XPath/dj看球.json"
+        },
+        {
+            "key": "csp_XYQBiu_310直播",
+            "name": "⚽310┃看球",
+            "type": 3,
+            "api": "csp_XYQBiu",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/XYQBiu/310直播.json"
+        },
+        {
+            "key": "csp_XPath_企鹅体育",
+            "name": "🐧企鹅┃体育",
+            "type": 3,
+            "api": "csp_XPath",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/XPath/企鹅直播.json"
+        },
+        
         },
         {
             "key": "JRS赛事直播",
@@ -1172,7 +1131,7 @@
             "filterable": 1,
             "changeable": 1,
             "jar": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ali/al0306.jar",
-            "ext": "clan://TVBox/altk.txt"
+            "ext": "87e889ad6c84437c9b75a354b650e270"
         },
         {
             "key": "csp_PanSou",
@@ -1184,7 +1143,7 @@
             "filterable": 0,
             "changeable": 0,
             "jar": "https://agit.ai/138001380000/MHQTV/raw/branch/master/ali/al0306.jar",
-            "ext": "clan://TVBox/altk.txt"
+            "ext": "87e889ad6c84437c9b75a354b650e270"
         },
         {
             "key": "push_agent1",
@@ -1194,7 +1153,7 @@
             "searchable": "1",
             "quickSearch": "1",
             "filterable": "1",
-            "ext": "http://刚刚.live/json/alitoken.json"
+            "ext": "87e889ad6c84437c9b75a354b650e270"
         },
         {
             "key": "push_agent",
@@ -1204,8 +1163,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "a1542555344b4358aa405affa8ebb86e",
-            "jar": "clan://TVBox/JAR/al0308.jar"
+            "ext": "87e889ad6c84437c9b75a354b650e270",
+          "jar": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/玩偶哥哥.jar"
         },
         {
             "key": "1",
@@ -1263,29 +1222,105 @@
             "ext": "https://www.javsee.men/",
             "jar": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/18.jar"
         },
-          {"key":"色窝资源","name":"色窝资源","type":1,"api":"https://sewozyapi.com/api.php/provide/vod/","playUrl":"", "searchable": 1,
+        {
+            "key": "csp_xBPQ_超清",
+            "name": "香蕉超清",
+            "type": 3,
+            "api": "csp_xBPQ",
+            "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,"categories":["制服黑丝","强奸乱伦","国产情色","主播直播","动漫里番","日韩综合","欧美性爱","中文字幕","强奸乱伦","巨乳美乳","变态调教","自拍偷拍","熟女人妻","日本无码","日本有码","少女萝莉","三级伦理","明星偶像","美女模特","AI换脸","国产传媒"],"quickSearch":0},    
-    {"key":"番外","name":"番外采集","type":1,"api":"http://fhapi9.com/api.php/provide/vod/","playUrl":"", "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,"categories":["群交淫乱","偷拍自拍","制服丝袜","无码专区","卡通动漫","中文字幕","欧美性爱","巨乳美乳","国产裸聊","国产自拍","国产盗摄","伦理三级","女同性恋","少女萝莉","人妖系列","虚拟VR"],"quickSearch":0},
-    
-    
-    {
+            "filterable": 0,
+            "ext": "{\"分类url\":\"https://avhh.vip/cq/{cateId}-{catePg}.html\", \"分类\":\"亚洲AV$2k-yazhou#自拍偷拍$2k-zipaitoupai#超清传媒$2k-chaoqingchuanmei#3D动漫$2k-3Ddongman#欧美AV$2k-oumei#乱伦人妻$2k-luanlunrenqi#丝袜制服$2k-siwazhifu#直播录播$2k-zhibolubo#SM另类$2k-SMlinglei#超清三级$2k-chaoqingsanji\",\"副标题\":\"duration\\\">&&</div\",\"链接\": \"href=\\\"/cq/Kplay&&.html\\\"\", \"链接前缀\": \"https://avhh.vip/cq/Kplay\", \"链接后缀\": \".html\", \"直接播放\": \"1\" }"
+        },
+        {
+            "key": "色窝资源",
+            "name": "色窝资源",
+            "type": 1,
+            "api": "https://sewozyapi.com/api.php/provide/vod/",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "categories": [
+                "制服黑丝",
+                "强奸乱伦",
+                "国产情色",
+                "主播直播",
+                "动漫里番",
+                "日韩综合",
+                "欧美性爱",
+                "中文字幕",
+                "强奸乱伦",
+                "巨乳美乳",
+                "变态调教",
+                "自拍偷拍",
+                "熟女人妻",
+                "日本无码",
+                "日本有码",
+                "少女萝莉",
+                "三级伦理",
+                "明星偶像",
+                "美女模特",
+                "AI换脸",
+                "国产传媒"
+            ]
+        },
+        {
+            "key": "番外",
+            "name": "番外采集",
+            "type": 1,
+            "api": "http://fhapi9.com/api.php/provide/vod/",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "categories": [
+                "群交淫乱",
+                "偷拍自拍",
+                "制服丝袜",
+                "无码专区",
+                "卡通动漫",
+                "中文字幕",
+                "欧美性爱",
+                "巨乳美乳",
+                "国产裸聊",
+                "国产自拍",
+                "国产盗摄",
+                "伦理三级",
+                "女同性恋",
+                "少女萝莉",
+                "人妖系列",
+                "虚拟VR"
+            ]
+        },
+        {
             "key": "乐播",
             "name": "️乐播采集",
             "type": 1,
             "api": "https://lbapi9.com/api.php/provide/vod/",
             "playUrl": "",
-            // https://lbjx9.com/?url=
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "categories": [
-                "亚洲情色","国产主播","国产自拍","无码专区","欧美性爱","熟女人妻","强奸乱伦","巨乳美乳","中文字幕","制服诱惑","女同性恋","卡通动画","视频伦理","少女萝莉","重口色情","人兽性交"
+                "亚洲情色",
+                "国产主播",
+                "国产自拍",
+                "无码专区",
+                "欧美性爱",
+                "熟女人妻",
+                "强奸乱伦",
+                "巨乳美乳",
+                "中文字幕",
+                "制服诱惑",
+                "女同性恋",
+                "卡通动画",
+                "视频伦理",
+                "少女萝莉",
+                "重口色情",
+                "人兽性交"
             ]
         },
-    
         {
             "key": "csp_biubiu_23999",
             "name": "23999",
