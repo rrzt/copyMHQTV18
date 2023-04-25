@@ -1,10 +1,19 @@
 {
-    "spider": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/t0423.jar",
-    // https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/Yoursmile2.jar
-    // clan://TVBox/JAR/t0423.jar
+    "spider": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/t0426.jar",
     "wallpaper": "https://invalid.gq/IS8nrIwAOp7v1A",
-   "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=eth"]}]}],
-    
+    "lives": [
+        {
+            "group": "redirect",
+            "channels": [
+                {
+                    "name": "redirect",
+                    "urls": [
+                        "proxy://do=live&type=eth"
+                    ]
+                }
+            ]
+        }
+    ],
     "rules": [
         {
             "host": "*",
@@ -49,7 +58,6 @@
             "type": 1,
             "api": "https://www.feisuzyapi.com/api.php/provide/vod/",
             "playUrl": "",
-            //https://www.feisuplayer.com/m3u8/?url=
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -80,7 +88,6 @@
                 "惊悚片",
                 "奇幻片",
                 "剧情片"
-
             ]
         },
         {
@@ -119,7 +126,6 @@
                 "惊悚片",
                 "奇幻片",
                 "剧情片"
-
             ]
         },
         {
@@ -128,7 +134,6 @@
             "type": 1,
             "api": "http://124.220.183.81:83/api.php/provide/vod/",
             "playUrl": "https://jx.bozrc.com:4433/player/?url=",
-            // https://jx.bozrc.com:4433/player/?url=
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -145,7 +150,6 @@
             "type": 1,
             "api": "https://api.foxzyapi.com/api.php/provide/vod/",
             "playUrl": "",
-            // https://jx.wolongzywcdn.com:65/m3u8.php?url=
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -176,7 +180,6 @@
                 "惊悚片",
                 "奇幻片",
                 "剧情片"
-
             ]
         },
         {
@@ -185,12 +188,11 @@
             "type": 1,
             "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
             "playUrl": "",
-            //https://jx.wolongzywcdn.com:65/m3u8.php?url=
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "categories": [
-                 "国产动漫",
+                "国产动漫",
                 "国产剧",
                 "动作片",
                 "喜剧片",
@@ -216,7 +218,6 @@
                 "惊悚片",
                 "奇幻片",
                 "剧情片"
-
             ]
         },
         {
@@ -225,12 +226,11 @@
             "type": 1,
             "api": "http://anltv.cn/api.php/provide/vod/",
             "playUrl": "",
-            // https://jx.xmflv.com/?url=
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "categories": [
-              "国产动漫",
+                "国产动漫",
                 "国产剧",
                 "动作片",
                 "喜剧片",
@@ -256,7 +256,6 @@
                 "惊悚片",
                 "奇幻片",
                 "剧情片"
-
             ]
         },
         {
@@ -265,12 +264,11 @@
             "type": 1,
             "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
             "playUrl": "",
-            // https://jx.xmflv.com/?url=
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "categories": [
-               "国产动漫",
+                "国产动漫",
                 "国产剧",
                 "动作片",
                 "喜剧片",
@@ -296,7 +294,6 @@
                 "惊悚片",
                 "奇幻片",
                 "剧情片"
-
             ]
         },
         {
@@ -309,7 +306,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "categories": [
-                  "国产动漫",
+                "国产动漫",
                 "国产剧",
                 "动作片",
                 "喜剧片",
@@ -335,7 +332,6 @@
                 "惊悚片",
                 "奇幻片",
                 "剧情片"
-
             ]
         },
         {
@@ -365,12 +361,11 @@
             "type": 1,
             "api": "https://www.xsgj.net/api.php/provide/vod/",
             "playUrl": "",
-             // https://lziplayer.com/?url=
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "categories": [
-                  "国产动漫",
+                "国产动漫",
                 "国产剧",
                 "动作片",
                 "喜剧片",
@@ -396,7 +391,6 @@
                 "惊悚片",
                 "奇幻片",
                 "剧情片"
-
             ]
         },
         {
@@ -1231,7 +1225,7 @@
             "filterable": 1,
             "changeable": 1,
             "ext": "87e889ad6c84437c9b75a354b650e270",
-                        "jar": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/0408fm.jar"
+            "jar": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/0408fm.jar"
         },
         {
             "key": "csp_PanSou",
@@ -1245,7 +1239,6 @@
             "ext": "87e889ad6c84437c9b75a354b650e270",
             "jar": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/0408fm.jar"
         },
-        
         {
             "key": "push_agent",
             "name": "🎯推送（爱优腾/阿里云盘/磁力链接）",
@@ -1532,41 +1525,181 @@
             "type": 0,
             "url": "http://lanlan.ckflv.cn/?url="
         },
-        {"name":"纯净1","url":"https://im1907.top/?jx=","type":1},
-                {"name":"B站1","url":"https://jx.jsonplayer.com/player/?url=","type":1},
-                {"name":"爱豆","url":"https://jx.aidouer.net/?url=","type":1},
-                {"name":"BL","url":"https://vip.bljiex.com/?v=","type":0},
-                {"name":"冰豆","url":"https://api.qianqi.net/vip/?url=","type":0},
-                {"name":"百域","url":"https://jx.618g.com/?url=","type":0},
-                {"name":"CK","url":"https://www.ckplayer.vip/jiexi/?url=","type":0},
-                {"name":"CHok","url":"https://www.gai4.com/?url=","type":1},
-                {"name":"ckmov","url":"https://www.ckmov.vip/api.php?url=","type":0},
-                {"name":"H8","url":"https://www.h8jx.com/jiexi.php?url=","type":0},
-                {"name":"JY","url":"https://jx.playerjy.com/?url=","type":0},
-                {"name":"解析","url":"https://ckmov.ccyjjd.com/ckmov/?url=","type":0},
-                {"name":"解析la","url":"https://api.jiexi.la/?url=","type":0},
-                {"name":"老板","url":"https://vip.laobandq.com/jiexi.php?url=","type":0},
-                {"name":"MAO","url":"https://www.mtosz.com/m3u8.php?url=","type":0},
-                {"name":"M3U8","url":"https://jx.m3u8.tv/jiexi/?url=","type":0},
-                {"name":"诺讯","url":"https://www.nxflv.com/?url=","type":0},
-                {"name":"OK","url":"https://okjx.cc/?url=","type":1},
-                {"name":"PM","url":"https://www.playm3u8.cn/jiexi.php?url=","type":0},
-                {"name":"盘古","url":"https://www.pangujiexi.cc/jiexi.php?url=","type":0},
-                {"name":"七哥","url":"https://jx.nnxv.cn/tv.php?url=","type":0},
-                {"name":"RDHK","url":"https://jx.rdhk.net/?v=","type":1},
-                {"name":"人人迷","url":"https://jx.blbo.cc:4433/?url=","type":1},
-                {"name":"思云","url":"https://jx.ap2p.cn/?url=","type":0},
-                {"name":"思古3","url":"https://jsap.attakids.com/?url=","type":1},
-                {"name":"听乐","url":"https://jx.dj6u.com/?url=","type":1},
-                {"name":"维多","url":"https://jx.ivito.cn/?url=","type":0},
-                {"name":"虾米","url":"https://jx.xmflv.com/?url=","type":0},
-                {"name":"云端","url":"https://sb.5gseo.net/?url=","type":0},
-                {"name":"云析","url":"https://jx.yparse.com/index.php?url=","type":0},
-                {"name":"0523","url":"https://go.yh0523.cn/y.cy?url=","type":0},
-                {"name":"17云","url":"https://www.1717yun.com/jx/ty.php?url=","type":0},
-                {"name":"180","url":"https://jx.000180.top/jx/?url=","type":0},
-                {"name":"4K","url":"https://jx.4kdv.com/?url=","type":1},
-                {"name":"8090","url":"https://www.8090g.cn/?url=","type":0},
+        {
+            "name": "纯净1",
+            "url": "https://im1907.top/?jx=",
+            "type": 1
+        },
+        {
+            "name": "B站1",
+            "url": "https://jx.jsonplayer.com/player/?url=",
+            "type": 1
+        },
+        {
+            "name": "爱豆",
+            "url": "https://jx.aidouer.net/?url=",
+            "type": 1
+        },
+        {
+            "name": "BL",
+            "url": "https://vip.bljiex.com/?v=",
+            "type": 0
+        },
+        {
+            "name": "冰豆",
+            "url": "https://api.qianqi.net/vip/?url=",
+            "type": 0
+        },
+        {
+            "name": "百域",
+            "url": "https://jx.618g.com/?url=",
+            "type": 0
+        },
+        {
+            "name": "CK",
+            "url": "https://www.ckplayer.vip/jiexi/?url=",
+            "type": 0
+        },
+        {
+            "name": "CHok",
+            "url": "https://www.gai4.com/?url=",
+            "type": 1
+        },
+        {
+            "name": "ckmov",
+            "url": "https://www.ckmov.vip/api.php?url=",
+            "type": 0
+        },
+        {
+            "name": "H8",
+            "url": "https://www.h8jx.com/jiexi.php?url=",
+            "type": 0
+        },
+        {
+            "name": "JY",
+            "url": "https://jx.playerjy.com/?url=",
+            "type": 0
+        },
+        {
+            "name": "解析",
+            "url": "https://ckmov.ccyjjd.com/ckmov/?url=",
+            "type": 0
+        },
+        {
+            "name": "解析la",
+            "url": "https://api.jiexi.la/?url=",
+            "type": 0
+        },
+        {
+            "name": "老板",
+            "url": "https://vip.laobandq.com/jiexi.php?url=",
+            "type": 0
+        },
+        {
+            "name": "MAO",
+            "url": "https://www.mtosz.com/m3u8.php?url=",
+            "type": 0
+        },
+        {
+            "name": "M3U8",
+            "url": "https://jx.m3u8.tv/jiexi/?url=",
+            "type": 0
+        },
+        {
+            "name": "诺讯",
+            "url": "https://www.nxflv.com/?url=",
+            "type": 0
+        },
+        {
+            "name": "OK",
+            "url": "https://okjx.cc/?url=",
+            "type": 1
+        },
+        {
+            "name": "PM",
+            "url": "https://www.playm3u8.cn/jiexi.php?url=",
+            "type": 0
+        },
+        {
+            "name": "盘古",
+            "url": "https://www.pangujiexi.cc/jiexi.php?url=",
+            "type": 0
+        },
+        {
+            "name": "七哥",
+            "url": "https://jx.nnxv.cn/tv.php?url=",
+            "type": 0
+        },
+        {
+            "name": "RDHK",
+            "url": "https://jx.rdhk.net/?v=",
+            "type": 1
+        },
+        {
+            "name": "人人迷",
+            "url": "https://jx.blbo.cc:4433/?url=",
+            "type": 1
+        },
+        {
+            "name": "思云",
+            "url": "https://jx.ap2p.cn/?url=",
+            "type": 0
+        },
+        {
+            "name": "思古3",
+            "url": "https://jsap.attakids.com/?url=",
+            "type": 1
+        },
+        {
+            "name": "听乐",
+            "url": "https://jx.dj6u.com/?url=",
+            "type": 1
+        },
+        {
+            "name": "维多",
+            "url": "https://jx.ivito.cn/?url=",
+            "type": 0
+        },
+        {
+            "name": "虾米",
+            "url": "https://jx.xmflv.com/?url=",
+            "type": 0
+        },
+        {
+            "name": "云端",
+            "url": "https://sb.5gseo.net/?url=",
+            "type": 0
+        },
+        {
+            "name": "云析",
+            "url": "https://jx.yparse.com/index.php?url=",
+            "type": 0
+        },
+        {
+            "name": "0523",
+            "url": "https://go.yh0523.cn/y.cy?url=",
+            "type": 0
+        },
+        {
+            "name": "17云",
+            "url": "https://www.1717yun.com/jx/ty.php?url=",
+            "type": 0
+        },
+        {
+            "name": "180",
+            "url": "https://jx.000180.top/jx/?url=",
+            "type": 0
+        },
+        {
+            "name": "4K",
+            "url": "https://jx.4kdv.com/?url=",
+            "type": 1
+        },
+        {
+            "name": "8090",
+            "url": "https://www.8090g.cn/?url=",
+            "type": 0
+        },
         {
             "name": "ok",
             "type": 0,
@@ -1683,7 +1816,81 @@
             "type": 0,
             "url": "https://h5.freejson.xyz/player/?url="
         },
-        {"name":"白茶嗅探","url":"https://jx.bozrc.com:4433/player/?url=", "showType":1}, {"name": "普洱嗅探","url": "https://jx.bozrc.com:4433/player/?url=","type": 0,"ext": {"flag": ["qiyi","imgo","爱奇艺","奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","leshi","bilibili","哔哩哔哩","哔哩","mgtv","芒果","sohu","xigua","fun","风行"],"header": {"User-Agent": "Mozilla/5.0"}}}, {"name": "岩茶嗅探","type": 0,"url": "http://www.miaoys.cc/vip/?url="}, {"name":"红茶嗅探","type":0,"url":"https://jx.4kdv.com/?url=","ext":{"header":{"User-Agent":"okhttp/4.1.0"},"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","leshi","LS","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}}
+        {
+            "name": "白茶嗅探",
+            "url": "https://jx.bozrc.com:4433/player/?url=",
+            "showType": 1
+        },
+        {
+            "name": "普洱嗅探",
+            "url": "https://jx.bozrc.com:4433/player/?url=",
+            "type": 0,
+            "ext": {
+                "flag": [
+                    "qiyi",
+                    "imgo",
+                    "爱奇艺",
+                    "奇艺",
+                    "qq",
+                    "腾讯",
+                    "youku",
+                    "优酷",
+                    "pptv",
+                    "PPTV",
+                    "letv",
+                    "乐视",
+                    "leshi",
+                    "bilibili",
+                    "哔哩哔哩",
+                    "哔哩",
+                    "mgtv",
+                    "芒果",
+                    "sohu",
+                    "xigua",
+                    "fun",
+                    "风行"
+                ],
+                "header": {
+                    "User-Agent": "Mozilla/5.0"
+                }
+            }
+        },
+        {
+            "name": "岩茶嗅探",
+            "type": 0,
+            "url": "http://www.miaoys.cc/vip/?url="
+        },
+        {
+            "name": "红茶嗅探",
+            "type": 0,
+            "url": "https://jx.4kdv.com/?url=",
+            "ext": {
+                "header": {
+                    "User-Agent": "okhttp/4.1.0"
+                },
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "mgtv",
+                    "芒果",
+                    "letv",
+                    "leshi",
+                    "LS",
+                    "乐视",
+                    "pptv",
+                    "PPTV",
+                    "sohu",
+                    "bilibili",
+                    "哔哩哔哩",
+                    "哔哩"
+                ]
+            }
+        }
     ],
     "ijk": [
         {
