@@ -1,5 +1,5 @@
 {
-    "spider": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/Yoursmile2.jar",
+    "spider": "./JAR/Yoursmile2.m3u8",
     "wallpaper": "https://invalid.gq/IS8nrIwAOp7v1A",
     
  "lives": [
@@ -66,10 +66,19 @@
             "name": "🍀豆瓣备用",
             "type": 4,
             "api": "https://t4.secan.icu/vod?sites=all&ali_token=0c55c9f1c5cb4327ae2e51423276bb1e",
-            "searchable": 0,
-            "quickSearch": 0,
+            "searchable": 1,
+            "quickSearch": 1,
             "filterable": 1
         },
+        {
+            "key":"t4",
+            "name":"T4唐三",
+            "type":4,
+            "api":"https://t4.secan.icu/vod/?sites=all",
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":1
+         },
         {"key":"影图","name":"影图资源","type":1,"api":"https://cj.vodimg.top/api.php/provide/vod/","searchable":1,"quickSearch":1},
         {
             "key": "360",
@@ -112,6 +121,9 @@
                 "体育赛事",
                 "伦理片",
                 "纪录片"]},
+                // https://www.jipo.tv/api.php/provide/vod
+       {"key":"鸡婆资源","name":"鸡婆资源","type":1,"api":"https://www.jipo.tv/api.php/provide/vod","searchable":1,"quickSearch":1,"categories":[
+              "电影","剧集","综艺","动漫","纪录片","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","港台剧","日韩剧","欧美剧","奇幻片","伦理片","犯罪片","动画片","大陆综艺","日韩综艺","其他综艺","悬疑片","冒险片","惊悚片","灾难片","海外剧","其他剧","其他片","历史片","国产动漫","日韩动漫","欧美动漫","武侠片","国创","番剧","港台综艺","欧美综艺","港台动漫","海外动漫","体育","电影解说","足球","篮球","网球","斯诺克","泰国剧","预告片"]},         
         {"key":"188资源","name":"188资源","type":1,"api":"https://www.188zy.org/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"categories":[
                 "电影","连续剧","动漫","奇幻","动作片","犯罪","歌舞","西部","国产剧","欧美剧","港台剧","日韩剧","国产动漫","日韩动漫","欧美动漫","海外动漫","冒险","惊悚","音乐","武侠","爱情","喜剧","科幻","海外剧"]},
         {
@@ -465,15 +477,8 @@
                 "影片库",
                 "动漫"
             ]
-        },
-        {
-            "key": "直播",
-            "name": "直播转点播频道",
-            "type": 3,
-            "playerType": 1,
-            "api": "https://agit.ai/138001380000/MHQTV/raw/branch/master/js/直播转点播.js",
-            "ext": "4GTV$https://agit.ai/138001380000/MHQTV/raw/branch/master/TV/4GTV.txt#18C$https://agit.ai/138001380000/MHQTV/raw/branch/master/TV/18c.txt#月光源$https://agit.ai/138001380000/MHQTV/raw/branch/master/TV/230107.txt#M3U8源$https://live.fanmingming.com/tv/m3u/global.m3u#m3u$https://iptv-org.github.io/iptv/index.m3u#台湾频道$https://epg.pw/test_channels_taiwan.txt#香港频道$https://epg.pw/test_channels_hong_kong.txt#大陆频道$https://epg.pw/test_channels_china.txt#日本频道$https://epg.pw/test_channels_japan.txt#马来西亚频道$https://epg.pw/test_channels_malaysia.txt#FM广播频道$https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3QvcyFBb3d0QlVrR3NRUEx0a1I0Nmo2Y2VYLWhTa1Jn.txt&&&https://tuapi.eees.cc/api.php?category=meinv&type=302"
         }
+        
         
         
         
