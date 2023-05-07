@@ -9,7 +9,7 @@
                 {
                     "name": "live",
                     "urls": [
-                        "proxy://do=live&type=txt&ext=https://epg.pw/test_channels_taiwan.txt"
+                        "proxy://do=live&type=txt&ext=http://shuyuan.miaogongzi.net/shuyuan/1683318603.txt"
                     ]
                 }
             ]
@@ -647,7 +647,7 @@
         {
             "name": "肥猫官解",
             "type": 1,
-            "url": "https://b.umkan.cc/API.php?url=",
+            "url": "https://vip.ckllk.com/API.php?appkey=404164cdd1472561b4c61f1845e0bff8&url=",
             "ext": {
                 "flag": [
                     "qq",
