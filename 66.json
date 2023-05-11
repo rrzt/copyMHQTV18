@@ -9,7 +9,7 @@
                 {
                     "name": "live",
                     "urls": [
-                        "proxy://do=live&type=txt&ext=http://hklive.tv/list.m3u"
+                        "proxy://do=live&type=txt&ext=https://ghproxy.com/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u"
                     ]
                 }
             ]
