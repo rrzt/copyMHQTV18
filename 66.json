@@ -456,6 +456,56 @@
             "categories": [
                 "动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","香港剧","韩国剧","欧美剧","记录片","台湾剧","日本剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","电影解说","足球","篮球","网球","斯诺克","预告片"
             ]
+        },
+        {
+            "key": "csp_Bliyc学前",
+            "name": "🅱️学前教育(SP)",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/学前儿童.txt"
+        },
+        {
+            "key": "csp_Bliyc小学",
+            "name": "🅱️小学教育(SP)",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/小学学堂.txt"
+        },
+        {
+            "key": "csp_Bliyc初中",
+            "name": "🅱️初中教育(SP)",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/初中学堂.txt"
+        },
+        {
+            "key": "csp_Bliyc高中",
+            "name": "🅱️高中教育(SP)",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/高中学堂.txt"
+        },
+        {
+            "key": "csp_Bliyc全",
+            "name": "🅱️站综合(SP)",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://agit.ai/138001380000/MHQTV/raw/branch/master/BIBI/bilibili.json"
         }
         
         
