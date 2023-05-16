@@ -15,7 +15,7 @@
                 {
                     "name": "redirect",
                     "urls": [
-                        "proxy://do=live&type=txt&ext=https://epg.pw/test_channels_china.txt"
+                        "proxy://do=live&type=txt&ext=http://home.jundie.top:81/Cat/tv/live.txt"
                     ]
                 }
             ]
