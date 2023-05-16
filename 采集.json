@@ -1,5 +1,5 @@
 {
-    "spider": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/Yoursmile2.jar",
+    "spider": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/fm.jar",
     "wallpaper": "https://invalid.gq/IS8nrIwAOp7v1A",
     
  "lives": [
@@ -9,7 +9,7 @@
                 {
                     "name": "live",
                     "urls": [
-                        "proxy://do=live&type=txt&ext=http://shuyuan.miaogongzi.net/shuyuan/1683318603.txt"
+                        "proxy://do=live&type=txt&ext=http://shuyuan.miaogongzi.net/shuyuan/1684278469.txt"
                     ]
                 }
             ]
@@ -79,17 +79,50 @@
             "quickSearch":1,
             "filterable":1
          },
-        {"key":"影图","name":"影图资源","type":1,"api":"https://cj.vodimg.top/api.php/provide/vod/","searchable":1,"quickSearch":1},
+         // https://yun.ckmov.com/?url=
         {
-            "key": "360",
-            "name": "360影视",
-            "type": 3,
-            "api": "csp_SP360",
+            "key": "非凡",
+            "name": "️非凡采集",
+            "type": 1,
+            "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
+            "playUrl": "https://yun.ckmov.com/?url=",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "categories": [
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "记录片",
+                "国产剧",
+                "欧美剧",
+                "日本剧",
+                "泰国剧",
+                "韩国剧",
+                "台湾剧",
+                "香港剧",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺",
+                "国产动漫",
+                "日韩动漫",
+                "欧美动漫",
+                "伦理片",
+                "纪录片",
+                "体育赛事"
+                
+            ]
         },
-        // https://caiji.68zyapi.com/api.php/provide/vod/?ac=list
+         {"key":"海外看","name":"🍅海外看采集","type":1,"api":"http://api.haiwaikan.com/v1/vod?ac=list","searchable":1,"quickSearch":1,"filterable":1},
+        {"key":"影图","name":"影图资源","type":1,"api":"https://cj.vodimg.top/api.php/provide/vod/","searchable":1,"quickSearch":1},
+        
+        // https://www.hongniuzy2.com/api.php/provide/vod/at/xml/
+        {"key":"红牛资源","name":"红牛资源","type":1,"api":"https://www.hongniuzy2.com/api.php/provide/vod/","searchable":1,"quickSearch":1, "filterable": 1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","港澳剧","日剧","欧美剧","台湾剧","泰剧","韩剧","纪录片","动漫电影","伦理片","综艺","动漫","体育赛事"]},
         {"key":"68资源","name":"68资源","type":1,"api":"https://caiji.68zyapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1, "filterable": 1,"categories":["动作片",
                 "喜剧片",
                 "爱情片",
@@ -375,44 +408,6 @@
                 "影片库",
                 "动漫"
             ]
-        },// http://cj.ffzyapi.com/api.php/provide/vod/at/xml/
-        {
-            "key": "非凡",
-            "name": "️非凡采集",
-            "type": 1,
-            "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
-            "playUrl": "https://yun.ckmov.com/?url=",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "categories": [
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "记录片",
-                "国产剧",
-                "欧美剧",
-                "日本剧",
-                "泰国剧",
-                "韩国剧",
-                "台湾剧",
-                "香港剧",
-                "大陆综艺",
-                "港台综艺",
-                "日韩综艺",
-                "欧美综艺",
-                "国产动漫",
-                "日韩动漫",
-                "欧美动漫",
-                "伦理片",
-                "纪录片",
-                "体育赛事"
-                
-            ]
         },
         {
             "key": "百度",
@@ -457,7 +452,7 @@
             "name": "️量子采集",
             "type": 1,
             "api": "https://cj.lziapi.com/api.php/provide/vod/",
-            "playUrl": "",
+            "playUrl": "https://yun.ckmov.com/?url=",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -486,6 +481,7 @@
             "type": 3,
             "url": "Demo"
         },
+        {"name":"腾腾直解","type":1,"url":"http://api.playaaaa.com/qq/000167kkkk.php?url=","ext":{"header":{"User-Agent":"Dart/2.18 (dart:io)"}}},
         {
             "name": "星辰云解析",
             "type": 1,
