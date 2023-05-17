@@ -1,5 +1,5 @@
 {
-    "spider": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/Yoursmile2.jar",
+    "spider": "https://agit.ai/138001380000/MHQTV/raw/branch/master/jar/spider.jar",
     "wallpaper": "https://invalid.gq/IS8nrIwAOp7v1A",
     
  "lives": [
@@ -79,6 +79,16 @@
             "quickSearch":1,
             "filterable":1
          },
+         {
+            "key": "csp_appys_酷影",
+            "name": "酷影",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://kuyun.realku.cn/api.php/app/"
+        },
         {"key":"影图","name":"影图资源","type":1,"api":"https://cj.vodimg.top/api.php/provide/vod/","searchable":1,"quickSearch":1},
         
         // https://caiji.68zyapi.com/api.php/provide/vod/?ac=list
@@ -114,8 +124,8 @@
                 
                 "纪录片"]},
                 // https://www.jipo.tv/api.php/provide/vod
-       {"key":"鸡婆资源","name":"呆蛙资源","type":1,"api":"https://www.jipo.tv/api.php/provide/vod","searchable":1,"quickSearch":1,"categories":[
-              "电影","剧集","综艺","动漫","纪录片","动作片","喜剧片","爱情片","科幻片","恐怖片","战争片","国产剧","港台剧","日韩剧","欧美剧","奇幻片","犯罪片","动画片","大陆综艺","日韩综艺","其他综艺","悬疑片","冒险片","惊悚片","灾难片","海外剧","其他剧","历史片","国产动漫","日韩动漫","欧美动漫","武侠片","国创","番剧","港台综艺","欧美综艺","港台动漫","海外动漫","体育","电影解说","足球","篮球","网球","斯诺克","泰国剧","预告片"]},         
+     //  {"key":"鸡婆资源","name":"呆蛙资源","type":1,"api":"https://www.jipo.tv/api.php/provide/vod","searchable":1,"quickSearch":1,"categories":[
+         //     "电影","剧集","综艺","动漫","纪录片","动作片","喜剧片","爱情片","科幻片","恐怖片","战争片","国产剧","港台剧","日韩剧","欧美剧","奇幻片","犯罪片","动画片","大陆综艺","日韩综艺","其他综艺","悬疑片","冒险片","惊悚片","灾难片","海外剧","其他剧","历史片","国产动漫","日韩动漫","欧美动漫","武侠片","国创","番剧","港台综艺","欧美综艺","港台动漫","海外动漫","体育","电影解说","足球","篮球","网球","斯诺克","泰国剧","预告片"]},         
         {"key":"188资源","name":"188资源","type":1,"api":"https://www.188zy.org/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"categories":[
                 "电影","连续剧","动漫","奇幻","动作片","犯罪","歌舞","西部","国产剧","欧美剧","港台剧","日韩剧","国产动漫","日韩动漫","欧美动漫","海外动漫","冒险","惊悚","音乐","武侠","爱情","喜剧","科幻","海外剧"]},
         {
@@ -342,32 +352,7 @@
                 "动漫"
             ]
         },
-        {
-            "key": "易梦",
-            "name": "️忆梦采集",
-            "type": 1,
-            "api": "http://anltv.cn/api.php/provide/vod/",
-            "playUrl": "",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "categories": [
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "记录片",
-                "直播",
-                "短片",
-                "国产剧",
-                "综艺",
-                "影片库",
-                "动漫"
-            ]
-        },// https://yun.ckmov.com/?url=
+        // https://yun.ckmov.com/?url=
         {
             "key": "非凡",
             "name": "️非凡采集",
@@ -449,7 +434,7 @@
             "name": "️量子采集",
             "type": 1,
             "api": "https://cj.lziapi.com/api.php/provide/vod/",
-            "playUrl": "https://yun.ckmov.com/?url=",
+            "playUrl": "",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
