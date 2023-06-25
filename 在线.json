@@ -1,24 +1,17 @@
 {
     "urls": [
         {
-            "url": "https://agit.ai/138001380000/MHQTV/raw/branch/master/采集.json",
+            "url": "https://go.popefih902.repl.co/upload/gz/仓库.json",
             "name": "采集专线(在线)"
         },
         {
-            "url": "http://我不是.肥猫.love:63/接口禁止贩卖",
-            "name": "肥猫线路(在线)"
+            "url": "https://alistt-mracs.run.goorm.site/gz/cbi.json",
+            "name": "体育B站学习线路(在线)"
         },
+        
         {
-            "url": "https://agit.ai/138001380000/MHQTV/raw/branch/master/cbi.json",
-            "name": "体育B站线路(在线)"
-        },
-        {
-            "url": "https://神器每日推送.tk/pz.json",
-            "name": "每日神器线路(在线)"
-        },
-        {
-            "url": "https://agit.ai/138001380000/MHQTV/raw/branch/master/cpy.json",
-            "name": "PY专线(在线)"
+            "url": "https://go.owen1008.repl.co/upload/gz/js1.json",
+            "name": "JS(在线)"
         },
         {
             "url": "http://home.jundie.top:81/TVBox/yosakoi.json",
@@ -32,9 +25,19 @@
             "url": "https://freed.yuanhsing.cf/TVBox/meowcf.json",
             "name": "CH猫友(在线)"
         },
+        
         {
-            "url": "https://agit.ai/relax/adcc/raw/branch/master/tvbox.json",
-            "name": "巧技(在线)"
+            "url": "https://go.owen10086.repl.co/upload/TVBox/肥猫/api.json",
+            "name": "肥猫"
+        },
+        {
+            "url": "https://go.owen10086.repl.co/upload/TVBox/夜猫子/api.json",
+            "name": "夜猫子"
+        },
+        {
+            "url": "https://go.owen10086.repl.co/upload/TVBox/夜猫子少儿频道/api.json",
+            "name": "夜猫子少儿频道"
         }
+        
     ]
 }
